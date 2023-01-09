@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='TwoSum'/>
+        <page name='AddTwoNumber'/>
+        <page name='Regex'/>
+        <page name='Resto'/>
+        <page name='DeepLink'/>
+        <page name='Dates'/>
+        <page name='Coalesce'/>
+        <page name='SerializeDeserialize'/>
+        <page name='Timer'/>
+        <page name='CoordinatorGenerics'/>
+        <page name='ChubbSingleCancellation'/>
+        <page name='Text'/>
+        <page name='Pastboard'/>
+        <page name='ProgressBar'/>
+        <page name='Delegados'/>
+        <page name='TaxSample'/>
+        <page name='NumberFormatter'/>
+        <page name='Closure'/>
+        <page name='ObjectTypes'/>
+        <page name='DoubleFloatPointer'/>
+    </pages>
+</playground>
