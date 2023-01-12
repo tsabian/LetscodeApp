@@ -23,5 +23,6 @@
         <page name='DoubleFloatPointer'/>
         <page name='RxSwift'/>
         <page name='MirrorProperites'/>
+        <page name='Convert'/>
     </pages>
 </playground>
