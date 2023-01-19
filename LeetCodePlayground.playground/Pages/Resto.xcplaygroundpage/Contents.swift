@@ -1,4 +1,3 @@
-
 let maxNumberPhotos = 4
 let current = 0
 

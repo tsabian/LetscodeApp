@@ -5,10 +5,8 @@
 import UIKit
 
 public class UICustomProgress: UIView {
-    @IBInspectable
     public var color: UIColor? = .gray
 
-    @IBInspectable
     public var progress: CGFloat = 1 {
         didSet {
             setNeedsDisplay()

@@ -20,14 +20,14 @@ test.didSucceed = { value in
 // quando chamar a função executa com o valor que vc precisa
 test.valueDidSucceed(value: "Teste")
 
-// MARK: -  Controller
+// MARK: - Controller
 
 class CustomField: UITextField {
     var didSuccess: ((String) -> Void)?
 }
 
 class controller {
-    @IBOutlet var currencyField: CustomField? {
+    var currencyField: CustomField? {
         didSet {
             currencyField?.didSuccess = { value in
                 self.doSomething(with: value)

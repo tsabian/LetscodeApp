@@ -25,7 +25,7 @@ public extension String {
     func stringByReplacingRegexMathes(pattern: String, with template: String) -> String? {
         do {
             let regex = try NSRegularExpression(pattern: pattern)
-            let range = NSMakeRange(0, count)
+            let range = NSRange(location: 0, length: count)
             let newString = regex.stringByReplacingMatches(in: self, options: [], range: range, withTemplate: template)
             return newString
         } catch {
@@ -45,7 +45,7 @@ public extension String {
     }
 
     func obfuscateEmail(maskChar: String = "•", obfuscateDns: Bool = true) -> String {
-        let split = self.split(separator: "@")
+        let split = split(separator: "@")
 
         guard isEmailValid, split.count == 2, let dotIndex = split[1].lastIndex(of: Character(".")) else {
             return maskChar

@@ -34,3 +34,6 @@
 
 # Excluded directories
 --exclude Pods
+--exclude Templates
+--exclude MockingbirdMocks
+--exclude MockingbirdSupport

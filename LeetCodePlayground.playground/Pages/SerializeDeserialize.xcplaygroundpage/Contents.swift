@@ -10,8 +10,7 @@ let miniAppNames = [
 guard let url = Bundle.main.url(forResource: "mini_app_analytics", withExtension: "json"),
       let dictionary = try? HelpCenterModel(fromURL: url)
 else {
-    print("deu ruim")
-    fatalError()
+    fatalError("deu ruim")
 }
 
 var name = ""

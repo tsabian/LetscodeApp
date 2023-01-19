@@ -56,7 +56,7 @@ public extension HelpCenterModelElement {
     }
 }
 
-public extension Array where Element == HelpCenterModel.Element {
+public extension [HelpCenterModel.Element] {
     init(data: Data) throws {
         self = try newJSONDecoder().decode(HelpCenterModel.self, from: data)
     }
