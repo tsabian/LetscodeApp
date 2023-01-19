@@ -17,5 +17,3 @@ var amountFormatted: String? {
 }
 
 print(amountFormatted)
-
-

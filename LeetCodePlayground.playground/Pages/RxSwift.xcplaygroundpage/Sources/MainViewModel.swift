@@ -1,9 +1,5 @@
 import Foundation
 
-public protocol MainViewModelProtocol {
-    
-}
+public protocol MainViewModelProtocol {}
 
-public class MainViewModel: MainViewModelProtocol {
-    
-}
+public class MainViewModel: MainViewModelProtocol {}

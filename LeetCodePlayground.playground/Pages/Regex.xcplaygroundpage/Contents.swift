@@ -7,6 +7,6 @@ let newTest = regexTest.stringByReplacingRegexMathes(pattern: pattern, with: "")
 
 let texto = NSMutableString(string: "985784655")
 let range = NSRange(location: 0 % texto.length, length: 11 % texto.length)
-if texto.length > range.length && texto.length > range.location {
+if texto.length > range.length, texto.length > range.location {
     texto.deleteCharacters(in: range)
 }

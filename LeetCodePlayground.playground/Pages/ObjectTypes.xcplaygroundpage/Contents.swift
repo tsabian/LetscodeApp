@@ -1,7 +1,7 @@
 //: [Previous](@previous)
 
-import UIKit
 import Foundation
+import UIKit
 
 var button: UIButton?
 
@@ -10,4 +10,3 @@ if button is UIButton? {
 } else {
     print("not button")
 }
-

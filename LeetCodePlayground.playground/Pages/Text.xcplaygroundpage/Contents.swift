@@ -23,7 +23,7 @@ let emails = [
     "tiagoo@ciandt.com",
     "testeemail.com",
     "",
-    "1@teste.com"
+    "1@teste.com",
 ]
 
 for i in 0..<emails.count {

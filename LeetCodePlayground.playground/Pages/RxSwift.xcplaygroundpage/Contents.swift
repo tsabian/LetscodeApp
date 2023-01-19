@@ -2,7 +2,7 @@
 
 import RxSwift
 
-let observable = Observable.from([1,2,3,4,5,6,7,8,9])
+let observable = Observable.from([1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 let bag = DisposeBag()
 
@@ -12,4 +12,3 @@ observable.subscribe { event in
     }
     print(element)
 }.disposed(by: bag)
-

@@ -4,11 +4,12 @@ let miniAppNames = [
     "Recarga de Celular",
     "Indique e ganhe",
     "Empréstimo Losango",
-    "Outro que não tem na lista"
+    "Outro que não tem na lista",
 ]
 
 guard let url = Bundle.main.url(forResource: "mini_app_analytics", withExtension: "json"),
-      let dictionary = try? HelpCenterModel(fromURL: url) else {
+      let dictionary = try? HelpCenterModel(fromURL: url)
+else {
     print("deu ruim")
     fatalError()
 }

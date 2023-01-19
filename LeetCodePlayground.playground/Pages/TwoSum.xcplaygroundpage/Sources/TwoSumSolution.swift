@@ -5,10 +5,9 @@ import Foundation
  https://leetcode.com/problems/two-sum/
  */
 public class TwoSumSolution {
-    
     /// Initialize a new instance of TwoSumSolution.
     public init() {}
-    
+
     /// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
     /// - Important: You may assume that each input would have exactly one solution, and you may not use the same element twice.
     /// - Note: You can return the answer in any order.
@@ -47,7 +46,7 @@ public class TwoSumSolution {
         }
         return results
     }
-    
+
     public func twoSumSite(_ nums: [Int], _ target: Int) -> [Int] {
         var dict = [Int: Int]() // value : index
         for (i, num) in nums.enumerated() {

@@ -41,18 +41,18 @@ public extension HelpCenterModelElement {
         name: String? = nil,
         label: String? = nil
     ) -> HelpCenterModelElement {
-        return HelpCenterModelElement(
+        HelpCenterModelElement(
             name: name ?? self.name,
             label: label ?? self.label
         )
     }
 
     func jsonData() throws -> Data {
-        return try newJSONEncoder().encode(self)
+        try newJSONEncoder().encode(self)
     }
 
     func jsonString(encoding: String.Encoding = .utf8) throws -> String? {
-        return String(data: try self.jsonData(), encoding: encoding)
+        String(data: try jsonData(), encoding: encoding)
     }
 }
 
@@ -73,11 +73,11 @@ public extension Array where Element == HelpCenterModel.Element {
     }
 
     func jsonData() throws -> Data {
-        return try newJSONEncoder().encode(self)
+        try newJSONEncoder().encode(self)
     }
 
     func jsonString(encoding: String.Encoding = .utf8) throws -> String? {
-        return String(data: try self.jsonData(), encoding: encoding)
+        String(data: try jsonData(), encoding: encoding)
     }
 }
 
@@ -98,4 +98,3 @@ public func newJSONEncoder() -> JSONEncoder {
     }
     return encoder
 }
-

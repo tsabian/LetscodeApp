@@ -17,11 +17,11 @@ class IntQueue: QueueProtocol {
     }
 
     func getItem() -> Int? {
-        return !items.isEmpty ? items.remove(at: 0) : nil
+        !items.isEmpty ? items.remove(at: 0) : nil
     }
 
     func count() -> Int {
-        return items.count
+        items.count
     }
 }
 
@@ -33,11 +33,11 @@ class GenericQueue<T>: QueueProtocol {
     }
 
     func getItem() -> T? {
-        return !items.isEmpty ? items.remove(at: 0) : nil
+        !items.isEmpty ? items.remove(at: 0) : nil
     }
 
     func count() -> Int {
-        return items.count
+        items.count
     }
 }
 

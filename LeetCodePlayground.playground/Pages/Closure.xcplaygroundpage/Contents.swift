@@ -5,7 +5,6 @@ import UIKit
 class ClosureTest {
     // delegate
     var didSucceed: ((String) -> Void)?
-    
 
     func valueDidSucceed(value: String) {
         didSucceed?(value)
@@ -35,7 +34,7 @@ class controller {
             }
         }
     }
-    
+
     func doSomething(with value: String) {
         print(value)
     }
