@@ -1,7 +1,9 @@
 import Foundation
 
 /**
- Você recebe duas listas vinculadas não vazias que representam dois inteiros não negativos. Os dígitos são armazenados na ordem inversa, e cada um de seus nós contém um único dígito. Adicione os dois números e retorne a soma como uma lista vinculada.
+ Você recebe duas listas vinculadas não vazias que representam dois inteiros não negativos.
+ Os dígitos são armazenados na ordem inversa, e cada um de seus nós contém um único dígito.
+ Adicione os dois números e retorne a soma como uma lista vinculada.
  
  Você pode assumir que os dois números não contêm nenhum zero à esquerda, exceto o próprio número 0.
  
@@ -34,16 +36,15 @@ public class ListNode {
     public var next: ListNode?
 
     public init() {
-        self.val = 0
-        self.next = nil
+        val = 0
+        next = nil
     }
 
     public init(_ val: Int) {
         self.val = val
-        self.next = nil
-        
+        next = nil
     }
-    
+
     public init(_ val: Int, _ next: ListNode?) {
         self.val = val
         self.next = next;
@@ -51,9 +52,9 @@ public class ListNode {
 }
 
 public class AddTwoNumbersSolution {
-    
+
     public init() { }
-    
+
     public func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         if l1?.next != nil && l2?.next != nil {
             return addTwoNumbers(l1?.next, l2?.next)

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520474CA29790E9C007FE10D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 520474C829790E9B007FE10D /* .swiftlint.yml */; };
+		520474CB29790E9C007FE10D /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 520474C929790E9B007FE10D /* .swiftformat */; };
+		520474CF29791340007FE10D /* Start.sh in Resources */ = {isa = PBXBuildFile; fileRef = 520474CE29791340007FE10D /* Start.sh */; };
 		52A8306F296AD637006E363B /* LetscodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8306E296AD637006E363B /* LetscodeApp.swift */; };
 		52A83071296AD637006E363B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A83070296AD637006E363B /* ContentView.swift */; };
 		52A83073296AD639006E363B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A83072296AD639006E363B /* Assets.xcassets */; };
@@ -19,6 +22,9 @@
 		342FB7A3CAEF9D418782B875 /* Pods_Letscode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Letscode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E512CC2561A511C2DE0F86B /* Pods-Letscode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.debug.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.debug.xcconfig"; sourceTree = "<group>"; };
 		520474C32978FE93007FE10D /* LeetCodePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeetCodePlayground.playground; sourceTree = "<group>"; };
+		520474C829790E9B007FE10D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		520474C929790E9B007FE10D /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = SOURCE_ROOT; };
+		520474CE29791340007FE10D /* Start.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Start.sh; sourceTree = SOURCE_ROOT; };
 		52A8306B296AD637006E363B /* Letscode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letscode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A8306E296AD637006E363B /* LetscodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeApp.swift; sourceTree = "<group>"; };
 		52A83070296AD637006E363B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,9 +54,36 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		520474C629790E02007FE10D /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				520474CC29790FEE007FE10D /* Script */,
+				520474C729790E19007FE10D /* CodeQuality */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		520474C729790E19007FE10D /* CodeQuality */ = {
+			isa = PBXGroup;
+			children = (
+				520474C929790E9B007FE10D /* .swiftformat */,
+				520474C829790E9B007FE10D /* .swiftlint.yml */,
+			);
+			path = CodeQuality;
+			sourceTree = "<group>";
+		};
+		520474CC29790FEE007FE10D /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				520474CE29791340007FE10D /* Start.sh */,
+			);
+			path = Script;
+			sourceTree = "<group>";
+		};
 		52A83062296AD636006E363B = {
 			isa = PBXGroup;
 			children = (
+				520474C629790E02007FE10D /* Supporting */,
 				520474C32978FE93007FE10D /* LeetCodePlayground.playground */,
 				52A8306D296AD637006E363B /* Letscode */,
 				52A8306C296AD637006E363B /* Products */,
@@ -107,6 +140,8 @@
 				52A83068296AD637006E363B /* Frameworks */,
 				52A83069296AD637006E363B /* Resources */,
 				B022217AD4C69DB1B6E00AC6 /* [CP] Embed Pods Frameworks */,
+				520474C42979041A007FE10D /* [Run] Swiftlint */,
+				520474C529790D0B007FE10D /* [Run] Swiftformat */,
 			);
 			buildRules = (
 			);
@@ -156,6 +191,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520474CB29790E9C007FE10D /* .swiftformat in Resources */,
+				520474CF29791340007FE10D /* Start.sh in Resources */,
+				520474CA29790E9C007FE10D /* .swiftlint.yml in Resources */,
 				52A83077296AD639006E363B /* Preview Assets.xcassets in Resources */,
 				52A83073296AD639006E363B /* Assets.xcassets in Resources */,
 			);
@@ -185,6 +223,44 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		520474C42979041A007FE10D /* [Run] Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Run] Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
+		};
+		520474C529790D0B007FE10D /* [Run] Swiftformat */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Run] Swiftformat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    swiftformat --lint --lenient ./Letscode\n    swiftformat --lint --lenient ./LeetCodePlayground.playground\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
 		};
 		B022217AD4C69DB1B6E00AC6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
