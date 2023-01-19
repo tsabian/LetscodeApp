@@ -91,3 +91,5 @@ iOSInjectionProject/
 Pods
 Podfile.lock
 Letscode.xcworkspace
+*.DS_Store
+.idea/

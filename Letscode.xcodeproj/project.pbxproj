@@ -18,6 +18,7 @@
 		21A4619F8A87B2DAF0DD7F08 /* Pods-Letscode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.release.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.release.xcconfig"; sourceTree = "<group>"; };
 		342FB7A3CAEF9D418782B875 /* Pods_Letscode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Letscode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E512CC2561A511C2DE0F86B /* Pods-Letscode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.debug.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.debug.xcconfig"; sourceTree = "<group>"; };
+		520474C32978FE93007FE10D /* LeetCodePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeetCodePlayground.playground; sourceTree = "<group>"; };
 		52A8306B296AD637006E363B /* Letscode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letscode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A8306E296AD637006E363B /* LetscodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeApp.swift; sourceTree = "<group>"; };
 		52A83070296AD637006E363B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		52A83062296AD636006E363B = {
 			isa = PBXGroup;
 			children = (
+				520474C32978FE93007FE10D /* LeetCodePlayground.playground */,
 				52A8306D296AD637006E363B /* Letscode */,
 				52A8306C296AD637006E363B /* Products */,
 				03D432EF0DFA7934C6991760 /* Pods */,
@@ -350,8 +352,6 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.Letscode;
@@ -389,8 +389,6 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.Letscode;
