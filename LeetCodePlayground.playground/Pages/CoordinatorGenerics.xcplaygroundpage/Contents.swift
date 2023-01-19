@@ -70,9 +70,7 @@ class MainCoordinator: MainCoordinatorProtocol {
     }
 }
 
-protocol SecoundaryCoordinatorProtocol: BaseCoordinatorProtocol {
-
-}
+protocol SecoundaryCoordinatorProtocol: BaseCoordinatorProtocol {}
 
 class SecoundaryCoordinator: SecoundaryCoordinatorProtocol {
     var presenter: UINavigationController

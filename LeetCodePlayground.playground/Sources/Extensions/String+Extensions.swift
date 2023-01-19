@@ -1,7 +1,6 @@
 import Foundation
 
 public extension String {
-    
     /// Matches from regex pattern.
     /// - Parameter regex: The Regex pattern.
     /// - Returns: return the count of elements match with regex pattern.
@@ -17,7 +16,7 @@ public extension String {
             return []
         }
     }
-    
+
     /// Replace a string using a Regex pattern.
     /// - Parameters:
     /// - pattern: Set the Regex Pattern.
@@ -26,7 +25,7 @@ public extension String {
     func stringByReplacingRegexMathes(pattern: String, with template: String) -> String? {
         do {
             let regex = try NSRegularExpression(pattern: pattern)
-            let range = NSMakeRange(0, self.count)
+            let range = NSMakeRange(0, count)
             let newString = regex.stringByReplacingMatches(in: self, options: [], range: range, withTemplate: template)
             return newString
         } catch {
@@ -34,20 +33,20 @@ public extension String {
             return nil
         }
     }
-    
+
     func format(_ obj: Any) -> String {
         let str = String(format: self, arguments: [String(describing: obj)])
         return str
     }
-    
+
     var isEmailValid: Bool {
         let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}"
         return NSPredicate(format: "SELF MATCHES %@", emailRegex).evaluate(with: self)
     }
-    
+
     func obfuscateEmail(maskChar: String = "•", obfuscateDns: Bool = true) -> String {
         let split = self.split(separator: "@")
-        
+
         guard isEmailValid, split.count == 2, let dotIndex = split[1].lastIndex(of: Character(".")) else {
             return maskChar
         }
@@ -61,7 +60,7 @@ public extension String {
             }
         }
         mask.append("@")
-        
+
         if obfuscateDns {
             let secondPart = split[1]
             let domain = secondPart[..<dotIndex]
@@ -71,7 +70,7 @@ public extension String {
         } else {
             mask.append(String(split[1]))
         }
-        
+
         return mask
     }
 }

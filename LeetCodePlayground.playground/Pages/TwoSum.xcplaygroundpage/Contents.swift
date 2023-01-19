@@ -1,4 +1,3 @@
-
 let nums = [25, 25, 10, 40, 45, 5]
 let target = 50
 
@@ -12,6 +11,7 @@ for (i, num) in nums.enumerated() {
     debugPrint("add element index \(num) with value \(i)")
     dict[num] = i
 }
+
 debugPrint(dict)
 
 let solution = TwoSumSolution()
