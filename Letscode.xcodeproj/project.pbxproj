@@ -10,6 +10,7 @@
 		520474CA29790E9C007FE10D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 520474C829790E9B007FE10D /* .swiftlint.yml */; };
 		520474CB29790E9C007FE10D /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 520474C929790E9B007FE10D /* .swiftformat */; };
 		520474CF29791340007FE10D /* Start.sh in Resources */ = {isa = PBXBuildFile; fileRef = 520474CE29791340007FE10D /* Start.sh */; };
+		525A282F2981F01B0078BD99 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A282E2981F01B0078BD99 /* CardView.swift */; };
 		52A8306F296AD637006E363B /* LetscodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8306E296AD637006E363B /* LetscodeApp.swift */; };
 		52A83071296AD637006E363B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A83070296AD637006E363B /* ContentView.swift */; };
 		52A83073296AD639006E363B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A83072296AD639006E363B /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		520474C829790E9B007FE10D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		520474C929790E9B007FE10D /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = SOURCE_ROOT; };
 		520474CE29791340007FE10D /* Start.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Start.sh; sourceTree = SOURCE_ROOT; };
+		525A282E2981F01B0078BD99 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		52A8306B296AD637006E363B /* Letscode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letscode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A8306E296AD637006E363B /* LetscodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeApp.swift; sourceTree = "<group>"; };
 		52A83070296AD637006E363B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				52A8306E296AD637006E363B /* LetscodeApp.swift */,
 				52A83070296AD637006E363B /* ContentView.swift */,
+				525A282E2981F01B0078BD99 /* CardView.swift */,
 				52A83072296AD639006E363B /* Assets.xcassets */,
 				52A83074296AD639006E363B /* Letscode.entitlements */,
 				52A83075296AD639006E363B /* Preview Content */,
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A83071296AD637006E363B /* ContentView.swift in Sources */,
+				525A282F2981F01B0078BD99 /* CardView.swift in Sources */,
 				52A8306F296AD637006E363B /* LetscodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

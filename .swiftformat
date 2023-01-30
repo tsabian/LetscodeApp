@@ -37,3 +37,4 @@
 --exclude Templates
 --exclude MockingbirdMocks
 --exclude MockingbirdSupport
+--exclude Build

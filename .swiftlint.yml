@@ -60,6 +60,7 @@ opt_in_rules:
 excluded:
   - .build
   - build
+  - Build
   - Carthage
   - Other
   - Tools
