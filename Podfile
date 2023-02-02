@@ -8,4 +8,5 @@ target 'Letscode' do
     # Pods for Letscode
     pod 'RxSwift', '6.5.0'
     pod 'RxCocoa', '6.5.0'
+    pod 'Alamofire'
 end
