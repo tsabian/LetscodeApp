@@ -16,7 +16,7 @@ public struct ServerTrustPolicy: ServerTrustEvaluating {
             throw NSError()
         }
 
-        let pinnedCertificatesData = certificates.compactMap { $0.data }
+        let pinnedCertificatesData = certificates.compactMap(\.data)
 
         var trustIsValid = false
         for serverCertificate in serverCertificates {
