@@ -11,6 +11,10 @@
 		520474CB29790E9C007FE10D /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 520474C929790E9B007FE10D /* .swiftformat */; };
 		520474CF29791340007FE10D /* Start.sh in Resources */ = {isa = PBXBuildFile; fileRef = 520474CE29791340007FE10D /* Start.sh */; };
 		525A282F2981F01B0078BD99 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A282E2981F01B0078BD99 /* CardView.swift */; };
+		5287920E298E3E4C00F2E039 /* quotesappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287920D298E3E4C00F2E039 /* quotesappApp.swift */; };
+		52879210298E3E4C00F2E039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287920F298E3E4C00F2E039 /* ContentView.swift */; };
+		52879212298E3E4F00F2E039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52879211298E3E4F00F2E039 /* Assets.xcassets */; };
+		52879215298E3E4F00F2E039 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52879214298E3E4F00F2E039 /* Preview Assets.xcassets */; };
 		52A8306F296AD637006E363B /* LetscodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8306E296AD637006E363B /* LetscodeApp.swift */; };
 		52A83071296AD637006E363B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A83070296AD637006E363B /* ContentView.swift */; };
 		52A83073296AD639006E363B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A83072296AD639006E363B /* Assets.xcassets */; };
@@ -26,6 +30,11 @@
 		520474C929790E9B007FE10D /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = SOURCE_ROOT; };
 		520474CE29791340007FE10D /* Start.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Start.sh; sourceTree = SOURCE_ROOT; };
 		525A282E2981F01B0078BD99 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5287920B298E3E4C00F2E039 /* Quotesapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotesapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5287920D298E3E4C00F2E039 /* quotesappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quotesappApp.swift; sourceTree = "<group>"; };
+		5287920F298E3E4C00F2E039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52879211298E3E4F00F2E039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52879214298E3E4F00F2E039 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52A8306B296AD637006E363B /* Letscode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letscode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A8306E296AD637006E363B /* LetscodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeApp.swift; sourceTree = "<group>"; };
 		52A83070296AD637006E363B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +45,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		52879208298E3E4C00F2E039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52A83068296AD637006E363B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,12 +106,32 @@
 			path = Script;
 			sourceTree = "<group>";
 		};
+		5287920C298E3E4C00F2E039 /* Quotesapp */ = {
+			isa = PBXGroup;
+			children = (
+				5287920D298E3E4C00F2E039 /* quotesappApp.swift */,
+				5287920F298E3E4C00F2E039 /* ContentView.swift */,
+				52879211298E3E4F00F2E039 /* Assets.xcassets */,
+				52879213298E3E4F00F2E039 /* Preview Content */,
+			);
+			path = Quotesapp;
+			sourceTree = "<group>";
+		};
+		52879213298E3E4F00F2E039 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52879214298E3E4F00F2E039 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		52A83062296AD636006E363B = {
 			isa = PBXGroup;
 			children = (
 				520474C629790E02007FE10D /* Supporting */,
 				520474C32978FE93007FE10D /* LeetCodePlayground.playground */,
 				52A8306D296AD637006E363B /* Letscode */,
+				5287920C298E3E4C00F2E039 /* Quotesapp */,
 				52A8306C296AD637006E363B /* Products */,
 				03D432EF0DFA7934C6991760 /* Pods */,
 				191BC11EA2CC23BA8E21D133 /* Frameworks */,
@@ -106,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				52A8306B296AD637006E363B /* Letscode.app */,
+				5287920B298E3E4C00F2E039 /* Quotesapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +171,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5287920A298E3E4C00F2E039 /* Quotesapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52879218298E3E4F00F2E039 /* Build configuration list for PBXNativeTarget "Quotesapp" */;
+			buildPhases = (
+				52879207298E3E4C00F2E039 /* Sources */,
+				52879208298E3E4C00F2E039 /* Frameworks */,
+				52879209298E3E4C00F2E039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quotesapp;
+			productName = quotesapp;
+			productReference = 5287920B298E3E4C00F2E039 /* Quotesapp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		52A8306A296AD637006E363B /* Letscode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52A8307A296AD639006E363B /* Build configuration list for PBXNativeTarget "Letscode" */;
@@ -166,6 +220,9 @@
 				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = "Tiago A. de Oliveira";
 				TargetAttributes = {
+					5287920A298E3E4C00F2E039 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					52A8306A296AD637006E363B = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -185,11 +242,21 @@
 			projectRoot = "";
 			targets = (
 				52A8306A296AD637006E363B /* Letscode */,
+				5287920A298E3E4C00F2E039 /* Quotesapp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		52879209298E3E4C00F2E039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52879215298E3E4F00F2E039 /* Preview Assets.xcassets in Resources */,
+				52879212298E3E4F00F2E039 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52A83069296AD637006E363B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,6 +352,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		52879207298E3E4C00F2E039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52879210298E3E4C00F2E039 /* ContentView.swift in Sources */,
+				5287920E298E3E4C00F2E039 /* quotesappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52A83067296AD637006E363B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,6 +374,69 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		52879216298E3E4F00F2E039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"quotesapp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z6MUH3V2QB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.quotesapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52879217298E3E4F00F2E039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"quotesapp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z6MUH3V2QB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.quotesapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		52A83078296AD639006E363B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -502,6 +641,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		52879218298E3E4F00F2E039 /* Build configuration list for PBXNativeTarget "Quotesapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52879216298E3E4F00F2E039 /* Debug */,
+				52879217298E3E4F00F2E039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		52A83066296AD636006E363B /* Build configuration list for PBXProject "Letscode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -7,17 +7,26 @@
 
 import SwiftUI
 
-struct CardView: View {
-    private let avatarImageNameK = "img-avatar"
+struct AvatarCircleImage: View {
+    var imageName: String
+
     private let imageSizeK = 140.0
+
+    var body: some View {
+        Image(imageName)
+            .resizable()
+            .scaledToFit()
+            .clipShape(Circle())
+            .overlay(Circle().stroke(Color.white, lineWidth: 3))
+            .frame(width: imageSizeK, height: imageSizeK, alignment: .center)
+            .shadow(radius: 5.0)
+    }
+}
+
+struct CardView: View {
     var body: some View {
         HStack {
-            Image(avatarImageNameK)
-                .resizable()
-                .scaledToFit()
-                .clipShape(Circle())
-                .overlay(Circle().stroke(Color.white, lineWidth: 3))
-                .frame(width: imageSizeK, height: imageSizeK, alignment: .center)
+            AvatarCircleImage(imageName: "img-avatar")
             VStack {
                 Text("Tiago Oliveira")
                     .font(.title)
