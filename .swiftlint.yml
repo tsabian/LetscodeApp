@@ -56,6 +56,7 @@ opt_in_rules:
   - unneeded_parentheses_in_closure_argument
   - vertical_parameter_alignment_on_call
   - yoda_condition
+  - weak_delegate
 
 excluded:
   - .build

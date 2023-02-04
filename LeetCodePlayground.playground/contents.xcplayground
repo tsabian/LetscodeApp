@@ -25,5 +25,6 @@
         <page name='MirrorProperites'/>
         <page name='Convert'/>
         <page name='Fibonacci'/>
+        <page name='AlamofireUtils'/>
     </pages>
 </playground>

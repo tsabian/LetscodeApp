@@ -1,5 +1,7 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '13.6'
+inhibit_all_warnings!
+ios_version = '15.6'
+platform :ios, ios_version
 
 target 'Letscode' do
     # Comment the next line if you don't want to use dynamic frameworks
@@ -8,4 +10,16 @@ target 'Letscode' do
     # Pods for Letscode
     pod 'RxSwift', '6.5.0'
     pod 'RxCocoa', '6.5.0'
+    pod 'Alamofire'
+    # pod 'Alamofire', :inhibit_warnings => true
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = "YES"
+            config.build_settings['DEAD_CODE_STRIPPING'] = 'YES'
+            config.build_settings['IPHONE_DEPLOYMENT_TARGET'] = ios_version
+        end
+    end
 end
