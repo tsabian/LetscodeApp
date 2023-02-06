@@ -4,13 +4,36 @@ import Foundation
 
 let solution = AddTwoNumbersSolution()
 
-let list1 = ListNode(2, ListNode(4, ListNode(3)))
-let list2 = ListNode(5, ListNode(6, ListNode(4)))
+var list1 = ListNode(2, ListNode(4, ListNode(3)))
+var list2 = ListNode(5, ListNode(6, ListNode(4)))
+var result: ListNode?
 
-guard let result = solution.addTwoNumbers(list1, list2) else {
-    fatalError("No result")
+measurePerformance {
+    result = solution.addTwoNumbers(list1, list2)
+}.formattedTime
+
+if let node = result {
+    print(node.resultNode())
 }
 
-print(result.val)
-print(result.next?.val ?? 0)
-print(result.next?.next?.val ?? 0)
+list1 = ListNode(0)
+list2 = ListNode(0)
+
+measurePerformance {
+    result = solution.addTwoNumbers(list1, list2)
+}.formattedTime
+
+if let node = result {
+    print(node.resultNode())
+}
+
+list1 = ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9))))))
+list2 = ListNode(9, ListNode(9, ListNode(9, ListNode(9))))
+
+measurePerformance {
+    result = solution.addTwoNumbers(list1, list2)
+}.formattedTime
+
+if let node = result {
+    print(node.resultNode())
+}
