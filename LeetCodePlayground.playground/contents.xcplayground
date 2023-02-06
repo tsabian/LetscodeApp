@@ -3,6 +3,7 @@
     <pages>
         <page name='TwoSum'/>
         <page name='AddTwoNumber'/>
+        <page name='LongestSubstringRepChars'/>
         <page name='Regex'/>
         <page name='Resto'/>
         <page name='DeepLink'/>
