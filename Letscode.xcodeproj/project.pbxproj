@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3174250D98108077ACBF1EB0 /* Pods_Quotesapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030A1556C2230B89207C1660 /* Pods_Quotesapp.framework */; };
 		520474CA29790E9C007FE10D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 520474C829790E9B007FE10D /* .swiftlint.yml */; };
 		520474CB29790E9C007FE10D /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 520474C929790E9B007FE10D /* .swiftformat */; };
 		520474CF29791340007FE10D /* Start.sh in Resources */ = {isa = PBXBuildFile; fileRef = 520474CE29791340007FE10D /* Start.sh */; };
 		525A282F2981F01B0078BD99 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A282E2981F01B0078BD99 /* CardView.swift */; };
-		5287920E298E3E4C00F2E039 /* quotesappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287920D298E3E4C00F2E039 /* quotesappApp.swift */; };
+		5287920E298E3E4C00F2E039 /* QuotesappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287920D298E3E4C00F2E039 /* QuotesappApp.swift */; };
 		52879210298E3E4C00F2E039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287920F298E3E4C00F2E039 /* ContentView.swift */; };
 		52879212298E3E4F00F2E039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52879211298E3E4F00F2E039 /* Assets.xcassets */; };
 		52879215298E3E4F00F2E039 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52879214298E3E4F00F2E039 /* Preview Assets.xcassets */; };
@@ -19,10 +20,17 @@
 		52A83071296AD637006E363B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A83070296AD637006E363B /* ContentView.swift */; };
 		52A83073296AD639006E363B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A83072296AD639006E363B /* Assets.xcassets */; };
 		52A83077296AD639006E363B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A83076296AD639006E363B /* Preview Assets.xcassets */; };
+		52DAE8BA298FA0B7008D87C8 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 52DAE8B9298FA0B7008D87C8 /* quotes.json */; };
+		52DAE8BE298FB5B8008D87C8 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAE8BD298FB5B8008D87C8 /* QuoteModel.swift */; };
+		52DAE8C2298FDD52008D87C8 /* Encodable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAE8C1298FDD52008D87C8 /* Encodable+.swift */; };
+		52DAE8C4298FDD5D008D87C8 /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAE8C3298FDD5D008D87C8 /* Data+.swift */; };
+		52DAE8C5298FDDDB008D87C8 /* Encodable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAE8C1298FDD52008D87C8 /* Encodable+.swift */; };
+		52DAE8C6298FDDDB008D87C8 /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAE8C3298FDD5D008D87C8 /* Data+.swift */; };
 		A829F93416634BA53D0E1269 /* Pods_Letscode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ED8A1098BFB580F91140A6 /* Pods_Letscode.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030A1556C2230B89207C1660 /* Pods_Quotesapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quotesapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC4D0ED98AAC514150D39BA /* Pods-Letscode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.release.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.release.xcconfig"; sourceTree = "<group>"; };
 		47ED8A1098BFB580F91140A6 /* Pods_Letscode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Letscode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		520474C32978FE93007FE10D /* LeetCodePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeetCodePlayground.playground; sourceTree = "<group>"; };
@@ -31,7 +39,7 @@
 		520474CE29791340007FE10D /* Start.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Start.sh; sourceTree = SOURCE_ROOT; };
 		525A282E2981F01B0078BD99 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5287920B298E3E4C00F2E039 /* Quotesapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotesapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5287920D298E3E4C00F2E039 /* quotesappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quotesappApp.swift; sourceTree = "<group>"; };
+		5287920D298E3E4C00F2E039 /* QuotesappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesappApp.swift; sourceTree = "<group>"; };
 		5287920F298E3E4C00F2E039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52879211298E3E4F00F2E039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52879214298E3E4F00F2E039 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -41,7 +49,13 @@
 		52A83072296AD639006E363B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A83074296AD639006E363B /* Letscode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Letscode.entitlements; sourceTree = "<group>"; };
 		52A83076296AD639006E363B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52DAE8B9298FA0B7008D87C8 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		52DAE8BD298FB5B8008D87C8 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		52DAE8C1298FDD52008D87C8 /* Encodable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+.swift"; sourceTree = "<group>"; };
+		52DAE8C3298FDD5D008D87C8 /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
 		7D0DD0D6219420607A6582A1 /* Pods-Letscode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.debug.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.debug.xcconfig"; sourceTree = "<group>"; };
+		D9FDE20E634FAB44DD935851 /* Pods-Quotesapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotesapp.release.xcconfig"; path = "Target Support Files/Pods-Quotesapp/Pods-Quotesapp.release.xcconfig"; sourceTree = "<group>"; };
+		F12BE354688A9C2D0F53F18D /* Pods-Quotesapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotesapp.debug.xcconfig"; path = "Target Support Files/Pods-Quotesapp/Pods-Quotesapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3174250D98108077ACBF1EB0 /* Pods_Quotesapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +83,8 @@
 			children = (
 				7D0DD0D6219420607A6582A1 /* Pods-Letscode.debug.xcconfig */,
 				1EC4D0ED98AAC514150D39BA /* Pods-Letscode.release.xcconfig */,
+				F12BE354688A9C2D0F53F18D /* Pods-Quotesapp.debug.xcconfig */,
+				D9FDE20E634FAB44DD935851 /* Pods-Quotesapp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -76,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				47ED8A1098BFB580F91140A6 /* Pods_Letscode.framework */,
+				030A1556C2230B89207C1660 /* Pods_Quotesapp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,10 +127,12 @@
 		5287920C298E3E4C00F2E039 /* Quotesapp */ = {
 			isa = PBXGroup;
 			children = (
-				5287920D298E3E4C00F2E039 /* quotesappApp.swift */,
 				5287920F298E3E4C00F2E039 /* ContentView.swift */,
+				52DAE8BD298FB5B8008D87C8 /* QuoteModel.swift */,
+				5287920D298E3E4C00F2E039 /* QuotesappApp.swift */,
 				52879211298E3E4F00F2E039 /* Assets.xcassets */,
 				52879213298E3E4F00F2E039 /* Preview Content */,
+				52DAE8B8298FA0A8008D87C8 /* Resources */,
 			);
 			path = Quotesapp;
 			sourceTree = "<group>";
@@ -128,13 +148,14 @@
 		52A83062296AD636006E363B = {
 			isa = PBXGroup;
 			children = (
-				520474C629790E02007FE10D /* Supporting */,
 				520474C32978FE93007FE10D /* LeetCodePlayground.playground */,
-				52A8306D296AD637006E363B /* Letscode */,
-				5287920C298E3E4C00F2E039 /* Quotesapp */,
-				52A8306C296AD637006E363B /* Products */,
-				03D432EF0DFA7934C6991760 /* Pods */,
 				191BC11EA2CC23BA8E21D133 /* Frameworks */,
+				52A8306D296AD637006E363B /* Letscode */,
+				03D432EF0DFA7934C6991760 /* Pods */,
+				52A8306C296AD637006E363B /* Products */,
+				5287920C298E3E4C00F2E039 /* Quotesapp */,
+				52DAE8BF298FDCD1008D87C8 /* Shared */,
+				520474C629790E02007FE10D /* Supporting */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,11 +171,11 @@
 		52A8306D296AD637006E363B /* Letscode */ = {
 			isa = PBXGroup;
 			children = (
-				52A8306E296AD637006E363B /* LetscodeApp.swift */,
-				52A83070296AD637006E363B /* ContentView.swift */,
-				525A282E2981F01B0078BD99 /* CardView.swift */,
-				52A83072296AD639006E363B /* Assets.xcassets */,
 				52A83074296AD639006E363B /* Letscode.entitlements */,
+				525A282E2981F01B0078BD99 /* CardView.swift */,
+				52A83070296AD637006E363B /* ContentView.swift */,
+				52A8306E296AD637006E363B /* LetscodeApp.swift */,
+				52A83072296AD639006E363B /* Assets.xcassets */,
 				52A83075296AD639006E363B /* Preview Content */,
 			);
 			path = Letscode;
@@ -168,6 +189,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		52DAE8B8298FA0A8008D87C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52DAE8B9298FA0B7008D87C8 /* quotes.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52DAE8BF298FDCD1008D87C8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				52DAE8C0298FDCDE008D87C8 /* Extensions */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		52DAE8C0298FDCDE008D87C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52DAE8C1298FDD52008D87C8 /* Encodable+.swift */,
+				52DAE8C3298FDD5D008D87C8 /* Data+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,9 +221,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52879218298E3E4F00F2E039 /* Build configuration list for PBXNativeTarget "Quotesapp" */;
 			buildPhases = (
+				2074C42E0F3235A6DC0F98FD /* [CP] Check Pods Manifest.lock */,
 				52879207298E3E4C00F2E039 /* Sources */,
 				52879208298E3E4C00F2E039 /* Frameworks */,
 				52879209298E3E4C00F2E039 /* Resources */,
+				52DAE8BB298FA2CF008D87C8 /* [Run] Swiftlint */,
+				52DAE8BC298FA2F4008D87C8 /* [Run] Swiftformat */,
+				AD7637617D899149F3A66A09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +304,7 @@
 			files = (
 				52879215298E3E4F00F2E039 /* Preview Assets.xcassets in Resources */,
 				52879212298E3E4F00F2E039 /* Assets.xcassets in Resources */,
+				52DAE8BA298FA0B7008D87C8 /* quotes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +323,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2074C42E0F3235A6DC0F98FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quotesapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		520474C42979041A007FE10D /* [Run] Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -292,6 +365,44 @@
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
 		};
 		520474C529790D0B007FE10D /* [Run] Swiftformat */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Run] Swiftformat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    swiftformat --lint --lenient .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
+		};
+		52DAE8BB298FA2CF008D87C8 /* [Run] Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Run] Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
+		};
+		52DAE8BC298FA2F4008D87C8 /* [Run] Swiftformat */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -332,6 +443,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AD7637617D899149F3A66A09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quotesapp/Pods-Quotesapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quotesapp/Pods-Quotesapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quotesapp/Pods-Quotesapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D83A0C33AAC96ECEEEAEBCF9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,8 +484,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52DAE8BE298FB5B8008D87C8 /* QuoteModel.swift in Sources */,
 				52879210298E3E4C00F2E039 /* ContentView.swift in Sources */,
-				5287920E298E3E4C00F2E039 /* quotesappApp.swift in Sources */,
+				52DAE8C4298FDD5D008D87C8 /* Data+.swift in Sources */,
+				5287920E298E3E4C00F2E039 /* QuotesappApp.swift in Sources */,
+				52DAE8C2298FDD52008D87C8 /* Encodable+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +498,9 @@
 			files = (
 				52A83071296AD637006E363B /* ContentView.swift in Sources */,
 				525A282F2981F01B0078BD99 /* CardView.swift in Sources */,
+				52DAE8C6298FDDDB008D87C8 /* Data+.swift in Sources */,
 				52A8306F296AD637006E363B /* LetscodeApp.swift in Sources */,
+				52DAE8C5298FDDDB008D87C8 /* Encodable+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +509,7 @@
 /* Begin XCBuildConfiguration section */
 		52879216298E3E4F00F2E039 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12BE354688A9C2D0F53F18D /* Pods-Quotesapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -385,12 +519,13 @@
 				DEVELOPMENT_TEAM = Z6MUH3V2QB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Quote;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,6 +534,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.quotesapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -407,6 +545,7 @@
 		};
 		52879217298E3E4F00F2E039 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FDE20E634FAB44DD935851 /* Pods-Quotesapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -416,12 +555,13 @@
 				DEVELOPMENT_TEAM = Z6MUH3V2QB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Quote;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,6 +570,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.quotesapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -579,8 +722,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.Letscode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -623,8 +764,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.Letscode;
 				PRODUCT_NAME = "$(TARGET_NAME)";

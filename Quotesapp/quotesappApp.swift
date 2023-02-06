@@ -1,4 +1,3 @@
-//
 //  quotesappApp.swift
 //  quotesapp
 //
@@ -9,7 +8,7 @@
 import SwiftUI
 
 @main
-struct quotesappApp: App {
+struct QuotesappApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
