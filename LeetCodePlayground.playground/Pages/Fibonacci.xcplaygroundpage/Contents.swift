@@ -4,4 +4,6 @@ import Foundation
 
 let fibonacci = Fibonacci()
 
-print(fibonacci.run(count: 10))
+measurePerformance {
+    print(fibonacci.run(count: 40))
+}.formattedTime

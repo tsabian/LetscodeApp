@@ -15,16 +15,18 @@ let evaluators = [dnsK: ServerTrustPolicyEvaluating(allowedCertificates: [cert])
 let serverTrustManager = ServerTrustManager(allHostsMustBeEvaluated: false, evaluators: evaluators)
 let sessionManager = Session(serverTrustManager: serverTrustManager)
 
-sessionManager.request(IBGENetwork.calendario).validate().response { result in
-    if let err = result.error {
-        print(err.errorDescription ?? "")
-        return
-    }
+measurePerformance {
+    sessionManager.request(IBGENetwork.calendario).validate().response { result in
+        if let err = result.error {
+            print(err.errorDescription ?? "")
+            return
+        }
 
-    guard let response = result.response else {
-        print("Falhou no request")
-        return
-    }
+        guard let response = result.response else {
+            print("Falhou no request")
+            return
+        }
 
-    print(response.statusCode)
-}
+        print(response.statusCode)
+    }
+}.formattedTime
