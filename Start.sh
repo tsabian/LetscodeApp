@@ -53,7 +53,7 @@ else
     echo -n "swiftformat installed version: "
     swiftformat --version
 fi
-
+            DEAD_CODE_STRIPPING
 if [ ! -f "./.git/hooks/pre-commit" ]; then
     echo "Generate git pre-commit hook"
     echo '#!/bin/bash

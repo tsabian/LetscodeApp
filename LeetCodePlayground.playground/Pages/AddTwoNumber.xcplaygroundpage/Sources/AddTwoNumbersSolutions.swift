@@ -52,14 +52,50 @@ public class ListNode {
 public class AddTwoNumbersSolution {
     public init() {}
 
+    /// addTwoNumbers
+    /// Essa solução usa dois ponteiros, p1 e p2, são usados para percorrer as duas listas encadeadas ao mesmo tempo. A variável carry armazena o valor de transporte (se houver).
+    /// Enquanto houver pelo menos um elemento nas duas listas ou um valor de transporte, a soma é calculada e adicionada a uma nova lista encadeada.
+    /// O resultado final é a lista encadeada representando a soma dos dois números.
+    /// - Parameters:
+    ///   - l1: ListNode 1
+    ///   - l2: ListNode 2
+    /// - Returns: Returns the encadeade list representing the sum of two numbers.
     public func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
-        if l1?.next != nil, l2?.next != nil {
-            return addTwoNumbers(l1?.next, l2?.next)
+        let dummy: ListNode? = ListNode(0)
+        var cur = dummy
+        var carry = 0
+        var p1 = l1
+        var p2 = l2
+
+        while p1 != nil || p2 != nil || carry > 0 {
+            if let n1 = p1 {
+                carry += n1.val
+                p1 = n1.next
+            }
+
+            if let n2 = p2 {
+                carry += n2.val
+                p2 = n2.next
+            }
+
+            cur?.next = ListNode(carry % 10)
+            cur = cur?.next
+            carry /= 10
         }
-        if let l1Value = l1?.val, let l2Value = l2?.val {
-            let sum = l1Value + l2Value
-            return ListNode(sum % 10)
+
+        return dummy?.next
+    }
+}
+
+public extension ListNode {
+    func resultNode() -> [Int] {
+        var result = [Int]()
+        result.append(val)
+        var node = next
+        while node != nil {
+            result.append(node!.val)
+            node = node!.next
         }
-        return ListNode(0)
+        return result
     }
 }

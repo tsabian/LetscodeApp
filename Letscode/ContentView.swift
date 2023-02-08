@@ -15,7 +15,6 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
                 .lineLimit(nil)
-                .bold()
                 .font(.body)
                 .foregroundColor(.accentColor)
         }

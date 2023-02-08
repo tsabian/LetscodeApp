@@ -27,7 +27,7 @@
 --wrapcollections beforefirst
 
 # Disabled rules
---disable numberFormatting
+# --disable numberFormatting
 
 # Tool options
 --symlinks ignore
