@@ -16,6 +16,7 @@
 		52879210298E3E4C00F2E039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287920F298E3E4C00F2E039 /* ContentView.swift */; };
 		52879212298E3E4F00F2E039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52879211298E3E4F00F2E039 /* Assets.xcassets */; };
 		52879215298E3E4F00F2E039 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52879214298E3E4F00F2E039 /* Preview Assets.xcassets */; };
+		52723E46298B825E00F61858 /* askme.sh in Resources */ = {isa = PBXBuildFile; fileRef = 52723E45298B825E00F61858 /* askme.sh */; };
 		52A8306F296AD637006E363B /* LetscodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8306E296AD637006E363B /* LetscodeApp.swift */; };
 		52A83071296AD637006E363B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A83070296AD637006E363B /* ContentView.swift */; };
 		52A83073296AD639006E363B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A83072296AD639006E363B /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		5287920F298E3E4C00F2E039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52879211298E3E4F00F2E039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52879214298E3E4F00F2E039 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52723E45298B825E00F61858 /* askme.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = askme.sh; sourceTree = "<group>"; };
 		52A8306B296AD637006E363B /* Letscode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letscode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A8306E296AD637006E363B /* LetscodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeApp.swift; sourceTree = "<group>"; };
 		52A83070296AD637006E363B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		520474CC29790FEE007FE10D /* Script */ = {
 			isa = PBXGroup;
 			children = (
+				52723E45298B825E00F61858 /* askme.sh */,
 				520474CE29791340007FE10D /* Start.sh */,
 			);
 			path = Script;
@@ -316,6 +319,7 @@
 				520474CF29791340007FE10D /* Start.sh in Resources */,
 				520474CA29790E9C007FE10D /* .swiftlint.yml in Resources */,
 				52A83077296AD639006E363B /* Preview Assets.xcassets in Resources */,
+				52723E46298B825E00F61858 /* askme.sh in Resources */,
 				52A83073296AD639006E363B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
