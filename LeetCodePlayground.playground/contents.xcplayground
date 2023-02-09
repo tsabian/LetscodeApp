@@ -27,5 +27,7 @@
         <page name='Convert'/>
         <page name='Fibonacci'/>
         <page name='AlamofireUtils'/>
+        <page name='Hexadecimal'/>
+        <page name='Pinning'/>
     </pages>
 </playground>
