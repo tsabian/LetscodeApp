@@ -15,8 +15,7 @@ measurePerformance {
 // echo -n "texto muito grande " | xxd -p
 
 let keys = [
-    "746578746f206d7569746f206772616e646520"
+    "746578746f206d7569746f206772616e646520",
 ].joined()
 
 print(keys.convertFromHexString)
-
