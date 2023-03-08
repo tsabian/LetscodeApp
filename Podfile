@@ -15,15 +15,29 @@ target 'Letscode' do
     use_frameworks!
 
     # Pods for Letscode
-    shared_pods
 end
 
 target 'Quotesapp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Letscode
-  shared_pods
+  # Pods for Quotesapp
+  
+end
+
+target 'ListPart1' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ListPart1
+  
+end
+
+target 'NetworkManager' do
+  use_frameworks!
+  
+  # Pods for NetworkManager
+  
 end
 
 post_install do |installer|
