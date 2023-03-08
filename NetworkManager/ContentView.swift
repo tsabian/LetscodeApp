@@ -1,4 +1,3 @@
-//
 //  ContentView.swift
 //  NetworkManager
 //
@@ -16,7 +15,7 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
-        .padding()
+        .padding(.all, 0)
     }
 }
 

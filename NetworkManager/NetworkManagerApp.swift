@@ -1,4 +1,3 @@
-//
 //  NetworkManagerApp.swift
 //  NetworkManager
 //

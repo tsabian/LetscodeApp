@@ -28,6 +28,8 @@
 		52A663D729B942BE00383375 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A663D629B942BE00383375 /* ContentView.swift */; };
 		52A663D929B942C000383375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A663D829B942C000383375 /* Assets.xcassets */; };
 		52A663DC29B942C000383375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A663DB29B942C000383375 /* Preview Assets.xcassets */; };
+		52A663E229B9472E00383375 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A663E129B9472E00383375 /* Comments.swift */; };
+		52A663E729B9499F00383375 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A663E629B9499F00383375 /* NetworkManager.swift */; };
 		52A8306F296AD637006E363B /* LetscodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8306E296AD637006E363B /* LetscodeApp.swift */; };
 		52A83071296AD637006E363B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A83070296AD637006E363B /* ContentView.swift */; };
 		52A83073296AD639006E363B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A83072296AD639006E363B /* Assets.xcassets */; };
@@ -72,6 +74,8 @@
 		52A663D629B942BE00383375 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52A663D829B942C000383375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A663DB29B942C000383375 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52A663E129B9472E00383375 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		52A663E629B9499F00383375 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		52A8306B296AD637006E363B /* Letscode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letscode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A8306E296AD637006E363B /* LetscodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeApp.swift; sourceTree = "<group>"; };
 		52A83070296AD637006E363B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,6 +159,7 @@
 		520474C629790E02007FE10D /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
+				52A663E829B94BAA00383375 /* CI */,
 				520474CC29790FEE007FE10D /* Script */,
 				520474C729790E19007FE10D /* CodeQuality */,
 			);
@@ -234,6 +239,8 @@
 				52A663D629B942BE00383375 /* ContentView.swift */,
 				52A663D429B942BE00383375 /* NetworkManagerApp.swift */,
 				52A663D829B942C000383375 /* Assets.xcassets */,
+				52A663E029B9471B00383375 /* Model */,
+				52A663E529B9497D00383375 /* Networking */,
 				52A663DA29B942C000383375 /* Preview Content */,
 			);
 			path = NetworkManager;
@@ -245,6 +252,29 @@
 				52A663DB29B942C000383375 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52A663E029B9471B00383375 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52A663E129B9472E00383375 /* Comments.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52A663E529B9497D00383375 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				52A663E629B9499F00383375 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		52A663E829B94BAA00383375 /* CI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CI;
 			sourceTree = "<group>";
 		};
 		52A83062296AD636006E363B = {
@@ -351,9 +381,9 @@
 				DF06F9B963FFD43C0FD40A4F /* [CP] Check Pods Manifest.lock */,
 				529C927729B8CF8900F54B95 /* Sources */,
 				529C927829B8CF8900F54B95 /* Frameworks */,
+				529C927929B8CF8900F54B95 /* Resources */,
 				529C928929B8D01200F54B95 /* [Run] Swiftlint */,
 				529C928A29B8D02A00F54B95 /* [Run] Swiftformat */,
-				529C927929B8CF8900F54B95 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -372,6 +402,8 @@
 				52A663CE29B942BE00383375 /* Sources */,
 				52A663CF29B942BE00383375 /* Frameworks */,
 				52A663D029B942BE00383375 /* Resources */,
+				52A663E329B9479800383375 /* [Run] Swiftlint */,
+				52A663E429B947BC00383375 /* [Run] Swiftformat */,
 			);
 			buildRules = (
 			);
@@ -613,6 +645,43 @@
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    swiftformat --lint --lenient .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
 		};
+		52A663E329B9479800383375 /* [Run] Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Run] Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
+		};
+		52A663E429B947BC00383375 /* [Run] Swiftformat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Run] Swiftformat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    # swiftformat --lint --lenient .\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
+		};
 		52DAE8BB298FA2CF008D87C8 /* [Run] Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -726,7 +795,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A663D729B942BE00383375 /* ContentView.swift in Sources */,
+				52A663E729B9499F00383375 /* NetworkManager.swift in Sources */,
 				52A663D529B942BE00383375 /* NetworkManagerApp.swift in Sources */,
+				52A663E229B9472E00383375 /* Comments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
