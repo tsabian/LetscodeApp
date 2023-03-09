@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var postNetwork = PostNetwork()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(alignment: .leading, spacing: 8) {
+            List(postNetwork.data) { currentPost in
+                Text(currentPost.title)
+                    .font(.title)
+                    .foregroundColor(.gray)
+            }
         }
         .padding(.all, 0)
     }

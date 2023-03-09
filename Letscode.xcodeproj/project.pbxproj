@@ -29,7 +29,14 @@
 		52A663D929B942C000383375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A663D829B942C000383375 /* Assets.xcassets */; };
 		52A663DC29B942C000383375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A663DB29B942C000383375 /* Preview Assets.xcassets */; };
 		52A663E229B9472E00383375 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A663E129B9472E00383375 /* Comments.swift */; };
-		52A663E729B9499F00383375 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A663E629B9499F00383375 /* NetworkManager.swift */; };
+		52A663E729B9499F00383375 /* CommentsNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A663E629B9499F00383375 /* CommentsNetwork.swift */; };
+		52A663EA29B94C2D00383375 /* swift.yml in Resources */ = {isa = PBXBuildFile; fileRef = 52A663E929B94C2D00383375 /* swift.yml */; };
+		52A663ED29B94CCD00383375 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A663EC29B94CCD00383375 /* Environment.swift */; };
+		52A663EF29B94F4800383375 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 52A663EE29B94F4800383375 /* debug.xcconfig */; };
+		52A663F229B95D5E00383375 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 52A663F129B95D5E00383375 /* release.xcconfig */; };
+		52A663F429B987FF00383375 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A663F329B987FF00383375 /* Posts.swift */; };
+		52A663F629B989B000383375 /* PostNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A663F529B989B000383375 /* PostNetwork.swift */; };
+		52A663F829B98AC700383375 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A663F729B98AC700383375 /* NetworkManager.swift */; };
 		52A8306F296AD637006E363B /* LetscodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8306E296AD637006E363B /* LetscodeApp.swift */; };
 		52A83071296AD637006E363B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A83070296AD637006E363B /* ContentView.swift */; };
 		52A83073296AD639006E363B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A83072296AD639006E363B /* Assets.xcassets */; };
@@ -75,7 +82,15 @@
 		52A663D829B942C000383375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A663DB29B942C000383375 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52A663E129B9472E00383375 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
-		52A663E629B9499F00383375 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		52A663E629B9499F00383375 /* CommentsNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsNetwork.swift; sourceTree = "<group>"; };
+		52A663E929B94C2D00383375 /* swift.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = swift.yml; path = .github/workflows/swift.yml; sourceTree = SOURCE_ROOT; };
+		52A663EC29B94CCD00383375 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		52A663EE29B94F4800383375 /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
+		52A663F029B95BFA00383375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		52A663F129B95D5E00383375 /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
+		52A663F329B987FF00383375 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		52A663F529B989B000383375 /* PostNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostNetwork.swift; sourceTree = "<group>"; };
+		52A663F729B98AC700383375 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		52A8306B296AD637006E363B /* Letscode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letscode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A8306E296AD637006E363B /* LetscodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeApp.swift; sourceTree = "<group>"; };
 		52A83070296AD637006E363B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -236,9 +251,11 @@
 		52A663D329B942BE00383375 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				52A663F029B95BFA00383375 /* Info.plist */,
 				52A663D629B942BE00383375 /* ContentView.swift */,
 				52A663D429B942BE00383375 /* NetworkManagerApp.swift */,
 				52A663D829B942C000383375 /* Assets.xcassets */,
+				52A663EB29B94CB900383375 /* Infrastructure */,
 				52A663E029B9471B00383375 /* Model */,
 				52A663E529B9497D00383375 /* Networking */,
 				52A663DA29B942C000383375 /* Preview Content */,
@@ -258,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				52A663E129B9472E00383375 /* Comments.swift */,
+				52A663F329B987FF00383375 /* Posts.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,7 +283,9 @@
 		52A663E529B9497D00383375 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				52A663E629B9499F00383375 /* NetworkManager.swift */,
+				52A663E629B9499F00383375 /* CommentsNetwork.swift */,
+				52A663F529B989B000383375 /* PostNetwork.swift */,
+				52A663F729B98AC700383375 /* NetworkManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -273,8 +293,19 @@
 		52A663E829B94BAA00383375 /* CI */ = {
 			isa = PBXGroup;
 			children = (
+				52A663E929B94C2D00383375 /* swift.yml */,
 			);
 			path = CI;
+			sourceTree = "<group>";
+		};
+		52A663EB29B94CB900383375 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				52A663EC29B94CCD00383375 /* Environment.swift */,
+				52A663EE29B94F4800383375 /* debug.xcconfig */,
+				52A663F129B95D5E00383375 /* release.xcconfig */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 		52A83062296AD636006E363B = {
@@ -362,8 +393,8 @@
 				52879207298E3E4C00F2E039 /* Sources */,
 				52879208298E3E4C00F2E039 /* Frameworks */,
 				52879209298E3E4C00F2E039 /* Resources */,
-				52DAE8BB298FA2CF008D87C8 /* [Run] Swiftlint */,
 				52DAE8BC298FA2F4008D87C8 /* [Run] Swiftformat */,
+				52DAE8BB298FA2CF008D87C8 /* [Run] Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -382,8 +413,8 @@
 				529C927729B8CF8900F54B95 /* Sources */,
 				529C927829B8CF8900F54B95 /* Frameworks */,
 				529C927929B8CF8900F54B95 /* Resources */,
-				529C928929B8D01200F54B95 /* [Run] Swiftlint */,
 				529C928A29B8D02A00F54B95 /* [Run] Swiftformat */,
+				529C928929B8D01200F54B95 /* [Run] Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -402,8 +433,8 @@
 				52A663CE29B942BE00383375 /* Sources */,
 				52A663CF29B942BE00383375 /* Frameworks */,
 				52A663D029B942BE00383375 /* Resources */,
-				52A663E329B9479800383375 /* [Run] Swiftlint */,
 				52A663E429B947BC00383375 /* [Run] Swiftformat */,
+				52A663E329B9479800383375 /* [Run] Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -505,7 +536,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A663DC29B942C000383375 /* Preview Assets.xcassets in Resources */,
+				52A663EA29B94C2D00383375 /* swift.yml in Resources */,
+				52A663EF29B94F4800383375 /* debug.xcconfig in Resources */,
 				52A663D929B942C000383375 /* Assets.xcassets in Resources */,
+				52A663F229B95D5E00383375 /* release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,7 +639,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    swiftformat --lint --lenient .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n   # swiftformat --lint --lenient .\n   swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
 		};
 		529C928929B8D01200F54B95 /* [Run] Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -643,7 +677,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    swiftformat --lint --lenient .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    # swiftformat --lint --lenient .\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
 		};
 		52A663E329B9479800383375 /* [Run] Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -666,6 +700,7 @@
 		};
 		52A663E429B947BC00383375 /* [Run] Swiftformat */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -718,7 +753,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    swiftformat --lint --lenient .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    # swiftformat --lint --lenient .\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
 		};
 		78BE7A470179FC9F12444708 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -795,7 +830,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A663D729B942BE00383375 /* ContentView.swift in Sources */,
-				52A663E729B9499F00383375 /* NetworkManager.swift in Sources */,
+				52A663F429B987FF00383375 /* Posts.swift in Sources */,
+				52A663F629B989B000383375 /* PostNetwork.swift in Sources */,
+				52A663ED29B94CCD00383375 /* Environment.swift in Sources */,
+				52A663F829B98AC700383375 /* NetworkManager.swift in Sources */,
+				52A663E729B9499F00383375 /* CommentsNetwork.swift in Sources */,
 				52A663D529B942BE00383375 /* NetworkManagerApp.swift in Sources */,
 				52A663E229B9472E00383375 /* Comments.swift in Sources */,
 			);
@@ -966,7 +1005,7 @@
 		};
 		52A663DE29B942C000383375 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2CF43FB454F9C580750E896 /* Pods-NetworkManager.debug.xcconfig */;
+			baseConfigurationReference = 52A663EE29B94F4800383375 /* debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -976,6 +1015,7 @@
 				DEVELOPMENT_TEAM = Z6MUH3V2QB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetworkManager/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Network Manager App";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -1003,7 +1043,7 @@
 		};
 		52A663DF29B942C000383375 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C7AC5DA3383213814C09F7B /* Pods-NetworkManager.release.xcconfig */;
+			baseConfigurationReference = 52A663F129B95D5E00383375 /* release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1013,6 +1053,7 @@
 				DEVELOPMENT_TEAM = Z6MUH3V2QB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetworkManager/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Network Manager App";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
