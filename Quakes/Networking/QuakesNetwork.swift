@@ -3,7 +3,7 @@
 //
 //  Created by Tiago Oliveira on 09/03/23.
 //  Copyright © 2023 Tiago A. de Oliveira. All rights reserved.
-//
+//  source: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 
 import Foundation
 
