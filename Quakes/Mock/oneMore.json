@@ -1,0 +1,141 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1678797628000,
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_hour.geojson",
+    "title": "USGS Magnitude 1.0+ Earthquakes, Past Hour",
+    "status": 200,
+    "api": "1.10.3",
+    "count": 3
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.02,
+        "place": "9km NNE of Glendora, CA",
+        "time": 1678797284300,
+        "updated": 1678797507621,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40184647",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40184647.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "ci",
+        "code": "40184647",
+        "ids": ",ci40184647,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.059,
+        "rms": 0.2,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 9km NNE of Glendora, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.816,
+          34.2053333,
+          10.96
+        ]
+      },
+      "id": "ci40184647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "37 km SSW of Skwentna, Alaska",
+        "time": 1678796409772,
+        "updated": 1678796505289,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233cxhudt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233cxhudt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "0233cxhudt",
+        "ids": ",ak0233cxhudt,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.46,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 37 km SSW of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.7939,
+          61.7069,
+          101.6
+        ]
+      },
+      "id": "ak0233cxhudt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "36 km WNW of Karluk, Alaska",
+        "time": 1678794910070,
+        "updated": 1678795058970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0233cx3wv3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0233cx3wv3.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "0233cx3wv3",
+        "ids": ",ak0233cx3wv3,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.04,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 36 km WNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.9928,
+          57.7317,
+          180
+        ]
+      },
+      "id": "ak0233cx3wv3"
+    }
+  ],
+  "bbox": [
+    -154.9928,
+    34.2053333,
+    10.96,
+    -117.816,
+    61.7069,
+    180
+  ]
+}

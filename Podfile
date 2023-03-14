@@ -6,8 +6,12 @@ platform :ios, ios_version
 def shared_pods
   pod 'RxSwift', '6.5.0'
   pod 'RxCocoa', '6.5.0'
-  pod 'Alamofire'
+end
+
+def network_pods
   # pod 'Alamofire', :inhibit_warnings => true
+  pod 'Alamofire'
+  pod 'atlantis-proxyman'
 end
 
 target 'Letscode' do
@@ -37,6 +41,14 @@ target 'NetworkManager' do
   use_frameworks!
   
   # Pods for NetworkManager
+  
+end
+
+target 'Quakes' do
+  use_frameworks!
+  
+  # Pods for Quakes
+  network_pods
   
 end
 

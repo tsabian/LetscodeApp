@@ -1,4 +1,3 @@
-//
 //  PostNetwork.swift
 //  NetworkManager
 //
@@ -14,7 +13,7 @@ final class PostNetwork: NetworkManager {
     @Published var data = Posts()
 
     init() {
-        guard let url = URL(string: Environment.serverURLString) else {
+        guard let url = URL(string: NetworkManagerEnvironment.serverURLString) else {
             return
         }
         let request = URLRequest(url: url.appendingPathComponent(path))

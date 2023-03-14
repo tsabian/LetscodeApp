@@ -13,7 +13,7 @@ final class CommentsNetwork: NetworkManager {
     @Published var data = Comments()
 
     init(postID id: Int) {
-        guard let url = URL(string: Environment.serverURLString) else {
+        guard let url = URL(string: NetworkManagerEnvironment.serverURLString) else {
             return
         }
         let request = URLRequest(url: url.appendingPathComponent(String(format: path, id)))
