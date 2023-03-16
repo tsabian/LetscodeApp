@@ -52,6 +52,14 @@ target 'Quakes' do
   
 end
 
+target 'NoDo' do
+  use_frameworks!
+  
+  # Pods for NoDo
+
+end
+
+
 post_install do |installer|
 
   system('find "./Pods/Target Support Files" -name "*-resources.sh" | xargs -I{} patch -p0 {} -i ./copy_pod_resources_once.patch')

@@ -1,5 +1,5 @@
 //  ContentView.swift
-//  Quakesxx
+//  Quakes
 //
 //  Created by Tiago Oliveira on 09/03/23.
 //  Copyright © 2023 Tiago A. de Oliveira. All rights reserved.
@@ -30,6 +30,7 @@ struct ContentView: View {
                     NavigationLink(destination: QuakesDetailsView(feature: currentFeature)) {
                         FeatureCell(feature: currentFeature)
                     }
+                    .listRowSeparator(.hidden)
                 }
                 .navigationTitle("Quakes")
             }

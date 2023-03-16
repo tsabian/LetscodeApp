@@ -16,9 +16,11 @@ extension Mockable {
         guard let pathURL = bundle.url(forResource: fileName, withExtension: "json") else {
             fatalError("Path URL not found.")
         }
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .iso8601
         do {
             let data = try Data(contentsOf: pathURL)
-            return try JSONDecoder().decode(Output.self, from: data)
+            return try decoder.decode(Output.self, from: data)
         } catch {
             debugPrint(error)
             fatalError(error.localizedDescription.description)
