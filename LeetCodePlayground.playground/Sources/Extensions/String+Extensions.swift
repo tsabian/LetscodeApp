@@ -73,4 +73,11 @@ public extension String {
 
         return mask
     }
+
+    var convertFromHexString: String {
+        if let hexData = Data(hexString: self), let text = String(data: hexData, encoding: .utf8) {
+            return text.trimmingCharacters(in: .whitespacesAndNewlines)
+        }
+        return ""
+    }
 }

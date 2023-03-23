@@ -6,8 +6,12 @@ platform :ios, ios_version
 def shared_pods
   pod 'RxSwift', '6.5.0'
   pod 'RxCocoa', '6.5.0'
-  pod 'Alamofire'
+end
+
+def network_pods
   # pod 'Alamofire', :inhibit_warnings => true
+  pod 'Alamofire'
+  pod 'atlantis-proxyman'
 end
 
 target 'Letscode' do
@@ -15,16 +19,46 @@ target 'Letscode' do
     use_frameworks!
 
     # Pods for Letscode
-    shared_pods
 end
 
 target 'Quotesapp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Letscode
-  shared_pods
+  # Pods for Quotesapp
+  
 end
+
+target 'ListPart1' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ListPart1
+  
+end
+
+target 'NetworkManager' do
+  use_frameworks!
+  
+  # Pods for NetworkManager
+  
+end
+
+target 'Quakes' do
+  use_frameworks!
+  
+  # Pods for Quakes
+  network_pods
+  
+end
+
+target 'NoDo' do
+  use_frameworks!
+  
+  # Pods for NoDo
+
+end
+
 
 post_install do |installer|
 
