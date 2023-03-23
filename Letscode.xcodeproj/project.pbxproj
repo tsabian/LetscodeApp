@@ -13,6 +13,11 @@
 		520474CA29790E9C007FE10D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 520474C829790E9B007FE10D /* .swiftlint.yml */; };
 		520474CB29790E9C007FE10D /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 520474C929790E9B007FE10D /* .swiftformat */; };
 		520474CF29791340007FE10D /* Start.sh in Resources */ = {isa = PBXBuildFile; fileRef = 520474CE29791340007FE10D /* Start.sh */; };
+		520621EA29CC94430059A61B /* DateTimeWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621E929CC94430059A61B /* DateTimeWidgetEntry.swift */; };
+		520621EC29CC946D0059A61B /* DateTimeWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621EB29CC946D0059A61B /* DateTimeWidgetProvider.swift */; };
+		520621F029CC99130059A61B /* DateTimeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621EF29CC99130059A61B /* DateTimeWidgetView.swift */; };
+		520621F229CCA5A60059A61B /* DateTimeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621F129CCA5A60059A61B /* DateTimeWidget.swift */; };
+		520621F529CCA9750059A61B /* LetscodeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621F429CCA9750059A61B /* LetscodeWidgetBundle.swift */; };
 		5220E99229C0DAC0006B05F8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E99129C0DAC0006B05F8 /* Date+.swift */; };
 		5220E99329C0DAC4006B05F8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E99129C0DAC0006B05F8 /* Date+.swift */; };
 		5220E99529C0DAC5006B05F8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E99129C0DAC0006B05F8 /* Date+.swift */; };
@@ -113,7 +118,6 @@
 		52DAE8C6298FDDDB008D87C8 /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAE8C3298FDD5D008D87C8 /* Data+.swift */; };
 		52F3A37029CBFD5F00EF41F3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F3A36F29CBFD5F00EF41F3 /* WidgetKit.framework */; };
 		52F3A37229CBFD5F00EF41F3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F3A37129CBFD5F00EF41F3 /* SwiftUI.framework */; };
-		52F3A37529CBFD5F00EF41F3 /* LetscodeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3A37429CBFD5F00EF41F3 /* LetscodeWidgetBundle.swift */; };
 		52F3A37729CBFD5F00EF41F3 /* LetscodeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3A37629CBFD5F00EF41F3 /* LetscodeWidget.swift */; };
 		52F3A37929CBFD6200EF41F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F3A37829CBFD6200EF41F3 /* Assets.xcassets */; };
 		52F3A37D29CBFD6200EF41F3 /* LetscodeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 52F3A36E29CBFD5F00EF41F3 /* LetscodeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -121,6 +125,7 @@
 		52F3A38529CC073C00EF41F3 /* LetscodeWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3A38429CC073C00EF41F3 /* LetscodeWidgetProvider.swift */; };
 		5F90225C321C637C1A2D25FC /* Pods_NetworkManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90542CF366D9800AB752083A /* Pods_NetworkManager.framework */; };
 		69CF21FD0B39D1B5FE5EBBFC /* Pods_Quakes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B15E343090460494D8C1AB4 /* Pods_Quakes.framework */; };
+		A2397AD9DECBE61CB4EB9B17 /* Pods_LetscodeWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C39C2A045A232A2A2E7D8E7 /* Pods_LetscodeWidgetExtension.framework */; };
 		A829F93416634BA53D0E1269 /* Pods_Letscode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ED8A1098BFB580F91140A6 /* Pods_Letscode.framework */; };
 /* End PBXBuildFile section */
 
@@ -161,6 +166,11 @@
 		520474C829790E9B007FE10D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		520474C929790E9B007FE10D /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = SOURCE_ROOT; };
 		520474CE29791340007FE10D /* Start.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Start.sh; sourceTree = SOURCE_ROOT; };
+		520621E929CC94430059A61B /* DateTimeWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeWidgetEntry.swift; sourceTree = "<group>"; };
+		520621EB29CC946D0059A61B /* DateTimeWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeWidgetProvider.swift; sourceTree = "<group>"; };
+		520621EF29CC99130059A61B /* DateTimeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeWidgetView.swift; sourceTree = "<group>"; };
+		520621F129CCA5A60059A61B /* DateTimeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeWidget.swift; sourceTree = "<group>"; };
+		520621F429CCA9750059A61B /* LetscodeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidgetBundle.swift; sourceTree = "<group>"; };
 		5220E99129C0DAC0006B05F8 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		5220E9A929C106E9006B05F8 /* NoDoListMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NoDoListMock.json; sourceTree = "<group>"; };
 		5220E9AB29C1070E006B05F8 /* NoDoMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDoMock.swift; sourceTree = "<group>"; };
@@ -231,7 +241,6 @@
 		52F3A36E29CBFD5F00EF41F3 /* LetscodeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LetscodeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F3A36F29CBFD5F00EF41F3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		52F3A37129CBFD5F00EF41F3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		52F3A37429CBFD5F00EF41F3 /* LetscodeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidgetBundle.swift; sourceTree = "<group>"; };
 		52F3A37629CBFD5F00EF41F3 /* LetscodeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidget.swift; sourceTree = "<group>"; };
 		52F3A37829CBFD6200EF41F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F3A37A29CBFD6200EF41F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -241,7 +250,10 @@
 		7041DD3C943C24E4011B0208 /* Pods-ListPart1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListPart1.debug.xcconfig"; path = "Target Support Files/Pods-ListPart1/Pods-ListPart1.debug.xcconfig"; sourceTree = "<group>"; };
 		7D0DD0D6219420607A6582A1 /* Pods-Letscode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.debug.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.debug.xcconfig"; sourceTree = "<group>"; };
 		90542CF366D9800AB752083A /* Pods_NetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2857592A3CF89630AD078E /* Pods-LetscodeWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetscodeWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-LetscodeWidgetExtension/Pods-LetscodeWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		9C39C2A045A232A2A2E7D8E7 /* Pods_LetscodeWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetscodeWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F88A2DB20A18057DD25A0B /* Pods-NoDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoDo.release.xcconfig"; path = "Target Support Files/Pods-NoDo/Pods-NoDo.release.xcconfig"; sourceTree = "<group>"; };
+		B3F40DFF7423087BFE6FF81C /* Pods-LetscodeWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetscodeWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-LetscodeWidgetExtension/Pods-LetscodeWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
 		D2919436DA2786B6C85976C2 /* Pods-Quakes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quakes.release.xcconfig"; path = "Target Support Files/Pods-Quakes/Pods-Quakes.release.xcconfig"; sourceTree = "<group>"; };
 		D9FDE20E634FAB44DD935851 /* Pods-Quotesapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotesapp.release.xcconfig"; path = "Target Support Files/Pods-Quotesapp/Pods-Quotesapp.release.xcconfig"; sourceTree = "<group>"; };
 		DD16638F1F1056AAD171C0AE /* Pods-Quakes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quakes.debug.xcconfig"; path = "Target Support Files/Pods-Quakes/Pods-Quakes.debug.xcconfig"; sourceTree = "<group>"; };
@@ -304,6 +316,7 @@
 			files = (
 				52F3A37229CBFD5F00EF41F3 /* SwiftUI.framework in Frameworks */,
 				52F3A37029CBFD5F00EF41F3 /* WidgetKit.framework in Frameworks */,
+				A2397AD9DECBE61CB4EB9B17 /* Pods_LetscodeWidgetExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +338,8 @@
 				D2919436DA2786B6C85976C2 /* Pods-Quakes.release.xcconfig */,
 				6CF3A2528C378547FDF93537 /* Pods-NoDo.debug.xcconfig */,
 				A0F88A2DB20A18057DD25A0B /* Pods-NoDo.release.xcconfig */,
+				9B2857592A3CF89630AD078E /* Pods-LetscodeWidgetExtension.debug.xcconfig */,
+				B3F40DFF7423087BFE6FF81C /* Pods-LetscodeWidgetExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -340,6 +355,7 @@
 				36FF5BE25B7229144DF3F699 /* Pods_NoDo.framework */,
 				52F3A36F29CBFD5F00EF41F3 /* WidgetKit.framework */,
 				52F3A37129CBFD5F00EF41F3 /* SwiftUI.framework */,
+				9C39C2A045A232A2A2E7D8E7 /* Pods_LetscodeWidgetExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -370,6 +386,29 @@
 				520474CE29791340007FE10D /* Start.sh */,
 			);
 			path = Script;
+			sourceTree = "<group>";
+		};
+		520621E829CC93FB0059A61B /* DateTimeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				520621E929CC94430059A61B /* DateTimeWidgetEntry.swift */,
+				520621EB29CC946D0059A61B /* DateTimeWidgetProvider.swift */,
+				520621EF29CC99130059A61B /* DateTimeWidgetView.swift */,
+				520621F129CCA5A60059A61B /* DateTimeWidget.swift */,
+			);
+			path = DateTimeWidget;
+			sourceTree = "<group>";
+		};
+		520621F329CCA9590059A61B /* WidgetBundles */ = {
+			isa = PBXGroup;
+			children = (
+				520621F429CCA9750059A61B /* LetscodeWidgetBundle.swift */,
+				52F3A37A29CBFD6200EF41F3 /* Info.plist */,
+				52F3A37829CBFD6200EF41F3 /* Assets.xcassets */,
+				520621E829CC93FB0059A61B /* DateTimeWidget */,
+				52F3A37329CBFD5F00EF41F3 /* LetscodeWidget */,
+			);
+			path = WidgetBundles;
 			sourceTree = "<group>";
 		};
 		5220E9A829C106BF006B05F8 /* Mock */ = {
@@ -602,7 +641,6 @@
 				520474C32978FE93007FE10D /* LeetCodePlayground.playground */,
 				191BC11EA2CC23BA8E21D133 /* Frameworks */,
 				52A8306D296AD637006E363B /* Letscode */,
-				52F3A37329CBFD5F00EF41F3 /* LetscodeWidget */,
 				529C927C29B8CF8900F54B95 /* ListPart1 */,
 				52A663D329B942BE00383375 /* NetworkManager */,
 				5261E4FA29C0C39B0010FA45 /* NoDo */,
@@ -612,6 +650,7 @@
 				5287920C298E3E4C00F2E039 /* Quotesapp */,
 				52DAE8BF298FDCD1008D87C8 /* Shared */,
 				520474C629790E02007FE10D /* Supporting */,
+				520621F329CCA9590059A61B /* WidgetBundles */,
 			);
 			sourceTree = "<group>";
 		};
@@ -700,12 +739,9 @@
 		52F3A37329CBFD5F00EF41F3 /* LetscodeWidget */ = {
 			isa = PBXGroup;
 			children = (
-				52F3A37A29CBFD6200EF41F3 /* Info.plist */,
 				52F3A37629CBFD5F00EF41F3 /* LetscodeWidget.swift */,
-				52F3A37429CBFD5F00EF41F3 /* LetscodeWidgetBundle.swift */,
 				52F3A38229CC046700EF41F3 /* LetscodeWidgetEntry.swift */,
 				52F3A38429CC073C00EF41F3 /* LetscodeWidgetProvider.swift */,
-				52F3A37829CBFD6200EF41F3 /* Assets.xcassets */,
 			);
 			path = LetscodeWidget;
 			sourceTree = "<group>";
@@ -840,9 +876,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52F3A38129CBFD6300EF41F3 /* Build configuration list for PBXNativeTarget "LetscodeWidgetExtension" */;
 			buildPhases = (
+				40B707FA2868D6B7AAED9F83 /* [CP] Check Pods Manifest.lock */,
 				52F3A36A29CBFD5F00EF41F3 /* Sources */,
 				52F3A36B29CBFD5F00EF41F3 /* Frameworks */,
 				52F3A36C29CBFD5F00EF41F3 /* Resources */,
+				520621ED29CC94B90059A61B /* [Run] Swiftformat */,
+				520621EE29CC94CF0059A61B /* [Run] Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -1033,6 +1072,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		40B707FA2868D6B7AAED9F83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetscodeWidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4B3A0CC22029E7079EC21FBB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1087,6 +1148,44 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n   # swiftformat --lint --lenient .\n   swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
+		};
+		520621ED29CC94B90059A61B /* [Run] Swiftformat */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Run] Swiftformat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    # swiftformat --lint --lenient .\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
+		};
+		520621EE29CC94CF0059A61B /* [Run] Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Run] Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
 		};
 		5261E50729C0C5B30010FA45 /* [Run] swiftformat */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1492,10 +1591,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520621F529CCA9750059A61B /* LetscodeWidgetBundle.swift in Sources */,
+				520621F229CCA5A60059A61B /* DateTimeWidget.swift in Sources */,
 				52F3A38329CC046700EF41F3 /* LetscodeWidgetEntry.swift in Sources */,
+				520621F029CC99130059A61B /* DateTimeWidgetView.swift in Sources */,
+				520621EC29CC946D0059A61B /* DateTimeWidgetProvider.swift in Sources */,
 				52F3A38529CC073C00EF41F3 /* LetscodeWidgetProvider.swift in Sources */,
+				520621EA29CC94430059A61B /* DateTimeWidgetEntry.swift in Sources */,
 				52F3A37729CBFD5F00EF41F3 /* LetscodeWidget.swift in Sources */,
-				52F3A37529CBFD5F00EF41F3 /* LetscodeWidgetBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2082,6 +2185,7 @@
 		};
 		52F3A37F29CBFD6300EF41F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2857592A3CF89630AD078E /* Pods-LetscodeWidgetExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -2091,10 +2195,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z6MUH3V2QB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LetscodeWidget/Info.plist;
+				INFOPLIST_FILE = WidgetBundles/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = LetscodeWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Tiago A. de Oliveira. All rights reserved.";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2113,6 +2217,7 @@
 		};
 		52F3A38029CBFD6300EF41F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F40DFF7423087BFE6FF81C /* Pods-LetscodeWidgetExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -2122,10 +2227,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z6MUH3V2QB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LetscodeWidget/Info.plist;
+				INFOPLIST_FILE = WidgetBundles/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = LetscodeWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Tiago A. de Oliveira. All rights reserved.";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -15,6 +15,7 @@ struct LetscodeWidget: Widget {
         StaticConfiguration(kind: kind, provider: LetscodeWidgetProvider()) { _ in
             LetscodeWidgetView()
         }
+        .supportedFamilies([.systemSmall])
     }
 }
 

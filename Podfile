@@ -59,6 +59,13 @@ target 'NoDo' do
 
 end
 
+target 'LetscodeWidgetExtension' do
+  use_frameworks!
+  
+  # Pods for NoDo
+
+end
+
 
 post_install do |installer|
 
