@@ -111,10 +111,42 @@
 		52DAE8C4298FDD5D008D87C8 /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAE8C3298FDD5D008D87C8 /* Data+.swift */; };
 		52DAE8C5298FDDDB008D87C8 /* Encodable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAE8C1298FDD52008D87C8 /* Encodable+.swift */; };
 		52DAE8C6298FDDDB008D87C8 /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAE8C3298FDD5D008D87C8 /* Data+.swift */; };
+		52F3A37029CBFD5F00EF41F3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F3A36F29CBFD5F00EF41F3 /* WidgetKit.framework */; };
+		52F3A37229CBFD5F00EF41F3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F3A37129CBFD5F00EF41F3 /* SwiftUI.framework */; };
+		52F3A37529CBFD5F00EF41F3 /* LetscodeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3A37429CBFD5F00EF41F3 /* LetscodeWidgetBundle.swift */; };
+		52F3A37729CBFD5F00EF41F3 /* LetscodeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3A37629CBFD5F00EF41F3 /* LetscodeWidget.swift */; };
+		52F3A37929CBFD6200EF41F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F3A37829CBFD6200EF41F3 /* Assets.xcassets */; };
+		52F3A37D29CBFD6200EF41F3 /* LetscodeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 52F3A36E29CBFD5F00EF41F3 /* LetscodeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		52F3A38329CC046700EF41F3 /* LetscodeWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3A38229CC046700EF41F3 /* LetscodeWidgetEntry.swift */; };
+		52F3A38529CC073C00EF41F3 /* LetscodeWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3A38429CC073C00EF41F3 /* LetscodeWidgetProvider.swift */; };
 		5F90225C321C637C1A2D25FC /* Pods_NetworkManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90542CF366D9800AB752083A /* Pods_NetworkManager.framework */; };
 		69CF21FD0B39D1B5FE5EBBFC /* Pods_Quakes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B15E343090460494D8C1AB4 /* Pods_Quakes.framework */; };
 		A829F93416634BA53D0E1269 /* Pods_Letscode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ED8A1098BFB580F91140A6 /* Pods_Letscode.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52F3A37B29CBFD6200EF41F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A83063296AD636006E363B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F3A36D29CBFD5F00EF41F3;
+			remoteInfo = LetscodeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52F3A37E29CBFD6300EF41F3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				52F3A37D29CBFD6200EF41F3 /* LetscodeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		030A1556C2230B89207C1660 /* Pods_Quotesapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quotesapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,6 +228,15 @@
 		52DAE8BD298FB5B8008D87C8 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 		52DAE8C1298FDD52008D87C8 /* Encodable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+.swift"; sourceTree = "<group>"; };
 		52DAE8C3298FDD5D008D87C8 /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
+		52F3A36E29CBFD5F00EF41F3 /* LetscodeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LetscodeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F3A36F29CBFD5F00EF41F3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		52F3A37129CBFD5F00EF41F3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		52F3A37429CBFD5F00EF41F3 /* LetscodeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidgetBundle.swift; sourceTree = "<group>"; };
+		52F3A37629CBFD5F00EF41F3 /* LetscodeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidget.swift; sourceTree = "<group>"; };
+		52F3A37829CBFD6200EF41F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52F3A37A29CBFD6200EF41F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F3A38229CC046700EF41F3 /* LetscodeWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidgetEntry.swift; sourceTree = "<group>"; };
+		52F3A38429CC073C00EF41F3 /* LetscodeWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidgetProvider.swift; sourceTree = "<group>"; };
 		6CF3A2528C378547FDF93537 /* Pods-NoDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoDo.debug.xcconfig"; path = "Target Support Files/Pods-NoDo/Pods-NoDo.debug.xcconfig"; sourceTree = "<group>"; };
 		7041DD3C943C24E4011B0208 /* Pods-ListPart1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListPart1.debug.xcconfig"; path = "Target Support Files/Pods-ListPart1/Pods-ListPart1.debug.xcconfig"; sourceTree = "<group>"; };
 		7D0DD0D6219420607A6582A1 /* Pods-Letscode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.debug.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.debug.xcconfig"; sourceTree = "<group>"; };
@@ -257,6 +298,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52F3A36B29CBFD5F00EF41F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F3A37229CBFD5F00EF41F3 /* SwiftUI.framework in Frameworks */,
+				52F3A37029CBFD5F00EF41F3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -288,6 +338,8 @@
 				90542CF366D9800AB752083A /* Pods_NetworkManager.framework */,
 				2B15E343090460494D8C1AB4 /* Pods_Quakes.framework */,
 				36FF5BE25B7229144DF3F699 /* Pods_NoDo.framework */,
+				52F3A36F29CBFD5F00EF41F3 /* WidgetKit.framework */,
+				52F3A37129CBFD5F00EF41F3 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -548,14 +600,15 @@
 			isa = PBXGroup;
 			children = (
 				520474C32978FE93007FE10D /* LeetCodePlayground.playground */,
-				529C927C29B8CF8900F54B95 /* ListPart1 */,
-				52A663D329B942BE00383375 /* NetworkManager */,
-				52A663FE29B99F3300383375 /* Quakes */,
-				5261E4FA29C0C39B0010FA45 /* NoDo */,
 				191BC11EA2CC23BA8E21D133 /* Frameworks */,
 				52A8306D296AD637006E363B /* Letscode */,
+				52F3A37329CBFD5F00EF41F3 /* LetscodeWidget */,
+				529C927C29B8CF8900F54B95 /* ListPart1 */,
+				52A663D329B942BE00383375 /* NetworkManager */,
+				5261E4FA29C0C39B0010FA45 /* NoDo */,
 				03D432EF0DFA7934C6991760 /* Pods */,
 				52A8306C296AD637006E363B /* Products */,
+				52A663FE29B99F3300383375 /* Quakes */,
 				5287920C298E3E4C00F2E039 /* Quotesapp */,
 				52DAE8BF298FDCD1008D87C8 /* Shared */,
 				520474C629790E02007FE10D /* Supporting */,
@@ -571,6 +624,7 @@
 				52A663D229B942BE00383375 /* NetworkManager.app */,
 				52A663FD29B99F3200383375 /* Quakes.app */,
 				5261E4F929C0C39A0010FA45 /* NoDo.app */,
+				52F3A36E29CBFD5F00EF41F3 /* LetscodeWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -641,6 +695,19 @@
 				5220E99129C0DAC0006B05F8 /* Date+.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52F3A37329CBFD5F00EF41F3 /* LetscodeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				52F3A37A29CBFD6200EF41F3 /* Info.plist */,
+				52F3A37629CBFD5F00EF41F3 /* LetscodeWidget.swift */,
+				52F3A37429CBFD5F00EF41F3 /* LetscodeWidgetBundle.swift */,
+				52F3A38229CC046700EF41F3 /* LetscodeWidgetEntry.swift */,
+				52F3A38429CC073C00EF41F3 /* LetscodeWidgetProvider.swift */,
+				52F3A37829CBFD6200EF41F3 /* Assets.xcassets */,
+			);
+			path = LetscodeWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -757,15 +824,34 @@
 				52A83069296AD637006E363B /* Resources */,
 				520474C529790D0B007FE10D /* [Run] Swiftformat */,
 				520474C42979041A007FE10D /* [Run] Swiftlint */,
+				52F3A37E29CBFD6300EF41F3 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				52F3A37C29CBFD6200EF41F3 /* PBXTargetDependency */,
 			);
 			name = Letscode;
 			productName = Letscode;
 			productReference = 52A8306B296AD637006E363B /* Letscode.app */;
 			productType = "com.apple.product-type.application";
+		};
+		52F3A36D29CBFD5F00EF41F3 /* LetscodeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F3A38129CBFD6300EF41F3 /* Build configuration list for PBXNativeTarget "LetscodeWidgetExtension" */;
+			buildPhases = (
+				52F3A36A29CBFD5F00EF41F3 /* Sources */,
+				52F3A36B29CBFD5F00EF41F3 /* Frameworks */,
+				52F3A36C29CBFD5F00EF41F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetscodeWidgetExtension;
+			productName = LetscodeWidgetExtension;
+			productReference = 52F3A36E29CBFD5F00EF41F3 /* LetscodeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -796,6 +882,9 @@
 					52A8306A296AD637006E363B = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					52F3A36D29CBFD5F00EF41F3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = 52A83066296AD636006E363B /* Build configuration list for PBXProject "Letscode" */;
@@ -817,6 +906,7 @@
 				52A663D129B942BE00383375 /* NetworkManager */,
 				52A663FC29B99F3200383375 /* Quakes */,
 				5261E4F829C0C39A0010FA45 /* NoDo */,
+				52F3A36D29CBFD5F00EF41F3 /* LetscodeWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -885,6 +975,14 @@
 				52A83077296AD639006E363B /* Preview Assets.xcassets in Resources */,
 				52723E46298B825E00F61858 /* askme.sh in Resources */,
 				52A83073296AD639006E363B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F3A36C29CBFD5F00EF41F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F3A37929CBFD6200EF41F3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1390,7 +1488,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52F3A36A29CBFD5F00EF41F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F3A38329CC046700EF41F3 /* LetscodeWidgetEntry.swift in Sources */,
+				52F3A38529CC073C00EF41F3 /* LetscodeWidgetProvider.swift in Sources */,
+				52F3A37729CBFD5F00EF41F3 /* LetscodeWidget.swift in Sources */,
+				52F3A37529CBFD5F00EF41F3 /* LetscodeWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52F3A37C29CBFD6200EF41F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52F3A36D29CBFD5F00EF41F3 /* LetscodeWidgetExtension */;
+			targetProxy = 52F3A37B29CBFD6200EF41F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5261E50429C0C39F0010FA45 /* Debug */ = {
@@ -1881,6 +1998,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D0DD0D6219420607A6582A1 /* Pods-Letscode.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Letscode/Letscode.entitlements;
@@ -1923,6 +2041,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EC4D0ED98AAC514150D39BA /* Pods-Letscode.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Letscode/Letscode.entitlements;
@@ -1958,6 +2077,69 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52F3A37F29CBFD6300EF41F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6MUH3V2QB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetscodeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LetscodeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Tiago A. de Oliveira. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.Letscode.LetscodeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52F3A38029CBFD6300EF41F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6MUH3V2QB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetscodeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LetscodeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Tiago A. de Oliveira. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.Letscode.LetscodeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -2023,6 +2205,15 @@
 			buildConfigurations = (
 				52A8307B296AD639006E363B /* Debug */,
 				52A8307C296AD639006E363B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F3A38129CBFD6300EF41F3 /* Build configuration list for PBXNativeTarget "LetscodeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F3A37F29CBFD6300EF41F3 /* Debug */,
+				52F3A38029CBFD6300EF41F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
