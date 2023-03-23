@@ -18,6 +18,7 @@
 		520621F029CC99130059A61B /* DateTimeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621EF29CC99130059A61B /* DateTimeWidgetView.swift */; };
 		520621F229CCA5A60059A61B /* DateTimeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621F129CCA5A60059A61B /* DateTimeWidget.swift */; };
 		520621F529CCA9750059A61B /* LetscodeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621F429CCA9750059A61B /* LetscodeWidgetBundle.swift */; };
+		520621F729CCAE410059A61B /* LetscodeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621F629CCAE410059A61B /* LetscodeWidgetView.swift */; };
 		5220E99229C0DAC0006B05F8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E99129C0DAC0006B05F8 /* Date+.swift */; };
 		5220E99329C0DAC4006B05F8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E99129C0DAC0006B05F8 /* Date+.swift */; };
 		5220E99529C0DAC5006B05F8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E99129C0DAC0006B05F8 /* Date+.swift */; };
@@ -171,6 +172,7 @@
 		520621EF29CC99130059A61B /* DateTimeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeWidgetView.swift; sourceTree = "<group>"; };
 		520621F129CCA5A60059A61B /* DateTimeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeWidget.swift; sourceTree = "<group>"; };
 		520621F429CCA9750059A61B /* LetscodeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidgetBundle.swift; sourceTree = "<group>"; };
+		520621F629CCAE410059A61B /* LetscodeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidgetView.swift; sourceTree = "<group>"; };
 		5220E99129C0DAC0006B05F8 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		5220E9A929C106E9006B05F8 /* NoDoListMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NoDoListMock.json; sourceTree = "<group>"; };
 		5220E9AB29C1070E006B05F8 /* NoDoMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDoMock.swift; sourceTree = "<group>"; };
@@ -391,10 +393,10 @@
 		520621E829CC93FB0059A61B /* DateTimeWidget */ = {
 			isa = PBXGroup;
 			children = (
+				520621F129CCA5A60059A61B /* DateTimeWidget.swift */,
 				520621E929CC94430059A61B /* DateTimeWidgetEntry.swift */,
 				520621EB29CC946D0059A61B /* DateTimeWidgetProvider.swift */,
 				520621EF29CC99130059A61B /* DateTimeWidgetView.swift */,
-				520621F129CCA5A60059A61B /* DateTimeWidget.swift */,
 			);
 			path = DateTimeWidget;
 			sourceTree = "<group>";
@@ -742,6 +744,7 @@
 				52F3A37629CBFD5F00EF41F3 /* LetscodeWidget.swift */,
 				52F3A38229CC046700EF41F3 /* LetscodeWidgetEntry.swift */,
 				52F3A38429CC073C00EF41F3 /* LetscodeWidgetProvider.swift */,
+				520621F629CCAE410059A61B /* LetscodeWidgetView.swift */,
 			);
 			path = LetscodeWidget;
 			sourceTree = "<group>";
@@ -1597,6 +1600,7 @@
 				520621F029CC99130059A61B /* DateTimeWidgetView.swift in Sources */,
 				520621EC29CC946D0059A61B /* DateTimeWidgetProvider.swift in Sources */,
 				52F3A38529CC073C00EF41F3 /* LetscodeWidgetProvider.swift in Sources */,
+				520621F729CCAE410059A61B /* LetscodeWidgetView.swift in Sources */,
 				520621EA29CC94430059A61B /* DateTimeWidgetEntry.swift in Sources */,
 				52F3A37729CBFD5F00EF41F3 /* LetscodeWidget.swift in Sources */,
 			);

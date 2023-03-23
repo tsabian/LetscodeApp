@@ -18,20 +18,3 @@ struct LetscodeWidget: Widget {
         .supportedFamilies([.systemSmall])
     }
 }
-
-struct LetscodeWidgetView: View {
-    var body: some View {
-        VStack {
-            Text("Hello World")
-                .bold()
-                .italic()
-        }
-    }
-}
-
-struct LetscodeWidget_Previews: PreviewProvider {
-    static var previews: some View {
-        LetscodeWidgetView()
-            .previewContext(WidgetPreviewContext(family: .systemSmall))
-    }
-}
