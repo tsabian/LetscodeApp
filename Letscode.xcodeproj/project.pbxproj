@@ -755,8 +755,8 @@
 				52A83067296AD637006E363B /* Sources */,
 				52A83068296AD637006E363B /* Frameworks */,
 				52A83069296AD637006E363B /* Resources */,
-				520474C42979041A007FE10D /* [Run] Swiftlint */,
 				520474C529790D0B007FE10D /* [Run] Swiftformat */,
+				520474C42979041A007FE10D /* [Run] Swiftlint */,
 			);
 			buildRules = (
 			);
