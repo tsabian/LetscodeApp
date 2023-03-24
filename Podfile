@@ -54,18 +54,15 @@ end
 
 target 'NoDo' do
   use_frameworks!
-  
-  # Pods for NoDo
-
 end
 
 target 'LetscodeWidgetExtension' do
   use_frameworks!
-  
-  # Pods for NoDo
-
 end
 
+target 'QuotesWidgetExtension' do
+  use_frameworks!
+end
 
 post_install do |installer|
 

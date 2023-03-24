@@ -19,6 +19,17 @@
 		520621F229CCA5A60059A61B /* DateTimeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621F129CCA5A60059A61B /* DateTimeWidget.swift */; };
 		520621F529CCA9750059A61B /* LetscodeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621F429CCA9750059A61B /* LetscodeWidgetBundle.swift */; };
 		520621F729CCAE410059A61B /* LetscodeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520621F629CCAE410059A61B /* LetscodeWidgetView.swift */; };
+		520621FD29CCC4580059A61B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F3A36F29CBFD5F00EF41F3 /* WidgetKit.framework */; };
+		520621FE29CCC4580059A61B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F3A37129CBFD5F00EF41F3 /* SwiftUI.framework */; };
+		5206220129CCC4590059A61B /* QuotesWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206220029CCC4590059A61B /* QuotesWidgetBundle.swift */; };
+		5206220329CCC4590059A61B /* QuotesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206220229CCC4590059A61B /* QuotesWidget.swift */; };
+		5206220529CCC45C0059A61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5206220429CCC45C0059A61B /* Assets.xcassets */; };
+		5206220929CCC45C0059A61B /* QuotesWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 520621FC29CCC4580059A61B /* QuotesWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5206220F29CCC4EE0059A61B /* QuotesWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206220E29CCC4EE0059A61B /* QuotesWidgetEntry.swift */; };
+		5206221329CCC5C00059A61B /* QuotesWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206221229CCC5C00059A61B /* QuotesWidgetProvider.swift */; };
+		5206221529CCC6260059A61B /* QuotesWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206221429CCC6260059A61B /* QuotesWidgetView.swift */; };
+		5206221729CCC8890059A61B /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206221629CCC8890059A61B /* QuoteModel.swift */; };
+		5206221929CCC8B90059A61B /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206221829CCC8B90059A61B /* QuoteService.swift */; };
 		5220E99229C0DAC0006B05F8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E99129C0DAC0006B05F8 /* Date+.swift */; };
 		5220E99329C0DAC4006B05F8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E99129C0DAC0006B05F8 /* Date+.swift */; };
 		5220E99529C0DAC5006B05F8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E99129C0DAC0006B05F8 /* Date+.swift */; };
@@ -124,6 +135,7 @@
 		52F3A37D29CBFD6200EF41F3 /* LetscodeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 52F3A36E29CBFD5F00EF41F3 /* LetscodeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52F3A38329CC046700EF41F3 /* LetscodeWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3A38229CC046700EF41F3 /* LetscodeWidgetEntry.swift */; };
 		52F3A38529CC073C00EF41F3 /* LetscodeWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3A38429CC073C00EF41F3 /* LetscodeWidgetProvider.swift */; };
+		5BF549BC7D9C05328A67F481 /* Pods_QuotesWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB2D26AC76DC48080F5E5B9 /* Pods_QuotesWidgetExtension.framework */; };
 		5F90225C321C637C1A2D25FC /* Pods_NetworkManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90542CF366D9800AB752083A /* Pods_NetworkManager.framework */; };
 		69CF21FD0B39D1B5FE5EBBFC /* Pods_Quakes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B15E343090460494D8C1AB4 /* Pods_Quakes.framework */; };
 		A2397AD9DECBE61CB4EB9B17 /* Pods_LetscodeWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C39C2A045A232A2A2E7D8E7 /* Pods_LetscodeWidgetExtension.framework */; };
@@ -131,6 +143,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5206220729CCC45C0059A61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A83063296AD636006E363B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520621FB29CCC4580059A61B;
+			remoteInfo = QuotesWidgetExtension;
+		};
 		52F3A37B29CBFD6200EF41F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 52A83063296AD636006E363B /* Project object */;
@@ -141,6 +160,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		5206220D29CCC45C0059A61B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5206220929CCC45C0059A61B /* QuotesWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52F3A37E29CBFD6300EF41F3 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +190,7 @@
 		0C7AC5DA3383213814C09F7B /* Pods-NetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkManager.release.xcconfig"; path = "Target Support Files/Pods-NetworkManager/Pods-NetworkManager.release.xcconfig"; sourceTree = "<group>"; };
 		1EC4D0ED98AAC514150D39BA /* Pods-Letscode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.release.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.release.xcconfig"; sourceTree = "<group>"; };
 		2B15E343090460494D8C1AB4 /* Pods_Quakes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quakes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D938F14C2536332423D9852 /* Pods-QuotesWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotesWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-QuotesWidgetExtension/Pods-QuotesWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		36FF5BE25B7229144DF3F699 /* Pods_NoDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F789E71CF93350F848990A4 /* Pods_ListPart1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListPart1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47ED8A1098BFB580F91140A6 /* Pods_Letscode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Letscode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +204,16 @@
 		520621F129CCA5A60059A61B /* DateTimeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeWidget.swift; sourceTree = "<group>"; };
 		520621F429CCA9750059A61B /* LetscodeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidgetBundle.swift; sourceTree = "<group>"; };
 		520621F629CCAE410059A61B /* LetscodeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidgetView.swift; sourceTree = "<group>"; };
+		520621FC29CCC4580059A61B /* QuotesWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuotesWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5206220029CCC4590059A61B /* QuotesWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesWidgetBundle.swift; sourceTree = "<group>"; };
+		5206220229CCC4590059A61B /* QuotesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesWidget.swift; sourceTree = "<group>"; };
+		5206220429CCC45C0059A61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5206220629CCC45C0059A61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5206220E29CCC4EE0059A61B /* QuotesWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesWidgetEntry.swift; sourceTree = "<group>"; };
+		5206221229CCC5C00059A61B /* QuotesWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesWidgetProvider.swift; sourceTree = "<group>"; };
+		5206221429CCC6260059A61B /* QuotesWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesWidgetView.swift; sourceTree = "<group>"; };
+		5206221629CCC8890059A61B /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		5206221829CCC8B90059A61B /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteService.swift; sourceTree = "<group>"; };
 		5220E99129C0DAC0006B05F8 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		5220E9A929C106E9006B05F8 /* NoDoListMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NoDoListMock.json; sourceTree = "<group>"; };
 		5220E9AB29C1070E006B05F8 /* NoDoMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDoMock.swift; sourceTree = "<group>"; };
@@ -251,6 +292,7 @@
 		6CF3A2528C378547FDF93537 /* Pods-NoDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoDo.debug.xcconfig"; path = "Target Support Files/Pods-NoDo/Pods-NoDo.debug.xcconfig"; sourceTree = "<group>"; };
 		7041DD3C943C24E4011B0208 /* Pods-ListPart1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListPart1.debug.xcconfig"; path = "Target Support Files/Pods-ListPart1/Pods-ListPart1.debug.xcconfig"; sourceTree = "<group>"; };
 		7D0DD0D6219420607A6582A1 /* Pods-Letscode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.debug.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.debug.xcconfig"; sourceTree = "<group>"; };
+		7D707D0E921C08F28F23C541 /* Pods-QuotesWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotesWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-QuotesWidgetExtension/Pods-QuotesWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
 		90542CF366D9800AB752083A /* Pods_NetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2857592A3CF89630AD078E /* Pods-LetscodeWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetscodeWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-LetscodeWidgetExtension/Pods-LetscodeWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		9C39C2A045A232A2A2E7D8E7 /* Pods_LetscodeWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetscodeWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -259,11 +301,22 @@
 		D2919436DA2786B6C85976C2 /* Pods-Quakes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quakes.release.xcconfig"; path = "Target Support Files/Pods-Quakes/Pods-Quakes.release.xcconfig"; sourceTree = "<group>"; };
 		D9FDE20E634FAB44DD935851 /* Pods-Quotesapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotesapp.release.xcconfig"; path = "Target Support Files/Pods-Quotesapp/Pods-Quotesapp.release.xcconfig"; sourceTree = "<group>"; };
 		DD16638F1F1056AAD171C0AE /* Pods-Quakes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quakes.debug.xcconfig"; path = "Target Support Files/Pods-Quakes/Pods-Quakes.debug.xcconfig"; sourceTree = "<group>"; };
+		DDB2D26AC76DC48080F5E5B9 /* Pods_QuotesWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuotesWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12BE354688A9C2D0F53F18D /* Pods-Quotesapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotesapp.debug.xcconfig"; path = "Target Support Files/Pods-Quotesapp/Pods-Quotesapp.debug.xcconfig"; sourceTree = "<group>"; };
 		F2CF43FB454F9C580750E896 /* Pods-NetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkManager.debug.xcconfig"; path = "Target Support Files/Pods-NetworkManager/Pods-NetworkManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		520621F929CCC4580059A61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520621FE29CCC4580059A61B /* SwiftUI.framework in Frameworks */,
+				520621FD29CCC4580059A61B /* WidgetKit.framework in Frameworks */,
+				5BF549BC7D9C05328A67F481 /* Pods_QuotesWidgetExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5261E4F629C0C39A0010FA45 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,6 +395,8 @@
 				A0F88A2DB20A18057DD25A0B /* Pods-NoDo.release.xcconfig */,
 				9B2857592A3CF89630AD078E /* Pods-LetscodeWidgetExtension.debug.xcconfig */,
 				B3F40DFF7423087BFE6FF81C /* Pods-LetscodeWidgetExtension.release.xcconfig */,
+				2D938F14C2536332423D9852 /* Pods-QuotesWidgetExtension.debug.xcconfig */,
+				7D707D0E921C08F28F23C541 /* Pods-QuotesWidgetExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -358,6 +413,7 @@
 				52F3A36F29CBFD5F00EF41F3 /* WidgetKit.framework */,
 				52F3A37129CBFD5F00EF41F3 /* SwiftUI.framework */,
 				9C39C2A045A232A2A2E7D8E7 /* Pods_LetscodeWidgetExtension.framework */,
+				DDB2D26AC76DC48080F5E5B9 /* Pods_QuotesWidgetExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -411,6 +467,22 @@
 				52F3A37329CBFD5F00EF41F3 /* LetscodeWidget */,
 			);
 			path = WidgetBundles;
+			sourceTree = "<group>";
+		};
+		520621FF29CCC4590059A61B /* QuotesWidget */ = {
+			isa = PBXGroup;
+			children = (
+				5206220629CCC45C0059A61B /* Info.plist */,
+				5206220229CCC4590059A61B /* QuotesWidget.swift */,
+				5206220029CCC4590059A61B /* QuotesWidgetBundle.swift */,
+				5206220E29CCC4EE0059A61B /* QuotesWidgetEntry.swift */,
+				5206221229CCC5C00059A61B /* QuotesWidgetProvider.swift */,
+				5206221429CCC6260059A61B /* QuotesWidgetView.swift */,
+				5206221629CCC8890059A61B /* QuoteModel.swift */,
+				5206221829CCC8B90059A61B /* QuoteService.swift */,
+				5206220429CCC45C0059A61B /* Assets.xcassets */,
+			);
+			path = QuotesWidget;
 			sourceTree = "<group>";
 		};
 		5220E9A829C106BF006B05F8 /* Mock */ = {
@@ -650,6 +722,7 @@
 				52A8306C296AD637006E363B /* Products */,
 				52A663FE29B99F3300383375 /* Quakes */,
 				5287920C298E3E4C00F2E039 /* Quotesapp */,
+				520621FF29CCC4590059A61B /* QuotesWidget */,
 				52DAE8BF298FDCD1008D87C8 /* Shared */,
 				520474C629790E02007FE10D /* Supporting */,
 				520621F329CCA9590059A61B /* WidgetBundles */,
@@ -666,6 +739,7 @@
 				52A663FD29B99F3200383375 /* Quakes.app */,
 				5261E4F929C0C39A0010FA45 /* NoDo.app */,
 				52F3A36E29CBFD5F00EF41F3 /* LetscodeWidgetExtension.appex */,
+				520621FC29CCC4580059A61B /* QuotesWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -752,6 +826,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		520621FB29CCC4580059A61B /* QuotesWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5206220A29CCC45C0059A61B /* Build configuration list for PBXNativeTarget "QuotesWidgetExtension" */;
+			buildPhases = (
+				3C6BE8948613EEC455DB8FE5 /* [CP] Check Pods Manifest.lock */,
+				520621F829CCC4580059A61B /* Sources */,
+				520621F929CCC4580059A61B /* Frameworks */,
+				520621FA29CCC4580059A61B /* Resources */,
+				5206221029CCC5180059A61B /* [Run] Swiftformat */,
+				5206221129CCC5270059A61B /* [Run] Swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuotesWidgetExtension;
+			productName = QuotesWidgetExtension;
+			productReference = 520621FC29CCC4580059A61B /* QuotesWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		5261E4F829C0C39A0010FA45 /* NoDo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5261E50629C0C39F0010FA45 /* Build configuration list for PBXNativeTarget "NoDo" */;
@@ -782,10 +876,12 @@
 				52879209298E3E4C00F2E039 /* Resources */,
 				52DAE8BC298FA2F4008D87C8 /* [Run] Swiftformat */,
 				52DAE8BB298FA2CF008D87C8 /* [Run] Swiftlint */,
+				5206220D29CCC45C0059A61B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5206220829CCC45C0059A61B /* PBXTargetDependency */,
 			);
 			name = Quotesapp;
 			productName = quotesapp;
@@ -906,6 +1002,9 @@
 				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = "Tiago A. de Oliveira";
 				TargetAttributes = {
+					520621FB29CCC4580059A61B = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					5261E4F829C0C39A0010FA45 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -949,11 +1048,20 @@
 				52A663FC29B99F3200383375 /* Quakes */,
 				5261E4F829C0C39A0010FA45 /* NoDo */,
 				52F3A36D29CBFD5F00EF41F3 /* LetscodeWidgetExtension */,
+				520621FB29CCC4580059A61B /* QuotesWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		520621FA29CCC4580059A61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5206220529CCC45C0059A61B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5261E4F729C0C39A0010FA45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1075,6 +1183,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3C6BE8948613EEC455DB8FE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuotesWidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		40B707FA2868D6B7AAED9F83 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1172,6 +1302,44 @@
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    # swiftformat --lint --lenient .\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
 		};
 		520621EE29CC94CF0059A61B /* [Run] Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Run] Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
+		};
+		5206221029CCC5180059A61B /* [Run] Swiftformat */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Run] Swiftformat";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    swiftformat --lint --lenient .\n    # swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
+		};
+		5206221129CCC5270059A61B /* [Run] Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -1471,6 +1639,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		520621F829CCC4580059A61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5206221929CCC8B90059A61B /* QuoteService.swift in Sources */,
+				5206220329CCC4590059A61B /* QuotesWidget.swift in Sources */,
+				5206221329CCC5C00059A61B /* QuotesWidgetProvider.swift in Sources */,
+				5206221729CCC8890059A61B /* QuoteModel.swift in Sources */,
+				5206220F29CCC4EE0059A61B /* QuotesWidgetEntry.swift in Sources */,
+				5206221529CCC6260059A61B /* QuotesWidgetView.swift in Sources */,
+				5206220129CCC4590059A61B /* QuotesWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5261E4F529C0C39A0010FA45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1609,6 +1791,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5206220829CCC45C0059A61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520621FB29CCC4580059A61B /* QuotesWidgetExtension */;
+			targetProxy = 5206220729CCC45C0059A61B /* PBXContainerItemProxy */;
+		};
 		52F3A37C29CBFD6200EF41F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 52F3A36D29CBFD5F00EF41F3 /* LetscodeWidgetExtension */;
@@ -1617,6 +1804,67 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		5206220B29CCC45C0059A61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D938F14C2536332423D9852 /* Pods-QuotesWidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6MUH3V2QB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuotesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuotesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Tiago A. de Oliveira. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.quotesapp.QuotesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5206220C29CCC45C0059A61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D707D0E921C08F28F23C541 /* Pods-QuotesWidgetExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6MUH3V2QB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuotesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuotesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Tiago A. de Oliveira. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.quotesapp.QuotesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		5261E50429C0C39F0010FA45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6CF3A2528C378547FDF93537 /* Pods-NoDo.debug.xcconfig */;
@@ -1692,6 +1940,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F12BE354688A9C2D0F53F18D /* Pods-Quotesapp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -1728,6 +1977,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9FDE20E634FAB44DD935851 /* Pods-Quotesapp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -2255,6 +2505,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5206220A29CCC45C0059A61B /* Build configuration list for PBXNativeTarget "QuotesWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5206220B29CCC45C0059A61B /* Debug */,
+				5206220C29CCC45C0059A61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5261E50629C0C39F0010FA45 /* Build configuration list for PBXNativeTarget "NoDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

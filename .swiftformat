@@ -28,6 +28,7 @@
 
 # Disabled rules
 # --disable numberFormatting
+--disable hoistPatternLet
 
 # Tool options
 --symlinks ignore
@@ -38,3 +39,4 @@
 --exclude MockingbirdMocks
 --exclude MockingbirdSupport
 --exclude Build
+--exclude CI
