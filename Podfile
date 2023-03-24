@@ -64,6 +64,16 @@ target 'QuotesWidgetExtension' do
   use_frameworks!
 end
 
+# Weather App
+
+target 'Weatherapp' do
+  use_frameworks!
+end
+
+target 'WeatherAppWidgetExtension' do
+  use_frameworks!
+end
+
 post_install do |installer|
 
   system('find "./Pods/Target Support Files" -name "*-resources.sh" | xargs -I{} patch -p0 {} -i ./copy_pod_resources_once.patch')

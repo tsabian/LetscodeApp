@@ -1,0 +1,13 @@
+//
+//  weather-extension-debub.xcconfig
+//  Letscode
+//
+//  Created by Tiago Almeida de Oliveira on 24/03/23.
+//  Copyright © 2023 Tiago A. de Oliveira. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-WeatherAppWidgetExtension/Pods-WeatherAppWidgetExtension.release.xcconfig"
+#include "WeatherShared/Config/weather-release.xcconfig"
