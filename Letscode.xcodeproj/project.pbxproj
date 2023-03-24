@@ -242,6 +242,7 @@
 		ED72992A29CE2A8A0086D7F2 /* weather-app-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = ED72992629CE2A8A0086D7F2 /* weather-app-debug.xcconfig */; };
 		ED72992C29CE2CF10086D7F2 /* WeatherEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72992B29CE2CF10086D7F2 /* WeatherEnvironment.swift */; };
 		ED72992D29CE2CF10086D7F2 /* WeatherEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72992B29CE2CF10086D7F2 /* WeatherEnvironment.swift */; };
+		ED72993029CE3F610086D7F2 /* WeatherModel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72992F29CE3F610086D7F2 /* WeatherModel+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -455,6 +456,7 @@
 		ED72992629CE2A8A0086D7F2 /* weather-app-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "weather-app-debug.xcconfig"; sourceTree = "<group>"; };
 		ED72992B29CE2CF10086D7F2 /* WeatherEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEnvironment.swift; sourceTree = "<group>"; };
 		ED72992E29CE2DF00086D7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ED72992F29CE3F610086D7F2 /* WeatherModel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherModel+.swift"; sourceTree = "<group>"; };
 		F12BE354688A9C2D0F53F18D /* Pods-Quotesapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotesapp.debug.xcconfig"; path = "Target Support Files/Pods-Quotesapp/Pods-Quotesapp.debug.xcconfig"; sourceTree = "<group>"; };
 		F2CF43FB454F9C580750E896 /* Pods-NetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkManager.debug.xcconfig"; path = "Target Support Files/Pods-NetworkManager/Pods-NetworkManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1013,6 +1015,7 @@
 		ED72988929CE00CB0086D7F2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				ED72992F29CE3F610086D7F2 /* WeatherModel+.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -2281,6 +2284,7 @@
 				ED7298F029CE0E150086D7F2 /* CryptoUtilsAES256.swift in Sources */,
 				ED7298E529CE0DDE0086D7F2 /* EncryptedProperty.swift in Sources */,
 				ED7298BC29CE0D7C0086D7F2 /* EnvironmentSetable.swift in Sources */,
+				ED72993029CE3F610086D7F2 /* WeatherModel+.swift in Sources */,
 				ED7298C229CE0D7C0086D7F2 /* NetworkManager.swift in Sources */,
 				ED7298BE29CE0D7C0086D7F2 /* Mockable.swift in Sources */,
 				ED7298C329CE0D7C0086D7F2 /* Double+.swift in Sources */,
