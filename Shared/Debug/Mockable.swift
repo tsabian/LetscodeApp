@@ -8,12 +8,12 @@
 import Foundation
 
 protocol Mockable {
-    func load<Output: Codable>(from bundle: Bundle, on fileName: String) -> Output
+    func load<Output: Codable>(from bundle: Bundle, on jsonFileName: String) -> Output
 }
 
 extension Mockable {
-    func load<Output: Codable>(from bundle: Bundle, on fileName: String) -> Output {
-        guard let pathURL = bundle.url(forResource: fileName, withExtension: "json") else {
+    func load<Output: Codable>(from bundle: Bundle, on jsonFileName: String) -> Output {
+        guard let pathURL = bundle.url(forResource: jsonFileName, withExtension: "json") else {
             fatalError("Path URL not found.")
         }
         let decoder = JSONDecoder()

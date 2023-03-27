@@ -15,16 +15,16 @@ def network_pods
 end
 
 target 'Letscode' do
-    # Comment the next line if you don't want to use dynamic frameworks
-    use_frameworks!
-
-    # Pods for Letscode
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for Letscode
 end
 
 target 'Quotesapp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  
   # Pods for Quotesapp
   
 end
@@ -32,7 +32,7 @@ end
 target 'ListPart1' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  
   # Pods for ListPart1
   
 end
@@ -68,6 +68,8 @@ end
 
 target 'Weatherapp' do
   use_frameworks!
+  
+  pod 'atlantis-proxyman'
 end
 
 target 'WeatherAppWidgetExtension' do
@@ -75,14 +77,14 @@ target 'WeatherAppWidgetExtension' do
 end
 
 post_install do |installer|
-
+  
   system('find "./Pods/Target Support Files" -name "*-resources.sh" | xargs -I{} patch -p0 {} -i ./copy_pod_resources_once.patch')
-
-    installer.pods_project.targets.each do |target|
-        target.build_configurations.each do |config|
-            config.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = "YES"
-            config.build_settings['DEAD_CODE_STRIPPING'] = 'YES'
-            config.build_settings['IPHONE_DEPLOYMENT_TARGET'] = ios_version
-        end
+  
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = "YES"
+      config.build_settings['DEAD_CODE_STRIPPING'] = 'YES'
+      config.build_settings['IPHONE_DEPLOYMENT_TARGET'] = ios_version
     end
+  end
 end

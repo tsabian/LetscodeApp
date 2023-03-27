@@ -1,4 +1,3 @@
-//
 //  WeatherModel+.swift
 //  Weatherapp
 //
@@ -7,6 +6,8 @@
 //
 
 import Foundation
+
+// MARK: - Condition
 
 extension Condition {
     var iconValue: String {
@@ -23,6 +24,9 @@ extension Condition {
 
         case _ where current.contains("cloudy"):
             return "☁️"
+
+        case _ where current.contains("rain possible"):
+            return "🌦️"
 
         case _ where current.contains("drizzle"):
             return "🌧️"

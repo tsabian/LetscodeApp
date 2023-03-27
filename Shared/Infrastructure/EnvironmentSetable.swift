@@ -7,20 +7,53 @@
 
 import Foundation
 
+// MARK: - EnvironmentSetableProtocol
+
+protocol EnvironmentSetableProtocol {
+    associatedtype Value
+    var keyName: String { get }
+    var wrappedValue: Value { mutating get }
+
+    init(from keyName: String)
+}
+
+extension EnvironmentSetableProtocol {
+    func getEnvironmentFromBundle() -> Value {
+        guard let value = Bundle.main.infoDictionary?[keyName] as? Value else {
+            fatalError("The variable \(keyName) can't be nil")
+        }
+        return value
+    }
+}
+
+// MARK: - EnvironmentSetable
+
 @propertyWrapper
-struct EnvironmentSetable<Output> {
+struct EnvironmentSetable: EnvironmentSetableProtocol {
     var keyName: String
 
-    var wrappedValue: Output {
+    var wrappedValue: String {
         mutating get {
-            guard let value = Bundle.main.infoDictionary?[keyName] as? Output else {
-                fatalError("The variable \(keyName) can't be nil")
-            }
-            return value
+            getEnvironmentFromBundle()
         }
     }
 
     init(from keyName: String) {
         self.keyName = keyName
+    }
+}
+
+// MARK: - EnvironmentEncryptedSetable
+
+@propertyWrapper
+struct EnvironmentEncryptedSetable: EnvironmentSetableProtocol {
+    var keyName: String
+
+    @EncryptedProperty(encryptionChain: RCPlistKeysModel(salt: AppConstants.salt, publicKey: AppConstants.key, initVector: AppConstants.iv))
+    private(set) var wrappedValue: String = ""
+
+    init(from keyName: String) {
+        self.keyName = keyName
+        wrappedValue = getEnvironmentFromBundle()
     }
 }

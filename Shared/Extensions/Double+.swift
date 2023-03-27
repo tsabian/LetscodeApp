@@ -17,4 +17,8 @@ extension Double {
         numberFormat.minimumFractionDigits = 2
         return numberFormat.string(from: self as NSNumber) ?? ""
     }
+
+    func toCelcius() -> String {
+        String(format: "%0.0f°", self)
+    }
 }

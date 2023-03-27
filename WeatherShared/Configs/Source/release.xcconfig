@@ -10,4 +10,4 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 API_URL = https:/$()/api.weatherapi.com/v1
-API_KEY = -
+API_KEY = 9704ef89af5d45d28cb164936232403

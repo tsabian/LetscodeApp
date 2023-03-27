@@ -9,10 +9,8 @@ import Foundation
 
 struct WeatherEnvironment {
     @EnvironmentSetable(from: "API_URL")
-    @EncryptedProperty
-    var apiURL: String
+    static var apiURL: String
 
-    @EnvironmentSetable(from: "API_KEY")
-    @EncryptedProperty
-    var apiKey: String
+    @EnvironmentEncryptedSetable(from: "API_KEY")
+    static var apiKey: String
 }

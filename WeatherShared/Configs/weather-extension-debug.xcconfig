@@ -1,5 +1,5 @@
 //
-//  debug.xcconfig
+//  weather-extension-debub.xcconfig
 //  Letscode
 //
 //  Created by Tiago Almeida de Oliveira on 24/03/23.
@@ -9,5 +9,5 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-API_URL = https:/$()/api.weatherapi.com/v1
-API_KEY = 4x3Ka8EUYeL0DQp0FQDFUQ==
+#include "Pods/Target Support Files/Pods-WeatherAppWidgetExtension/Pods-WeatherAppWidgetExtension.debug.xcconfig"
+#include "WeatherShared/Configs/weather-debug.xcconfig"

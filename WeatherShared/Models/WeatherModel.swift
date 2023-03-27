@@ -30,7 +30,7 @@ struct Current: Codable {
     let pressureIn, precipMm, precipIn: Double
     let humidity, cloud: Int
     let feelslikeC, feelslikeF: Double
-    let visKM, visMiles, uv: Int
+    let visKM, visMiles, uv: Double
     let gustMph, gustKph: Double
 
     enum CodingKeys: String, CodingKey {
@@ -110,8 +110,8 @@ struct Day: Codable {
     let maxtempC, maxtempF, mintempC, mintempF: Double
     let avgtempC, avgtempF, maxwindMph, maxwindKph: Double
     let totalprecipMm, totalprecipIn: Double
-    let totalsnowCM, avgvisKM, avgvisMiles, avghumidity: Int
-    let dailyWillItRain, dailyChanceOfRain, dailyWillItSnow, dailyChanceOfSnow: Int
+    let totalsnowCM, avgvisKM, avgvisMiles, avghumidity: Double?
+    let dailyWillItRain, dailyChanceOfRain, dailyWillItSnow, dailyChanceOfSnow: Double?
     let condition: Condition
     let uv: Int
 
@@ -155,7 +155,7 @@ struct Hour: Codable {
     let feelslikeC, feelslikeF, windchillC, windchillF: Double
     let heatindexC, heatindexF, dewpointC, dewpointF: Double
     let willItRain, chanceOfRain, willItSnow, chanceOfSnow: Int
-    let visKM, visMiles: Int
+    let visKM, visMiles: Double
     let gustMph, gustKph: Double
     let uv: Int
 
