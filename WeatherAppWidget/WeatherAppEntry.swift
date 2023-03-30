@@ -9,5 +9,5 @@ import WidgetKit
 
 struct WeatherAppEntry: TimelineEntry {
     let date: Date
-    let weather: WeatherResult
+    let dataResult: WeatherResult
 }

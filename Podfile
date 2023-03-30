@@ -11,6 +11,9 @@ end
 def network_pods
   # pod 'Alamofire', :inhibit_warnings => true
   pod 'Alamofire'
+end
+
+def debug_pods
   pod 'atlantis-proxyman'
 end
 
@@ -49,7 +52,7 @@ target 'Quakes' do
   
   # Pods for Quakes
   network_pods
-  
+  debug_pods
 end
 
 target 'NoDo' do
@@ -69,11 +72,13 @@ end
 target 'Weatherapp' do
   use_frameworks!
   
-  pod 'atlantis-proxyman'
+  debug_pods
 end
 
 target 'WeatherAppWidgetExtension' do
   use_frameworks!
+  
+  debug_pods
 end
 
 post_install do |installer|

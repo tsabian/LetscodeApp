@@ -6,12 +6,12 @@
         "lat": -23.46,
         "lon": -45.05,
         "tz_id": "America/Sao_Paulo",
-        "localtime_epoch": 1679837769,
-        "localtime": "2023-03-26 10:36"
+        "localtime_epoch": 1680145422,
+        "localtime": "2023-03-30 00:00"
     },
     "current": {
-        "last_updated_epoch": 1679837400,
-        "last_updated": "2023-03-26 10:30",
+        "last_updated_epoch": 1680145422,
+        "last_updated": "2023-03-30 00:03",
         "temp_c": 28.8,
         "temp_f": 83.8,
         "is_day": 1,
@@ -41,8 +41,8 @@
     "forecast": {
         "forecastday": [
             {
-                "date": "2023-03-26",
-                "date_epoch": 1679788800,
+                "date": "2023-03-30",
+                "date_epoch": 1680145422,
                 "day": {
                     "maxtemp_c": 35.8,
                     "maxtemp_f": 96.4,

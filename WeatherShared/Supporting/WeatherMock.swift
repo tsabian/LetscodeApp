@@ -50,4 +50,8 @@ struct WeatherMock: Mockable {
     func forecastOvercast() -> WeatherModel {
         load(from: .main, on: "forecast-overcast")
     }
+
+    func forecastPartlyCloudy() -> WeatherModel {
+        load(from: .main, on: "forecast-partly-cloudy")
+    }
 }

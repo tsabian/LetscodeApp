@@ -274,6 +274,9 @@
 		ED72992C29CE2CF10086D7F2 /* WeatherEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72992B29CE2CF10086D7F2 /* WeatherEnvironment.swift */; };
 		ED72992D29CE2CF10086D7F2 /* WeatherEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72992B29CE2CF10086D7F2 /* WeatherEnvironment.swift */; };
 		ED72993029CE3F610086D7F2 /* WeatherModel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72992F29CE3F610086D7F2 /* WeatherModel+.swift */; };
+		ED8CC71A29D51E74001CD296 /* forecast-partly-cloudy.json in Resources */ = {isa = PBXBuildFile; fileRef = ED8CC71929D51E74001CD296 /* forecast-partly-cloudy.json */; };
+		ED8CC71B29D51E74001CD296 /* forecast-partly-cloudy.json in Resources */ = {isa = PBXBuildFile; fileRef = ED8CC71929D51E74001CD296 /* forecast-partly-cloudy.json */; };
+		EDD97E0029D1DED600627886 /* WeatherWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD97DFF29D1DED600627886 /* WeatherWidgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -510,6 +513,8 @@
 		ED72992B29CE2CF10086D7F2 /* WeatherEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEnvironment.swift; sourceTree = "<group>"; };
 		ED72992E29CE2DF00086D7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ED72992F29CE3F610086D7F2 /* WeatherModel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherModel+.swift"; sourceTree = "<group>"; };
+		ED8CC71929D51E74001CD296 /* forecast-partly-cloudy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "forecast-partly-cloudy.json"; sourceTree = "<group>"; };
+		EDD97DFF29D1DED600627886 /* WeatherWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetView.swift; sourceTree = "<group>"; };
 		F12BE354688A9C2D0F53F18D /* Pods-Quotesapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotesapp.debug.xcconfig"; path = "Target Support Files/Pods-Quotesapp/Pods-Quotesapp.debug.xcconfig"; sourceTree = "<group>"; };
 		F2CF43FB454F9C580750E896 /* Pods-NetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkManager.debug.xcconfig"; path = "Target Support Files/Pods-NetworkManager/Pods-NetworkManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -836,6 +841,7 @@
 				5223109029D142EC007C81DC /* forecast-moderate-heavy-rain.json */,
 				5223109329D14368007C81DC /* forecast-rain-possible.json */,
 				5223109629D14397007C81DC /* forecast-overcast.json */,
+				ED8CC71929D51E74001CD296 /* forecast-partly-cloudy.json */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -1187,6 +1193,7 @@
 				52A05C9529CF9C0C000E1EC3 /* WeatherAppProvider.swift */,
 				ED7298AB29CE03920086D7F2 /* WeatherAppWidget.swift */,
 				ED7298A929CE03920086D7F2 /* WeatherAppWidgetBundle.swift */,
+				EDD97DFF29D1DED600627886 /* WeatherWidgetView.swift */,
 				ED7298AD29CE03950086D7F2 /* Assets.xcassets */,
 			);
 			path = WeatherAppWidget;
@@ -1579,6 +1586,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8CC71A29D51E74001CD296 /* forecast-partly-cloudy.json in Resources */,
 				ED72989D29CE01700086D7F2 /* Preview Assets.xcassets in Resources */,
 				5223108829D1410E007C81DC /* forecast-fog.json in Resources */,
 				5223109129D142EC007C81DC /* forecast-moderate-heavy-rain.json in Resources */,
@@ -1601,6 +1609,7 @@
 			files = (
 				5223109529D14368007C81DC /* forecast-rain-possible.json in Resources */,
 				52CCC61C29CFEBB5004D7D9A /* mist.json in Resources */,
+				ED8CC71B29D51E74001CD296 /* forecast-partly-cloudy.json in Resources */,
 				5223108629D140C3007C81DC /* forecast-partial-cloudy.json in Resources */,
 				52A05C9929CFA435000E1EC3 /* patchy-rain-possible.json in Resources */,
 				52B1494229D05966007A031C /* sunny.json in Resources */,
@@ -2469,6 +2478,7 @@
 				5223107F29D12090007C81DC /* WeatherRepository.swift in Sources */,
 				52B1495A29D0605D007A031C /* WebImage.swift in Sources */,
 				ED7298C629CE0D7C0086D7F2 /* Mockable.swift in Sources */,
+				EDD97E0029D1DED600627886 /* WeatherWidgetView.swift in Sources */,
 				ED7298CB29CE0D7C0086D7F2 /* Double+.swift in Sources */,
 				5223108329D1339B007C81DC /* LocationManager.swift in Sources */,
 				ED72990729CE0EEE0086D7F2 /* DiagnosticsProtocol.swift in Sources */,

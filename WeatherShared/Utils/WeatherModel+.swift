@@ -7,41 +7,28 @@
 
 import Foundation
 
-// MARK: - Condition
+// MARK: - WeatherModel
 
-extension Condition {
-    var iconValue: String {
-        let current = text.lowercased()
-        switch current {
-        case _ where current.contains("Partly cloudy"):
-            return "🌤️"
-
-        case _ where current.contains("light rain"):
-            return "☔️"
-
-        case _ where current.contains("Heavy rain"):
-            return "⛈️"
-
-        case _ where current.contains("cloudy"):
-            return "☁️"
-
-        case _ where current.contains("rain possible"):
-            return "🌦️"
-
-        case _ where current.contains("drizzle"):
-            return "🌧️"
-
-        case _ where current.contains("sunny"):
-            return "☀️"
-
-        case _ where current.contains("clear"):
-            return "🌕"
-
-        case _ where current.contains("Fog"):
-            return "🌫️"
-
-        default:
-            return "🌥️"
+extension WeatherModel {
+    var todayForecast: Forecastday? {
+        guard let forecast, !forecast.forecastday.isEmpty else {
+            return nil
         }
+        if let forecastDay = forecast.forecastday.first(where: { $0.date == Date().format(with: "yyyy-MM-dd") }) {
+            return forecastDay
+        }
+        return nil
+    }
+
+    var forecastHours: [Hour] {
+        guard let todayForecast else {
+            return []
+        }
+        var hourAdding = DateComponents()
+        hourAdding.hour = 14
+        let now = Calendar.current.date(byAdding: hourAdding, to: Date()) ?? Date()
+        let timeEpoch = Int(now.timeIntervalSince1970)
+        let filteredHours = todayForecast.hour.filter { $0.timeEpoch >= timeEpoch }
+        return filteredHours
     }
 }

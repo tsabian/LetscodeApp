@@ -10,4 +10,4 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 #include "Pods/Target Support Files/Pods-Weatherapp/Pods-Weatherapp.release.xcconfig"
-#include "WeatherShared/Config/weather-release.xcconfig"
+#include "WeatherShared/Configs/weather-release.xcconfig"

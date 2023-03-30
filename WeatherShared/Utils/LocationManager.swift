@@ -21,9 +21,10 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate, Di
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.first else { return }
+        // manager.stopUpdatingLocation()
         DispatchQueue.main.async {
             self.location = location
-            debugPrint("lat: \(location.coordinate.latitude) - lon: \(location.coordinate.longitude)")
+            // debugPrint("lat: \(location.coordinate.latitude) - lon: \(location.coordinate.longitude)")
         }
     }
 
@@ -37,8 +38,11 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate, Di
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         if manager.authorizationStatus == .authorizedWhenInUse || manager.authorizationStatus == .authorizedAlways {
             locationManager.startUpdatingLocation()
-        } else {
+        } else if manager.authorizationStatus == .notDetermined {
             manager.requestWhenInUseAuthorization()
+        } else {
+            // custom request
+            debugPrint("denied: \(manager.authorizationStatus)")
         }
     }
 }
