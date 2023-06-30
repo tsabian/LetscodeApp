@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 0) {
-                List(self.countries, id: \.id) { currentCountry in
+                List(countries, id: \.id) { currentCountry in
                     NavigationLink(destination: CountryDetails(country: currentCountry)) {
                         CountryCell(country: currentCountry)
                     }.navigationTitle("Top 10 most populous countries")

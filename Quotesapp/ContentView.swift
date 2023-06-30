@@ -17,7 +17,7 @@ struct ContentView: View {
             CircleImage(imageName: imageNameK, size: CGSize(width: 160, height: 160))
                 .padding(.top, 90)
                 .padding(.bottom, 20)
-            MainView(quotes: self.quotes)
+            MainView(quotes: quotes)
             Spacer()
         }.background(Image(backgroundImageK)
             .resizable()
@@ -41,7 +41,7 @@ struct MainView: View {
             }
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
-                    ForEach(self.quotes, id: \.id) { element in
+                    ForEach(quotes, id: \.id) { element in
                         VStack {
                             CircleImage(imageName: imageNameK, size: CGSize(width: 100, height: 100))
                             Text(element.quote)

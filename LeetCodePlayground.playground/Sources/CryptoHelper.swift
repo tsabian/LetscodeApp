@@ -1,12 +1,34 @@
-import typealias CommonCrypto.CC_LONG
-import func CommonCrypto.CC_MD5
-import var CommonCrypto.CC_MD5_DIGEST_LENGTH
+import CommonCrypto
 import Foundation
 
-public class CryptoHelper {
+public protocol CryptoHelperProtocol {
+    func sha256(plainText text: String) -> String?
+    func sha256(binaryData: Data) -> String?
+    @available(*, deprecated, message: "This method is deprecated. Use the sha256(plainText text: String) instead.")
+    func md5(plainText string: String) -> String
+}
+
+public class CryptoHelper: CryptoHelperProtocol {
+    private let hexadecimalFormat = "%02x"
+
     public init() {}
 
-    public func MD5(string: String) -> String {
+    private func hashSha256(data: Data) -> Data {
+        var hash = [UInt8](repeating: 0, count: Int(CC_SHA256_DIGEST_LENGTH))
+        data.withUnsafeBytes { _ = CC_SHA256($0.baseAddress, CC_LONG(data.count), &hash) }
+        return Data(hash)
+    }
+
+    private func convertCypherOnHexFormat(data: Data) -> String {
+        var cypherText = ""
+        for byte in data {
+            cypherText += String(format: hexadecimalFormat, UInt8(byte))
+        }
+        return cypherText
+    }
+
+    @available(*, deprecated, message: "This method is deprecated. Use the sha256(plainText text: String) instead.")
+    public func md5(plainText string: String) -> String {
         let length = Int(CC_MD5_DIGEST_LENGTH)
         let messageData = string.data(using: .utf8)!
         var digestData = Data(count: length)
@@ -21,5 +43,21 @@ public class CryptoHelper {
             }
         }
         return digestData.hexFormat()
+    }
+
+    public func sha256(plainText text: String) -> String? {
+        guard !text.isEmpty, let data = text.data(using: .utf8) else {
+            return nil
+        }
+        let cypher = hashSha256(data: data)
+        return convertCypherOnHexFormat(data: cypher)
+    }
+
+    public func sha256(binaryData data: Data) -> String? {
+        if data.isEmpty {
+            return nil
+        }
+        let cypher = hashSha256(data: data)
+        return convertCypherOnHexFormat(data: cypher)
     }
 }
