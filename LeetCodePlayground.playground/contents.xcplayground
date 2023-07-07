@@ -29,5 +29,6 @@
         <page name='AlamofireUtils'/>
         <page name='Hexadecimal'/>
         <page name='Pinning'/>
+        <page name='JSONInjection'/>
     </pages>
 </playground>

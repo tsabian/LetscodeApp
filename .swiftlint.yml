@@ -5,11 +5,9 @@ disabled_rules:
   - superfluous_disable_command # Disabled since we disable some rules pre-emptively to avoid issues in the future
   - todo                        # Disabled while we are filling out the framework; re-enable when we get closer to completion
   - nesting                     # Does not make sense anymore since Swift 4 uses nested `CodingKeys` enums for example
-
   - implicit_return             # Suddenly started firing for existing code on PRs, should investigate later
 
 opt_in_rules:
-  - anyobject_protocol
   - attributes
   - closure_end_indentation
   - closure_spacing
@@ -29,7 +27,6 @@ opt_in_rules:
   - first_where
   - identical_operands
   - implicit_return
-  - inert_defer
   - joined_default_parameter
   - literal_expression_end_indentation
   - legacy_hashing
@@ -73,10 +70,17 @@ attributes:
     - "@IBAction"
     - "@NSManaged"
     - "@objc"
+    
 closure_spacing: warning
-empty_count: warning
+
+empty_count:
+    severity: warning
+    only_after_dot: true
+
 explicit_init: warning
+
 fatal_error_message: warning
+
 file_header:
   severity: warning
   forbidden_pattern: |
@@ -87,27 +91,41 @@ file_header:
                      \/\/  Created by .*? on .*\.
                      \/\/  Copyright © \d{4} .*\. All rights reserved\.
                      \/\/
+
 force_cast: warning
+
 force_try: warning
+
 implicit_getter: warning
+
 indentation: 4 # 4 spaces
+
 line_length:
   warning: 200 # our line length is 120 chars, sometimes surpassing that is fine
   error: 200
   ignores_function_declarations: true
+
 multiline_arguments:
   first_argument_location: next_line
+
 number_separator:
   minimum_length: 5 # number of digits, i.e. >= 10_000
+
 redundant_nil_coalescing: warning
+
 shorthand_operator: warning
+
 trailing_comma:
   mandatory_comma: true
+
 vertical_whitespace:
   max_empty_lines: 2
+
 weak_delegate: warning
+
 cyclomatic_complexity:
   warning: 12
+
 function_parameter_count:
   warning: 7
 

@@ -49,7 +49,11 @@ struct EnvironmentSetable: EnvironmentSetableProtocol {
 struct EnvironmentEncryptedSetable: EnvironmentSetableProtocol {
     var keyName: String
 
-    @EncryptedProperty(encryptionChain: RCPlistKeysModel(salt: AppConstants.salt, publicKey: AppConstants.key, initVector: AppConstants.iv))
+    @EncryptedProperty(encryptionChain: RCPlistKeysModel(
+        salt: AppConstants.salt,
+        publicKey: AppConstants.key,
+        initVector: AppConstants.iv
+    ))
     private(set) var wrappedValue: String = ""
 
     init(from keyName: String) {

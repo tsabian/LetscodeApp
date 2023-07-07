@@ -4,8 +4,8 @@ ios_version = '15.6'
 platform :ios, ios_version
 
 def shared_pods
-  pod 'RxSwift', '6.5.0'
-  pod 'RxCocoa', '6.5.0'
+  pod 'RxSwift', '~> 6.5.0'
+  pod 'RxCocoa', '~> 6.5.0'
 end
 
 def network_pods
@@ -22,6 +22,8 @@ target 'Letscode' do
   use_frameworks!
   
   # Pods for Letscode
+  network_pods
+  shared_pods
 end
 
 target 'Quotesapp' do
@@ -29,7 +31,6 @@ target 'Quotesapp' do
   use_frameworks!
   
   # Pods for Quotesapp
-  
 end
 
 target 'ListPart1' do
@@ -37,14 +38,12 @@ target 'ListPart1' do
   use_frameworks!
   
   # Pods for ListPart1
-  
 end
 
 target 'NetworkManager' do
   use_frameworks!
   
   # Pods for NetworkManager
-  
 end
 
 target 'Quakes' do
@@ -90,6 +89,7 @@ post_install do |installer|
       config.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = "YES"
       config.build_settings['DEAD_CODE_STRIPPING'] = 'YES'
       config.build_settings['IPHONE_DEPLOYMENT_TARGET'] = ios_version
+      config.build_settings['CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER'] = "NO"
     end
   end
 end

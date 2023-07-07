@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29398F936A11C42381CE10FA /* Pods_ListPart1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F789E71CF93350F848990A4 /* Pods_ListPart1.framework */; };
-		3174250D98108077ACBF1EB0 /* Pods_Quotesapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030A1556C2230B89207C1660 /* Pods_Quotesapp.framework */; };
-		42D1D143D618588AC1E0207F /* Pods_NoDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FF5BE25B7229144DF3F699 /* Pods_NoDo.framework */; };
+		1A42D50537E7BEBDFCFB5B7B /* Pods_NoDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D90978E11E161140565A1B /* Pods_NoDo.framework */; };
+		1CCA279CCCE8D4A704E85457 /* Pods_Quakes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8D849AB26FCC5955FF78A1 /* Pods_Quakes.framework */; };
 		520474CA29790E9C007FE10D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 520474C829790E9B007FE10D /* .swiftlint.yml */; };
 		520474CB29790E9C007FE10D /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 520474C929790E9B007FE10D /* .swiftformat */; };
 		520474CF29791340007FE10D /* Start.sh in Resources */ = {isa = PBXBuildFile; fileRef = 520474CE29791340007FE10D /* Start.sh */; };
@@ -180,13 +179,14 @@
 		52F3A37D29CBFD6200EF41F3 /* LetscodeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 52F3A36E29CBFD5F00EF41F3 /* LetscodeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52F3A38329CC046700EF41F3 /* LetscodeWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3A38229CC046700EF41F3 /* LetscodeWidgetEntry.swift */; };
 		52F3A38529CC073C00EF41F3 /* LetscodeWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3A38429CC073C00EF41F3 /* LetscodeWidgetProvider.swift */; };
-		5BF549BC7D9C05328A67F481 /* Pods_QuotesWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB2D26AC76DC48080F5E5B9 /* Pods_QuotesWidgetExtension.framework */; };
-		5F90225C321C637C1A2D25FC /* Pods_NetworkManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90542CF366D9800AB752083A /* Pods_NetworkManager.framework */; };
-		69CF21FD0B39D1B5FE5EBBFC /* Pods_Quakes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B15E343090460494D8C1AB4 /* Pods_Quakes.framework */; };
-		7BC21EB82B17336720500AC1 /* Pods_Weatherapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F460F54A8AB6602F9A4F3B7 /* Pods_Weatherapp.framework */; };
-		884006F12F7DE90857EBF53A /* Pods_WeatherAppWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC6A1CBDBF6D92A684F7B45 /* Pods_WeatherAppWidgetExtension.framework */; };
-		A2397AD9DECBE61CB4EB9B17 /* Pods_LetscodeWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C39C2A045A232A2A2E7D8E7 /* Pods_LetscodeWidgetExtension.framework */; };
-		A829F93416634BA53D0E1269 /* Pods_Letscode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ED8A1098BFB580F91140A6 /* Pods_Letscode.framework */; };
+		659ABC916FE81845089E34DD /* Pods_Weatherapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D23198EDB67F023A9A7C18 /* Pods_Weatherapp.framework */; };
+		7EBF0BFF5FA26D6F99317AAE /* Pods_QuotesWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2DBE06A99F31AF05ED22A5 /* Pods_QuotesWidgetExtension.framework */; };
+		881B65FF4CD49E66034AE47B /* Pods_WeatherAppWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE51817922CDADCA25EEA9E4 /* Pods_WeatherAppWidgetExtension.framework */; };
+		8D5796A9CBFF29C3A72BDAC4 /* Pods_NetworkManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728613C77D63FFF39047A697 /* Pods_NetworkManager.framework */; };
+		92FBD10EF11D08F56D66D2EF /* Pods_ListPart1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574145F0BB291C337A8C49E8 /* Pods_ListPart1.framework */; };
+		B4B97DC50EBD9D12CE0BD306 /* Pods_Letscode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E793674382E31B48476503 /* Pods_Letscode.framework */; };
+		B962A674BD41554DEDC72946 /* Pods_Quotesapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8AD2C76CF2B8469EB03404 /* Pods_Quotesapp.framework */; };
+		D5A351BB5B76FCA0C1B7F13D /* Pods_LetscodeWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86842EF1099D55B45F789A43 /* Pods_LetscodeWidgetExtension.framework */; };
 		ED72989529CE016D0086D7F2 /* WeatherappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72989429CE016D0086D7F2 /* WeatherappApp.swift */; };
 		ED72989729CE016D0086D7F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72989629CE016D0086D7F2 /* ContentView.swift */; };
 		ED72989929CE01700086D7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED72989829CE01700086D7F2 /* Assets.xcassets */; };
@@ -276,6 +276,14 @@
 		ED72993029CE3F610086D7F2 /* WeatherModel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72992F29CE3F610086D7F2 /* WeatherModel+.swift */; };
 		ED8CC71A29D51E74001CD296 /* forecast-partly-cloudy.json in Resources */ = {isa = PBXBuildFile; fileRef = ED8CC71929D51E74001CD296 /* forecast-partly-cloudy.json */; };
 		ED8CC71B29D51E74001CD296 /* forecast-partly-cloudy.json in Resources */ = {isa = PBXBuildFile; fileRef = ED8CC71929D51E74001CD296 /* forecast-partly-cloudy.json */; };
+		ED8F3AB32A5735CE00E0DE5C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223107A29D0C132007C81DC /* AppConstants.swift */; };
+		ED8F3AB42A5735E000E0DE5C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223107A29D0C132007C81DC /* AppConstants.swift */; };
+		ED8F3AB52A5735E000E0DE5C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223107A29D0C132007C81DC /* AppConstants.swift */; };
+		ED8F3AB62A5735E100E0DE5C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223107A29D0C132007C81DC /* AppConstants.swift */; };
+		ED8F3AB72A5735E100E0DE5C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223107A29D0C132007C81DC /* AppConstants.swift */; };
+		ED8F3AB82A5735E100E0DE5C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223107A29D0C132007C81DC /* AppConstants.swift */; };
+		ED8F3AB92A5735E200E0DE5C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223107A29D0C132007C81DC /* AppConstants.swift */; };
+		ED8F3ABA2A5735E200E0DE5C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223107A29D0C132007C81DC /* AppConstants.swift */; };
 		EDD97E0029D1DED600627886 /* WeatherWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD97DFF29D1DED600627886 /* WeatherWidgetView.swift */; };
 /* End PBXBuildFile section */
 
@@ -340,16 +348,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		030A1556C2230B89207C1660 /* Pods_Quotesapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quotesapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		096804276C5107647EC6F6A4 /* Pods-ListPart1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListPart1.release.xcconfig"; path = "Target Support Files/Pods-ListPart1/Pods-ListPart1.release.xcconfig"; sourceTree = "<group>"; };
-		0C7AC5DA3383213814C09F7B /* Pods-NetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkManager.release.xcconfig"; path = "Target Support Files/Pods-NetworkManager/Pods-NetworkManager.release.xcconfig"; sourceTree = "<group>"; };
-		1EC4D0ED98AAC514150D39BA /* Pods-Letscode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.release.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.release.xcconfig"; sourceTree = "<group>"; };
-		2B15E343090460494D8C1AB4 /* Pods_Quakes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quakes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D938F14C2536332423D9852 /* Pods-QuotesWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotesWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-QuotesWidgetExtension/Pods-QuotesWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		36FF5BE25B7229144DF3F699 /* Pods_NoDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F789E71CF93350F848990A4 /* Pods_ListPart1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListPart1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47ED8A1098BFB580F91140A6 /* Pods_Letscode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Letscode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F460F54A8AB6602F9A4F3B7 /* Pods_Weatherapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weatherapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8AD2C76CF2B8469EB03404 /* Pods_Quotesapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quotesapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2702C9758775F81A7000E51F /* Pods-Quotesapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotesapp.debug.xcconfig"; path = "Target Support Files/Pods-Quotesapp/Pods-Quotesapp.debug.xcconfig"; sourceTree = "<group>"; };
+		2943B21B16719AC37B17D8FC /* Pods-QuotesWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotesWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-QuotesWidgetExtension/Pods-QuotesWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		2F4DF0DE7D871EC9582E527E /* Pods-Weatherapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherapp.release.xcconfig"; path = "Target Support Files/Pods-Weatherapp/Pods-Weatherapp.release.xcconfig"; sourceTree = "<group>"; };
+		3085ED7CB218800D6C8085AC /* Pods-Letscode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.release.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.release.xcconfig"; sourceTree = "<group>"; };
+		32E793674382E31B48476503 /* Pods_Letscode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Letscode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5C3486501EF555241A9AB8 /* Pods-ListPart1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListPart1.debug.xcconfig"; path = "Target Support Files/Pods-ListPart1/Pods-ListPart1.debug.xcconfig"; sourceTree = "<group>"; };
 		520474C32978FE93007FE10D /* LeetCodePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeetCodePlayground.playground; sourceTree = "<group>"; };
 		520474C829790E9B007FE10D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		520474C929790E9B007FE10D /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = SOURCE_ROOT; };
@@ -467,24 +472,26 @@
 		52F3A37A29CBFD6200EF41F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52F3A38229CC046700EF41F3 /* LetscodeWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidgetEntry.swift; sourceTree = "<group>"; };
 		52F3A38429CC073C00EF41F3 /* LetscodeWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetscodeWidgetProvider.swift; sourceTree = "<group>"; };
-		6CF3A2528C378547FDF93537 /* Pods-NoDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoDo.debug.xcconfig"; path = "Target Support Files/Pods-NoDo/Pods-NoDo.debug.xcconfig"; sourceTree = "<group>"; };
-		7041DD3C943C24E4011B0208 /* Pods-ListPart1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListPart1.debug.xcconfig"; path = "Target Support Files/Pods-ListPart1/Pods-ListPart1.debug.xcconfig"; sourceTree = "<group>"; };
-		7D0DD0D6219420607A6582A1 /* Pods-Letscode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.debug.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.debug.xcconfig"; sourceTree = "<group>"; };
-		7D707D0E921C08F28F23C541 /* Pods-QuotesWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotesWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-QuotesWidgetExtension/Pods-QuotesWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
-		90542CF366D9800AB752083A /* Pods_NetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B2857592A3CF89630AD078E /* Pods-LetscodeWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetscodeWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-LetscodeWidgetExtension/Pods-LetscodeWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		9C239120F5A239E639EF4373 /* Pods-Weatherapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherapp.debug.xcconfig"; path = "Target Support Files/Pods-Weatherapp/Pods-Weatherapp.debug.xcconfig"; sourceTree = "<group>"; };
-		9C39C2A045A232A2A2E7D8E7 /* Pods_LetscodeWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetscodeWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0F88A2DB20A18057DD25A0B /* Pods-NoDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoDo.release.xcconfig"; path = "Target Support Files/Pods-NoDo/Pods-NoDo.release.xcconfig"; sourceTree = "<group>"; };
-		A5A953118C68AB0D2E2EB2FB /* Pods-Weatherapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherapp.release.xcconfig"; path = "Target Support Files/Pods-Weatherapp/Pods-Weatherapp.release.xcconfig"; sourceTree = "<group>"; };
-		ACC6A1CBDBF6D92A684F7B45 /* Pods_WeatherAppWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherAppWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3F40DFF7423087BFE6FF81C /* Pods-LetscodeWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetscodeWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-LetscodeWidgetExtension/Pods-LetscodeWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
-		D2919436DA2786B6C85976C2 /* Pods-Quakes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quakes.release.xcconfig"; path = "Target Support Files/Pods-Quakes/Pods-Quakes.release.xcconfig"; sourceTree = "<group>"; };
-		D9FDE20E634FAB44DD935851 /* Pods-Quotesapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotesapp.release.xcconfig"; path = "Target Support Files/Pods-Quotesapp/Pods-Quotesapp.release.xcconfig"; sourceTree = "<group>"; };
-		DBA17BE1312981EF2CAF778A /* Pods-WeatherAppWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-WeatherAppWidgetExtension/Pods-WeatherAppWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		DD16638F1F1056AAD171C0AE /* Pods-Quakes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quakes.debug.xcconfig"; path = "Target Support Files/Pods-Quakes/Pods-Quakes.debug.xcconfig"; sourceTree = "<group>"; };
-		DDB2D26AC76DC48080F5E5B9 /* Pods_QuotesWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuotesWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E25341D87AB925961CC12418 /* Pods-WeatherAppWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-WeatherAppWidgetExtension/Pods-WeatherAppWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		574145F0BB291C337A8C49E8 /* Pods_ListPart1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListPart1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DE44546879E02A0F2CE014 /* Pods-WeatherAppWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-WeatherAppWidgetExtension/Pods-WeatherAppWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		6C9F81BFE8BE188652FD2D2E /* Pods-Quotesapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotesapp.release.xcconfig"; path = "Target Support Files/Pods-Quotesapp/Pods-Quotesapp.release.xcconfig"; sourceTree = "<group>"; };
+		6F5E36E4F3FC724CAC157C7B /* Pods-NoDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoDo.release.xcconfig"; path = "Target Support Files/Pods-NoDo/Pods-NoDo.release.xcconfig"; sourceTree = "<group>"; };
+		71C7C95B3B6FB235B4EDF898 /* Pods-NetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkManager.debug.xcconfig"; path = "Target Support Files/Pods-NetworkManager/Pods-NetworkManager.debug.xcconfig"; sourceTree = "<group>"; };
+		728613C77D63FFF39047A697 /* Pods_NetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73374355D0E0CEF85AA59F06 /* Pods-NetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkManager.release.xcconfig"; path = "Target Support Files/Pods-NetworkManager/Pods-NetworkManager.release.xcconfig"; sourceTree = "<group>"; };
+		78382DD9A4DA4A78E7DF0171 /* Pods-QuotesWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotesWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-QuotesWidgetExtension/Pods-QuotesWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		83FAA5CCD93A482090CF9ADC /* Pods-NoDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoDo.debug.xcconfig"; path = "Target Support Files/Pods-NoDo/Pods-NoDo.debug.xcconfig"; sourceTree = "<group>"; };
+		86842EF1099D55B45F789A43 /* Pods_LetscodeWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetscodeWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D753840E11CF1170DAA691B /* Pods-WeatherAppWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-WeatherAppWidgetExtension/Pods-WeatherAppWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		A8D23198EDB67F023A9A7C18 /* Pods_Weatherapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weatherapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D90978E11E161140565A1B /* Pods_NoDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2DBE06A99F31AF05ED22A5 /* Pods_QuotesWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuotesWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8D849AB26FCC5955FF78A1 /* Pods_Quakes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quakes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE51817922CDADCA25EEA9E4 /* Pods_WeatherAppWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherAppWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32D5995FDD4DF4B839F8431 /* Pods-Quakes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quakes.debug.xcconfig"; path = "Target Support Files/Pods-Quakes/Pods-Quakes.debug.xcconfig"; sourceTree = "<group>"; };
+		B87A9456699510CDAB076071 /* Pods-Letscode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letscode.debug.xcconfig"; path = "Target Support Files/Pods-Letscode/Pods-Letscode.debug.xcconfig"; sourceTree = "<group>"; };
+		D0B4B462E4C789CAE8A011C3 /* Pods-Weatherapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherapp.debug.xcconfig"; path = "Target Support Files/Pods-Weatherapp/Pods-Weatherapp.debug.xcconfig"; sourceTree = "<group>"; };
+		EBED1A52EB90C5D19FD0BE7E /* Pods-LetscodeWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetscodeWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-LetscodeWidgetExtension/Pods-LetscodeWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		ED72989229CE016D0086D7F2 /* Weatherapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED72989429CE016D0086D7F2 /* WeatherappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherappApp.swift; sourceTree = "<group>"; };
 		ED72989629CE016D0086D7F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -515,8 +522,9 @@
 		ED72992F29CE3F610086D7F2 /* WeatherModel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherModel+.swift"; sourceTree = "<group>"; };
 		ED8CC71929D51E74001CD296 /* forecast-partly-cloudy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "forecast-partly-cloudy.json"; sourceTree = "<group>"; };
 		EDD97DFF29D1DED600627886 /* WeatherWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetView.swift; sourceTree = "<group>"; };
-		F12BE354688A9C2D0F53F18D /* Pods-Quotesapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quotesapp.debug.xcconfig"; path = "Target Support Files/Pods-Quotesapp/Pods-Quotesapp.debug.xcconfig"; sourceTree = "<group>"; };
-		F2CF43FB454F9C580750E896 /* Pods-NetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkManager.debug.xcconfig"; path = "Target Support Files/Pods-NetworkManager/Pods-NetworkManager.debug.xcconfig"; sourceTree = "<group>"; };
+		F0BF77E6876CD1B8AAA668BF /* Pods-LetscodeWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetscodeWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-LetscodeWidgetExtension/Pods-LetscodeWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		F38C22F81DB8506FCAACE1B3 /* Pods-Quakes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quakes.release.xcconfig"; path = "Target Support Files/Pods-Quakes/Pods-Quakes.release.xcconfig"; sourceTree = "<group>"; };
+		FBA9126B6C0AE8D33C767374 /* Pods-ListPart1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListPart1.release.xcconfig"; path = "Target Support Files/Pods-ListPart1/Pods-ListPart1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -526,7 +534,7 @@
 			files = (
 				520621FE29CCC4580059A61B /* SwiftUI.framework in Frameworks */,
 				520621FD29CCC4580059A61B /* WidgetKit.framework in Frameworks */,
-				5BF549BC7D9C05328A67F481 /* Pods_QuotesWidgetExtension.framework in Frameworks */,
+				7EBF0BFF5FA26D6F99317AAE /* Pods_QuotesWidgetExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +542,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42D1D143D618588AC1E0207F /* Pods_NoDo.framework in Frameworks */,
+				1A42D50537E7BEBDFCFB5B7B /* Pods_NoDo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +550,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3174250D98108077ACBF1EB0 /* Pods_Quotesapp.framework in Frameworks */,
+				B962A674BD41554DEDC72946 /* Pods_Quotesapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +558,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29398F936A11C42381CE10FA /* Pods_ListPart1.framework in Frameworks */,
+				92FBD10EF11D08F56D66D2EF /* Pods_ListPart1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +566,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F90225C321C637C1A2D25FC /* Pods_NetworkManager.framework in Frameworks */,
+				8D5796A9CBFF29C3A72BDAC4 /* Pods_NetworkManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,7 +574,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CF21FD0B39D1B5FE5EBBFC /* Pods_Quakes.framework in Frameworks */,
+				1CCA279CCCE8D4A704E85457 /* Pods_Quakes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,7 +582,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A829F93416634BA53D0E1269 /* Pods_Letscode.framework in Frameworks */,
+				B4B97DC50EBD9D12CE0BD306 /* Pods_Letscode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +592,7 @@
 			files = (
 				52F3A37229CBFD5F00EF41F3 /* SwiftUI.framework in Frameworks */,
 				52F3A37029CBFD5F00EF41F3 /* WidgetKit.framework in Frameworks */,
-				A2397AD9DECBE61CB4EB9B17 /* Pods_LetscodeWidgetExtension.framework in Frameworks */,
+				D5A351BB5B76FCA0C1B7F13D /* Pods_LetscodeWidgetExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,7 +600,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC21EB82B17336720500AC1 /* Pods_Weatherapp.framework in Frameworks */,
+				659ABC916FE81845089E34DD /* Pods_Weatherapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,7 +610,7 @@
 			files = (
 				ED7298A729CE03920086D7F2 /* SwiftUI.framework in Frameworks */,
 				ED7298A629CE03920086D7F2 /* WidgetKit.framework in Frameworks */,
-				884006F12F7DE90857EBF53A /* Pods_WeatherAppWidgetExtension.framework in Frameworks */,
+				881B65FF4CD49E66034AE47B /* Pods_WeatherAppWidgetExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,26 +620,26 @@
 		03D432EF0DFA7934C6991760 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7D0DD0D6219420607A6582A1 /* Pods-Letscode.debug.xcconfig */,
-				1EC4D0ED98AAC514150D39BA /* Pods-Letscode.release.xcconfig */,
-				F12BE354688A9C2D0F53F18D /* Pods-Quotesapp.debug.xcconfig */,
-				D9FDE20E634FAB44DD935851 /* Pods-Quotesapp.release.xcconfig */,
-				7041DD3C943C24E4011B0208 /* Pods-ListPart1.debug.xcconfig */,
-				096804276C5107647EC6F6A4 /* Pods-ListPart1.release.xcconfig */,
-				F2CF43FB454F9C580750E896 /* Pods-NetworkManager.debug.xcconfig */,
-				0C7AC5DA3383213814C09F7B /* Pods-NetworkManager.release.xcconfig */,
-				DD16638F1F1056AAD171C0AE /* Pods-Quakes.debug.xcconfig */,
-				D2919436DA2786B6C85976C2 /* Pods-Quakes.release.xcconfig */,
-				6CF3A2528C378547FDF93537 /* Pods-NoDo.debug.xcconfig */,
-				A0F88A2DB20A18057DD25A0B /* Pods-NoDo.release.xcconfig */,
-				9B2857592A3CF89630AD078E /* Pods-LetscodeWidgetExtension.debug.xcconfig */,
-				B3F40DFF7423087BFE6FF81C /* Pods-LetscodeWidgetExtension.release.xcconfig */,
-				2D938F14C2536332423D9852 /* Pods-QuotesWidgetExtension.debug.xcconfig */,
-				7D707D0E921C08F28F23C541 /* Pods-QuotesWidgetExtension.release.xcconfig */,
-				9C239120F5A239E639EF4373 /* Pods-Weatherapp.debug.xcconfig */,
-				A5A953118C68AB0D2E2EB2FB /* Pods-Weatherapp.release.xcconfig */,
-				DBA17BE1312981EF2CAF778A /* Pods-WeatherAppWidgetExtension.debug.xcconfig */,
-				E25341D87AB925961CC12418 /* Pods-WeatherAppWidgetExtension.release.xcconfig */,
+				B87A9456699510CDAB076071 /* Pods-Letscode.debug.xcconfig */,
+				3085ED7CB218800D6C8085AC /* Pods-Letscode.release.xcconfig */,
+				EBED1A52EB90C5D19FD0BE7E /* Pods-LetscodeWidgetExtension.debug.xcconfig */,
+				F0BF77E6876CD1B8AAA668BF /* Pods-LetscodeWidgetExtension.release.xcconfig */,
+				4D5C3486501EF555241A9AB8 /* Pods-ListPart1.debug.xcconfig */,
+				FBA9126B6C0AE8D33C767374 /* Pods-ListPart1.release.xcconfig */,
+				71C7C95B3B6FB235B4EDF898 /* Pods-NetworkManager.debug.xcconfig */,
+				73374355D0E0CEF85AA59F06 /* Pods-NetworkManager.release.xcconfig */,
+				83FAA5CCD93A482090CF9ADC /* Pods-NoDo.debug.xcconfig */,
+				6F5E36E4F3FC724CAC157C7B /* Pods-NoDo.release.xcconfig */,
+				B32D5995FDD4DF4B839F8431 /* Pods-Quakes.debug.xcconfig */,
+				F38C22F81DB8506FCAACE1B3 /* Pods-Quakes.release.xcconfig */,
+				78382DD9A4DA4A78E7DF0171 /* Pods-QuotesWidgetExtension.debug.xcconfig */,
+				2943B21B16719AC37B17D8FC /* Pods-QuotesWidgetExtension.release.xcconfig */,
+				2702C9758775F81A7000E51F /* Pods-Quotesapp.debug.xcconfig */,
+				6C9F81BFE8BE188652FD2D2E /* Pods-Quotesapp.release.xcconfig */,
+				8D753840E11CF1170DAA691B /* Pods-WeatherAppWidgetExtension.debug.xcconfig */,
+				67DE44546879E02A0F2CE014 /* Pods-WeatherAppWidgetExtension.release.xcconfig */,
+				D0B4B462E4C789CAE8A011C3 /* Pods-Weatherapp.debug.xcconfig */,
+				2F4DF0DE7D871EC9582E527E /* Pods-Weatherapp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -639,18 +647,18 @@
 		191BC11EA2CC23BA8E21D133 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				47ED8A1098BFB580F91140A6 /* Pods_Letscode.framework */,
-				030A1556C2230B89207C1660 /* Pods_Quotesapp.framework */,
-				3F789E71CF93350F848990A4 /* Pods_ListPart1.framework */,
-				90542CF366D9800AB752083A /* Pods_NetworkManager.framework */,
-				2B15E343090460494D8C1AB4 /* Pods_Quakes.framework */,
-				36FF5BE25B7229144DF3F699 /* Pods_NoDo.framework */,
 				52F3A36F29CBFD5F00EF41F3 /* WidgetKit.framework */,
 				52F3A37129CBFD5F00EF41F3 /* SwiftUI.framework */,
-				9C39C2A045A232A2A2E7D8E7 /* Pods_LetscodeWidgetExtension.framework */,
-				DDB2D26AC76DC48080F5E5B9 /* Pods_QuotesWidgetExtension.framework */,
-				4F460F54A8AB6602F9A4F3B7 /* Pods_Weatherapp.framework */,
-				ACC6A1CBDBF6D92A684F7B45 /* Pods_WeatherAppWidgetExtension.framework */,
+				32E793674382E31B48476503 /* Pods_Letscode.framework */,
+				86842EF1099D55B45F789A43 /* Pods_LetscodeWidgetExtension.framework */,
+				574145F0BB291C337A8C49E8 /* Pods_ListPart1.framework */,
+				728613C77D63FFF39047A697 /* Pods_NetworkManager.framework */,
+				A8D90978E11E161140565A1B /* Pods_NoDo.framework */,
+				AD8D849AB26FCC5955FF78A1 /* Pods_Quakes.framework */,
+				AA2DBE06A99F31AF05ED22A5 /* Pods_QuotesWidgetExtension.framework */,
+				1C8AD2C76CF2B8469EB03404 /* Pods_Quotesapp.framework */,
+				AE51817922CDADCA25EEA9E4 /* Pods_WeatherAppWidgetExtension.framework */,
+				A8D23198EDB67F023A9A7C18 /* Pods_Weatherapp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -969,6 +977,7 @@
 		52A6641029B9A42000383375 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				5223107A29D0C132007C81DC /* AppConstants.swift */,
 				52A663F729B98AC700383375 /* NetworkManager.swift */,
 				52A663EC29B94CCD00383375 /* EnvironmentSetable.swift */,
 				ED7298DC29CE0DDD0086D7F2 /* EncryptedProperty.swift */,
@@ -1202,7 +1211,6 @@
 		ED72990829CE1C170086D7F2 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
-				5223107A29D0C132007C81DC /* AppConstants.swift */,
 				ED72992B29CE2CF10086D7F2 /* WeatherEnvironment.swift */,
 				ED72992629CE2A8A0086D7F2 /* weather-app-debug.xcconfig */,
 				ED72992529CE2A890086D7F2 /* weather-app-release.xcconfig */,
@@ -1231,7 +1239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5206220A29CCC45C0059A61B /* Build configuration list for PBXNativeTarget "QuotesWidgetExtension" */;
 			buildPhases = (
-				3C6BE8948613EEC455DB8FE5 /* [CP] Check Pods Manifest.lock */,
+				4F0210CDD355D8FE42234AD4 /* [CP] Check Pods Manifest.lock */,
 				520621F829CCC4580059A61B /* Sources */,
 				520621F929CCC4580059A61B /* Frameworks */,
 				520621FA29CCC4580059A61B /* Resources */,
@@ -1251,7 +1259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5261E50629C0C39F0010FA45 /* Build configuration list for PBXNativeTarget "NoDo" */;
 			buildPhases = (
-				87AB904081EA3E907653DAFD /* [CP] Check Pods Manifest.lock */,
+				689ABB7052F050BD3D94C922 /* [CP] Check Pods Manifest.lock */,
 				5261E4F529C0C39A0010FA45 /* Sources */,
 				5261E4F629C0C39A0010FA45 /* Frameworks */,
 				5261E4F729C0C39A0010FA45 /* Resources */,
@@ -1271,7 +1279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52879218298E3E4F00F2E039 /* Build configuration list for PBXNativeTarget "Quotesapp" */;
 			buildPhases = (
-				2074C42E0F3235A6DC0F98FD /* [CP] Check Pods Manifest.lock */,
+				A772B0B23B6F5E23F9094485 /* [CP] Check Pods Manifest.lock */,
 				52879207298E3E4C00F2E039 /* Sources */,
 				52879208298E3E4C00F2E039 /* Frameworks */,
 				52879209298E3E4C00F2E039 /* Resources */,
@@ -1293,7 +1301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 529C928829B8CF8C00F54B95 /* Build configuration list for PBXNativeTarget "ListPart1" */;
 			buildPhases = (
-				DF06F9B963FFD43C0FD40A4F /* [CP] Check Pods Manifest.lock */,
+				8210C0D576689980ADB65003 /* [CP] Check Pods Manifest.lock */,
 				529C927729B8CF8900F54B95 /* Sources */,
 				529C927829B8CF8900F54B95 /* Frameworks */,
 				529C927929B8CF8900F54B95 /* Resources */,
@@ -1313,7 +1321,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52A663DD29B942C000383375 /* Build configuration list for PBXNativeTarget "NetworkManager" */;
 			buildPhases = (
-				33A29C495EFDC67A4E709F32 /* [CP] Check Pods Manifest.lock */,
+				664C6689986070C479059DAF /* [CP] Check Pods Manifest.lock */,
 				52A663CE29B942BE00383375 /* Sources */,
 				52A663CF29B942BE00383375 /* Frameworks */,
 				52A663D029B942BE00383375 /* Resources */,
@@ -1333,13 +1341,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52A6640829B99F3500383375 /* Build configuration list for PBXNativeTarget "Quakes" */;
 			buildPhases = (
-				6AF4592041DB0B78028E08D1 /* [CP] Check Pods Manifest.lock */,
+				47D4984FBEFC096B4829CCB3 /* [CP] Check Pods Manifest.lock */,
 				52A663F929B99F3200383375 /* Sources */,
 				52A663FA29B99F3200383375 /* Frameworks */,
 				52A663FB29B99F3200383375 /* Resources */,
-				4B3A0CC22029E7079EC21FBB /* [CP] Embed Pods Frameworks */,
 				52A6641529B9A47000383375 /* [Run] Swiftformat */,
 				52A6641629B9A48800383375 /* [Run] Swiftlint */,
+				D3C33C49BFF3FF47A9160EFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1354,13 +1362,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52A8307A296AD639006E363B /* Build configuration list for PBXNativeTarget "Letscode" */;
 			buildPhases = (
-				78BE7A470179FC9F12444708 /* [CP] Check Pods Manifest.lock */,
+				FE71CE53CB9F8532F4387012 /* [CP] Check Pods Manifest.lock */,
 				52A83067296AD637006E363B /* Sources */,
 				52A83068296AD637006E363B /* Frameworks */,
 				52A83069296AD637006E363B /* Resources */,
 				520474C529790D0B007FE10D /* [Run] Swiftformat */,
 				520474C42979041A007FE10D /* [Run] Swiftlint */,
 				52F3A37E29CBFD6300EF41F3 /* Embed Foundation Extensions */,
+				1F7B5263E8AE4361F4F5B911 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1376,7 +1385,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52F3A38129CBFD6300EF41F3 /* Build configuration list for PBXNativeTarget "LetscodeWidgetExtension" */;
 			buildPhases = (
-				40B707FA2868D6B7AAED9F83 /* [CP] Check Pods Manifest.lock */,
+				54487C2228B6557DAA68CC05 /* [CP] Check Pods Manifest.lock */,
 				52F3A36A29CBFD5F00EF41F3 /* Sources */,
 				52F3A36B29CBFD5F00EF41F3 /* Frameworks */,
 				52F3A36C29CBFD5F00EF41F3 /* Resources */,
@@ -1396,13 +1405,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED72989E29CE01700086D7F2 /* Build configuration list for PBXNativeTarget "Weatherapp" */;
 			buildPhases = (
-				E44809B147888F3DDC72B8B8 /* [CP] Check Pods Manifest.lock */,
+				ACDC730DB917ED13BFEDF25B /* [CP] Check Pods Manifest.lock */,
 				ED72988E29CE016D0086D7F2 /* Sources */,
 				ED72988F29CE016D0086D7F2 /* Frameworks */,
 				ED72989029CE016D0086D7F2 /* Resources */,
 				ED7298B629CE03950086D7F2 /* Embed Foundation Extensions */,
 				ED7298B729CE09630086D7F2 /* [Run] Swiftlint & Swiftformat */,
-				2C0C899C04FBE95834ECBF39 /* [CP] Embed Pods Frameworks */,
+				B5D1254AA04DC83CA046F112 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1418,7 +1427,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED7298B329CE03950086D7F2 /* Build configuration list for PBXNativeTarget "WeatherAppWidgetExtension" */;
 			buildPhases = (
-				EFCEC4828658A4BDED2E14B4 /* [CP] Check Pods Manifest.lock */,
+				72A8ED45DFE567027E4499BD /* [CP] Check Pods Manifest.lock */,
 				ED7298A129CE03920086D7F2 /* Sources */,
 				ED7298A229CE03920086D7F2 /* Frameworks */,
 				ED7298A329CE03920086D7F2 /* Resources */,
@@ -1626,46 +1635,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2074C42E0F3235A6DC0F98FD /* [CP] Check Pods Manifest.lock */ = {
+		1F7B5263E8AE4361F4F5B911 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Quotesapp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2C0C899C04FBE95834ECBF39 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Weatherapp/Pods-Weatherapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Letscode/Pods-Letscode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Weatherapp/Pods-Weatherapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Letscode/Pods-Letscode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weatherapp/Pods-Weatherapp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Letscode/Pods-Letscode-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		33A29C495EFDC67A4E709F32 /* [CP] Check Pods Manifest.lock */ = {
+		47D4984FBEFC096B4829CCB3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1680,14 +1667,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NetworkManager-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Quakes-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3C6BE8948613EEC455DB8FE5 /* [CP] Check Pods Manifest.lock */ = {
+		4F0210CDD355D8FE42234AD4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1707,45 +1694,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		40B707FA2868D6B7AAED9F83 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LetscodeWidgetExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4B3A0CC22029E7079EC21FBB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Quakes/Pods-Quakes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Quakes/Pods-Quakes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quakes/Pods-Quakes-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		520474C42979041A007FE10D /* [Run] Swiftlint */ = {
@@ -2052,7 +2000,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    # swiftformat --lint --lenient .\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n";
 		};
-		6AF4592041DB0B78028E08D1 /* [CP] Check Pods Manifest.lock */ = {
+		54487C2228B6557DAA68CC05 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2067,14 +2015,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Quakes-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LetscodeWidgetExtension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		78BE7A470179FC9F12444708 /* [CP] Check Pods Manifest.lock */ = {
+		664C6689986070C479059DAF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2089,14 +2037,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Letscode-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NetworkManager-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		87AB904081EA3E907653DAFD /* [CP] Check Pods Manifest.lock */ = {
+		689ABB7052F050BD3D94C922 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2118,7 +2066,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DF06F9B963FFD43C0FD40A4F /* [CP] Check Pods Manifest.lock */ = {
+		72A8ED45DFE567027E4499BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherAppWidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8210C0D576689980ADB65003 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2140,7 +2110,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E44809B147888F3DDC72B8B8 /* [CP] Check Pods Manifest.lock */ = {
+		A772B0B23B6F5E23F9094485 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quotesapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACDC730DB917ED13BFEDF25B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2160,6 +2152,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D1254AA04DC83CA046F112 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weatherapp/Pods-Weatherapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weatherapp/Pods-Weatherapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weatherapp/Pods-Weatherapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C33C49BFF3FF47A9160EFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quakes/Pods-Quakes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quakes/Pods-Quakes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quakes/Pods-Quakes-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ED7298B729CE09630086D7F2 /* [Run] Swiftlint & Swiftformat */ = {
@@ -2200,7 +2226,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n    # swiftformat --lint --lenient .\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
 		};
-		EFCEC4828658A4BDED2E14B4 /* [CP] Check Pods Manifest.lock */ = {
+		FE71CE53CB9F8532F4387012 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2215,7 +2241,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WeatherAppWidgetExtension-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Letscode-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2233,6 +2259,7 @@
 				5206221929CCC8B90059A61B /* QuoteService.swift in Sources */,
 				52B1495829D0605D007A031C /* WebImage.swift in Sources */,
 				5206220329CCC4590059A61B /* QuotesWidget.swift in Sources */,
+				ED8F3ABA2A5735E200E0DE5C /* AppConstants.swift in Sources */,
 				ED7298FA29CE0E9A0086D7F2 /* RCPlistKeysModel.swift in Sources */,
 				ED72990529CE0EEE0086D7F2 /* DiagnosticsProtocol.swift in Sources */,
 				ED7298D129CE0D7D0086D7F2 /* Data+.swift in Sources */,
@@ -2256,6 +2283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8F3AB82A5735E100E0DE5C /* AppConstants.swift in Sources */,
 				5261E50E29C0CE370010FA45 /* NoDoViewCell.swift in Sources */,
 				ED7298E229CE0DDE0086D7F2 /* EncryptedProperty.swift in Sources */,
 				52B1495629D0605D007A031C /* WebImage.swift in Sources */,
@@ -2282,6 +2310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52DAE8BE298FB5B8008D87C8 /* QuoteModel.swift in Sources */,
+				ED8F3AB42A5735E000E0DE5C /* AppConstants.swift in Sources */,
 				ED7298E929CE0E150086D7F2 /* CryptoUtilsAES256.swift in Sources */,
 				ED7298DE29CE0DDD0086D7F2 /* EncryptedProperty.swift in Sources */,
 				52A6641929B9A6CF00383375 /* EnvironmentSetable.swift in Sources */,
@@ -2305,6 +2334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				529C928029B8CF8900F54B95 /* ContentView.swift in Sources */,
+				ED8F3AB52A5735E000E0DE5C /* AppConstants.swift in Sources */,
 				ED7298EA29CE0E150086D7F2 /* CryptoUtilsAES256.swift in Sources */,
 				ED7298DF29CE0DDD0086D7F2 /* EncryptedProperty.swift in Sources */,
 				52A663CB29B9029600383375 /* Country.swift in Sources */,
@@ -2331,6 +2361,7 @@
 				52A663F429B987FF00383375 /* Posts.swift in Sources */,
 				52B1495429D0605D007A031C /* WebImage.swift in Sources */,
 				52A663F629B989B000383375 /* PostNetwork.swift in Sources */,
+				ED8F3AB62A5735E100E0DE5C /* AppConstants.swift in Sources */,
 				ED7298F629CE0E9A0086D7F2 /* RCPlistKeysModel.swift in Sources */,
 				ED72990129CE0EEE0086D7F2 /* DiagnosticsProtocol.swift in Sources */,
 				52A663ED29B94CCD00383375 /* EnvironmentSetable.swift in Sources */,
@@ -2357,6 +2388,7 @@
 				52B416BF29BFE8AC00CBA62C /* FeaturesMock.swift in Sources */,
 				52A6642A29B9A75600383375 /* NetworkManager.swift in Sources */,
 				ED72990229CE0EEE0086D7F2 /* DiagnosticsProtocol.swift in Sources */,
+				ED8F3AB72A5735E100E0DE5C /* AppConstants.swift in Sources */,
 				ED7298F729CE0E9A0086D7F2 /* RCPlistKeysModel.swift in Sources */,
 				52A6640229B99F3300383375 /* ContentView.swift in Sources */,
 				5220E9A029C0DAD2006B05F8 /* Data+.swift in Sources */,
@@ -2383,6 +2415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A83071296AD637006E363B /* ContentView.swift in Sources */,
+				ED8F3AB32A5735CE00E0DE5C /* AppConstants.swift in Sources */,
 				ED7298E829CE0E150086D7F2 /* CryptoUtilsAES256.swift in Sources */,
 				ED7298DD29CE0DDD0086D7F2 /* EncryptedProperty.swift in Sources */,
 				52A6641A29B9A6CF00383375 /* EnvironmentSetable.swift in Sources */,
@@ -2409,6 +2442,7 @@
 				520621F229CCA5A60059A61B /* DateTimeWidget.swift in Sources */,
 				ED7298D729CE0D7D0086D7F2 /* Int+.swift in Sources */,
 				ED7298EE29CE0E150086D7F2 /* CryptoUtilsAES256.swift in Sources */,
+				ED8F3AB92A5735E200E0DE5C /* AppConstants.swift in Sources */,
 				52B1495729D0605D007A031C /* WebImage.swift in Sources */,
 				52F3A38329CC046700EF41F3 /* LetscodeWidgetEntry.swift in Sources */,
 				ED7298DA29CE0D7D0086D7F2 /* NetworkManager.swift in Sources */,
@@ -2520,7 +2554,7 @@
 /* Begin XCBuildConfiguration section */
 		5206220B29CCC45C0059A61B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D938F14C2536332423D9852 /* Pods-QuotesWidgetExtension.debug.xcconfig */;
+			baseConfigurationReference = 78382DD9A4DA4A78E7DF0171 /* Pods-QuotesWidgetExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -2550,7 +2584,7 @@
 		};
 		5206220C29CCC45C0059A61B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D707D0E921C08F28F23C541 /* Pods-QuotesWidgetExtension.release.xcconfig */;
+			baseConfigurationReference = 2943B21B16719AC37B17D8FC /* Pods-QuotesWidgetExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -2581,7 +2615,7 @@
 		};
 		5261E50429C0C39F0010FA45 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CF3A2528C378547FDF93537 /* Pods-NoDo.debug.xcconfig */;
+			baseConfigurationReference = 83FAA5CCD93A482090CF9ADC /* Pods-NoDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2616,7 +2650,7 @@
 		};
 		5261E50529C0C39F0010FA45 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0F88A2DB20A18057DD25A0B /* Pods-NoDo.release.xcconfig */;
+			baseConfigurationReference = 6F5E36E4F3FC724CAC157C7B /* Pods-NoDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2652,7 +2686,7 @@
 		};
 		52879216298E3E4F00F2E039 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F12BE354688A9C2D0F53F18D /* Pods-Quotesapp.debug.xcconfig */;
+			baseConfigurationReference = 2702C9758775F81A7000E51F /* Pods-Quotesapp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2670,6 +2704,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2689,7 +2724,7 @@
 		};
 		52879217298E3E4F00F2E039 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9FDE20E634FAB44DD935851 /* Pods-Quotesapp.release.xcconfig */;
+			baseConfigurationReference = 6C9F81BFE8BE188652FD2D2E /* Pods-Quotesapp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2707,6 +2742,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2727,7 +2763,7 @@
 		};
 		529C928629B8CF8C00F54B95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7041DD3C943C24E4011B0208 /* Pods-ListPart1.debug.xcconfig */;
+			baseConfigurationReference = 4D5C3486501EF555241A9AB8 /* Pods-ListPart1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2764,7 +2800,7 @@
 		};
 		529C928729B8CF8C00F54B95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 096804276C5107647EC6F6A4 /* Pods-ListPart1.release.xcconfig */;
+			baseConfigurationReference = FBA9126B6C0AE8D33C767374 /* Pods-ListPart1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2989,6 +3025,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -3049,6 +3086,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -3067,9 +3105,8 @@
 		};
 		52A8307B296AD639006E363B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D0DD0D6219420607A6582A1 /* Pods-Letscode.debug.xcconfig */;
+			baseConfigurationReference = B87A9456699510CDAB076071 /* Pods-Letscode.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Letscode/Letscode.entitlements;
@@ -3095,6 +3132,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.Letscode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3110,9 +3148,8 @@
 		};
 		52A8307C296AD639006E363B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EC4D0ED98AAC514150D39BA /* Pods-Letscode.release.xcconfig */;
+			baseConfigurationReference = 3085ED7CB218800D6C8085AC /* Pods-Letscode.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Letscode/Letscode.entitlements;
@@ -3138,6 +3175,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.letscode.Letscode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3153,7 +3191,7 @@
 		};
 		52F3A37F29CBFD6300EF41F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B2857592A3CF89630AD078E /* Pods-LetscodeWidgetExtension.debug.xcconfig */;
+			baseConfigurationReference = EBED1A52EB90C5D19FD0BE7E /* Pods-LetscodeWidgetExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -3185,7 +3223,7 @@
 		};
 		52F3A38029CBFD6300EF41F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3F40DFF7423087BFE6FF81C /* Pods-LetscodeWidgetExtension.release.xcconfig */;
+			baseConfigurationReference = F0BF77E6876CD1B8AAA668BF /* Pods-LetscodeWidgetExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -3245,13 +3283,15 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.bitz.ios.Weatherapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3287,13 +3327,15 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.bitz.ios.Weatherapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3313,7 +3355,7 @@
 				INFOPLIST_FILE = WeatherAppWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WeatherAppWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Tiago A. de Oliveira. All rights reserved.";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3343,7 +3385,7 @@
 				INFOPLIST_FILE = WeatherAppWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WeatherAppWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Tiago A. de Oliveira. All rights reserved.";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

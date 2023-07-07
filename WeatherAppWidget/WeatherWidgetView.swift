@@ -108,7 +108,8 @@ struct AvarageWeatherView: View {
 }
 
 struct WeatherEntryView: View {
-    @Environment(\.widgetFamily) var family
+    @Environment(\.widgetFamily)
+    var family
 
     let entry: WeatherAppEntry
     let baseColor = Color.gray.opacity(0.2)
