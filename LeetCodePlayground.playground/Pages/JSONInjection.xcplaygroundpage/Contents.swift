@@ -1,3 +1,5 @@
+// O método grava uma entrada não validada no JSON. Essa chamada pode permitir que um invasor injete elementos ou atributos arbitrários na entidade JSON.
+
 // MARK: - Application
 
 import Foundation
@@ -20,6 +22,8 @@ print(jsonString)
 
 // MARK: - User JSON Injection
 
+// Como a serialização JSON é realizada usando interpolação, os dados não confiáveis em usernameField e passwordField não serão validados para realizar escape dos caracteres especiais relacionados a JSON. Isso permite que um usuário insira chaves JSON arbitrariamente, possivelmente mudando a estrutura do JSON serializado.
+
 usernameField.text = "Tiago\", \"role\": \"admin"
 let jsonInjectionString = "{\"username\": \"\(usernameField.text ?? "")\", \"password\": \"\(passwordField.text ?? "")\", \"role\": \"default\" }"
 print("JSON Injection")
@@ -33,7 +37,10 @@ guard let data = jsonInjectionString.data(using: .utf8) else {
 
 do {
     let jsonData: [String: Any] = try JSONSerialization.jsonObject(with: data) as? [String: Any] ?? [:]
-    print(jsonData)
+    // test
+    print("Serialization result")
+    let result = try JSONSerialization.data(withJSONObject: jsonData)
+    print(String(data: result, encoding: .utf8))
 } catch {
     print(error)
 }
@@ -52,6 +59,7 @@ let login = LoginModel(
 do {
     let login = try JSONEncoder().encode(login)
     // test
+    print("Codable result")
     let result = try JSONDecoder().decode(LoginModel.self, from: login)
     print(result)
 } catch {
