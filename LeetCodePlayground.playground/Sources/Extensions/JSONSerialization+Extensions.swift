@@ -17,7 +17,7 @@ public extension JSONSerialization {
         return sanitizedObject
     }
 
-    static func sanitizeString(_ string: String) -> String {
+    private static func sanitizeString(_ string: String) -> String {
         let allowedCharacterSet = CharacterSet.alphanumerics
         let sanitizedString = string.components(separatedBy: allowedCharacterSet.inverted).joined()
         return sanitizedString

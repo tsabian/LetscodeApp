@@ -1,4 +1,7 @@
-// O método grava uma entrada não validada no JSON. Essa chamada pode permitir que um invasor injete elementos ou atributos arbitrários na entidade JSON.
+/*
+  O método grava uma entrada não validada no JSON. Essa chamada pode permitir que um invasor injete elementos ou atributos
+ arbitrários na entidade JSON.
+  */
 
 // MARK: - Application
 
@@ -22,7 +25,11 @@ print(jsonString)
 
 // MARK: - User JSON Injection
 
-// Como a serialização JSON é realizada usando interpolação, os dados não confiáveis em usernameField e passwordField não serão validados para realizar escape dos caracteres especiais relacionados a JSON. Isso permite que um usuário insira chaves JSON arbitrariamente, possivelmente mudando a estrutura do JSON serializado.
+/*
+ Como a serialização JSON é realizada usando interpolação, os dados não confiáveis em usernameField e passwordField não serão
+ validados para realizar escape dos caracteres especiais relacionados a JSON. Isso permite que um usuário insira chaves JSON
+ arbitrariamente, possivelmente mudando a estrutura do JSON serializado.
+ */
 
 usernameField.text = "Tiago\", \"role\": \"admin"
 let jsonInjectionString = "{\"username\": \"\(usernameField.text ?? "")\", \"password\": \"\(passwordField.text ?? "")\", \"role\": \"default\" }"
@@ -37,6 +44,7 @@ guard let data = jsonInjectionString.data(using: .utf8) else {
 
 do {
     let jsonData: [String: Any] = try JSONSerialization.jsonObject(with: data) as? [String: Any] ?? [:]
+
     // test
     print("Serialization result")
     let result = try JSONSerialization.data(withJSONObject: jsonData)
@@ -47,9 +55,11 @@ do {
 
 // MARK: - JSON Serialization Fix
 
-// 1. Não crie atributos JSON cujos nomes sejam derivados da entrada do usuário.
-// 2. Certifique-se de que toda a serialização para JSON seja realizada com o uso de uma função de serialização segura que delimite dados não confiáveis entre aspas simples ou duplas e escape quaisquer caracteres especiais.
-
+/*
+ 1. Não crie atributos JSON cujos nomes sejam derivados da entrada do usuário.
+ 2. Certifique-se de que toda a serialização para JSON seja realizada com o uso de uma função de serialização segura
+  que delimite dados não confiáveis entre aspas simples ou duplas e escape quaisquer caracteres especiais.
+ */
 let login = LoginModel(
     username: usernameField.text ?? "",
     password: passwordField.text ?? "",
