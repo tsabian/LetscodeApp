@@ -10,6 +10,17 @@ let jsonString = """
     }
 }
 """
+JSONSerialization.isValidJSONObject(jsonString)
+let jsonStringData = jsonString.data(using: .utf8) ?? Data()
+JSONSerialization.isValidJSONObject(jsonStringData)
+let jsonStringDataBase64 = jsonStringData.base64EncodedString()
+JSONSerialization.isValidJSONObject(jsonStringDataBase64)
+let jsonData = Data(base64Encoded: jsonStringDataBase64, options: Data.Base64DecodingOptions.ignoreUnknownCharacters) ?? Data()
+JSONSerialization.isValidJSONObject(jsonData)
+let jsonAgain = String(data: jsonData, encoding: .utf8) ?? ""
+JSONSerialization.isValidJSONObject(jsonAgain)
+let jsonDict = try? JSONSerialization.jsonObject(with: jsonData)
+JSONSerialization.isValidJSONObject(jsonDict)
 
 typealias DictionaryItem = [String: Any]
 

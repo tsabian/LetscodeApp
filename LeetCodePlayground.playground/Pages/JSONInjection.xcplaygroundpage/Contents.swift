@@ -1,9 +1,11 @@
+// MARK: - Application
+
 import Foundation
 import UIKit
 
 let usernameField = UITextField()
 let passwordField = UITextField()
-usernameField.text = "tiago"
+usernameField.text = "Tiago"
 passwordField.text = "pass@!123"
 
 struct LoginModel: Codable {
@@ -12,29 +14,46 @@ struct LoginModel: Codable {
     let role: String
 }
 
-let resultFromAPI: NSDictionary = [
-    "username": usernameField.text,
-    "password": passwordField.text,
-    "role": "default",
-]
+let jsonString = "{\"username\": \"\(usernameField.text ?? "")\", \"password\": \"\(passwordField.text ?? "")\", \"role\": \"default\" }"
+print("Expected")
+print(jsonString)
 
-guard JSONSerialization.isValidJSONObject(resultFromAPI),
-      let jsonData = try? JSONSerialization.data(withJSONObject: resultFromAPI)
-else {
-    fatalError("Invalid Json")
-}
+// MARK: - User JSON Injection
 
-print(jsonData.base64EncodedString())
+usernameField.text = "Tiago\", \"role\": \"admin"
+let jsonInjectionString = "{\"username\": \"\(usernameField.text ?? "")\", \"password\": \"\(passwordField.text ?? "")\", \"role\": \"default\" }"
+print("JSON Injection")
+print(jsonInjectionString)
 
-guard let data = Data(base64Encoded: jsonData.base64EncodedString()) else {
-    fatalError("JSON encoded failure")
+// MARK: - Injection Serialization
+
+guard let data = jsonInjectionString.data(using: .utf8) else {
+    fatalError("Serialization error")
 }
 
 do {
-    let login = try JSONDecoder().decode(LoginModel.self, from: data)
-    print(login.username)
-    print(login.password)
-    print(login.role)
+    let jsonData: [String: Any] = try JSONSerialization.jsonObject(with: data) as? [String: Any] ?? [:]
+    print(jsonData)
+} catch {
+    print(error)
+}
+
+// MARK: - JSON Serialization Fix
+
+// 1. Não crie atributos JSON cujos nomes sejam derivados da entrada do usuário.
+// 2. Certifique-se de que toda a serialização para JSON seja realizada com o uso de uma função de serialização segura que delimite dados não confiáveis entre aspas simples ou duplas e escape quaisquer caracteres especiais.
+
+let login = LoginModel(
+    username: usernameField.text ?? "",
+    password: passwordField.text ?? "",
+    role: "default"
+)
+
+do {
+    let login = try JSONEncoder().encode(login)
+    // test
+    let result = try JSONDecoder().decode(LoginModel.self, from: login)
+    print(result)
 } catch {
     print(error)
 }

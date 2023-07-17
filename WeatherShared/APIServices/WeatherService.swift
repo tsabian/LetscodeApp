@@ -37,7 +37,7 @@ final class WeatherService: WeatherServiceProtocol, DiagnosticsProtocol {
             return .failure(WeatherSerivceError.invalidURL)
         }
         urlComponent.queryItems = [URLQueryItem(name: "key", value: WeatherEnvironment.apiKey), URLQueryItem(name: "q", value: "\(latitude),\(longitude)"), URLQueryItem(name: "aqi", value: "yes")]
-        if let url = urlComponent.url?.appending(path: endpoint.rawValue) {
+        if let url = urlComponent.url?.appendingPathComponent(endpoint.rawValue) {
             var request = URLRequest(url: url)
             request.httpMethod = "GET"
             do {
