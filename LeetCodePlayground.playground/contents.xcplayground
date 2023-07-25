@@ -30,6 +30,8 @@
         <page name='Hexadecimal'/>
         <page name='Pinning'/>
         <page name='JSONInjection'/>
+        <page name='ExtractJit'/>
         <page name='EncoderDecoderJson'/>
+        <page name='Obfuscate'/>
     </pages>
 </playground>
