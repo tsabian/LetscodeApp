@@ -10,6 +10,7 @@ let jsonString = """
     }
 }
 """
+
 JSONSerialization.isValidJSONObject(jsonString)
 let jsonStringData = jsonString.data(using: .utf8) ?? Data()
 JSONSerialization.isValidJSONObject(jsonStringData)
