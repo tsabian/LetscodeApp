@@ -29,4 +29,15 @@ public extension Date {
         dateFormmatter.doesRelativeDateFormatting = true
         return dateFormmatter.string(from: date)
     }
+
+    func microsecondsDate() -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss.'MICROS'xx"
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        let dateComponent = Calendar.current.dateComponents([.nanosecond], from: self)
+        let microseconds = Int(Double(dateComponent.nanosecond! / 1000).rounded(.toNearestOrEven))
+        let secondsPart = String(microseconds).padding(toLength: 6, withPad: "0", startingAt: 0)
+        var timeStamp = formatter.string(from: self)
+        return timeStamp.replacingOccurrences(of: "MICROS", with: secondsPart)
+    }
 }
