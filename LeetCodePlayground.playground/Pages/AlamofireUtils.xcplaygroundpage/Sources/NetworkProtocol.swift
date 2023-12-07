@@ -28,7 +28,7 @@ public extension NetworkProtocol {
         if let items = queryValues {
             component.queryItems = items
         }
-        var request = URLRequest(url: try component.asURL().appendingPathComponent(endpoint))
+        var request = try URLRequest(url: component.asURL().appendingPathComponent(endpoint))
         request.method = method
         return request
     }

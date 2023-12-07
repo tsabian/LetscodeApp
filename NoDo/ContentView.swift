@@ -24,10 +24,10 @@ struct ContentView: View {
                     Group {
                         TextField(textFieldPlaceholder, text: $nodo)
                             .onSubmit {
-                                self.noDoList.insert(NoDoModel(name: self.nodo, dateAdded: Date()), at: 0)
-                                self.nodo = ""
-                                self.noDoList.saveData()
-                                self.endEditing()
+                                noDoList.insert(NoDoModel(name: nodo, dateAdded: Date()), at: 0)
+                                nodo = ""
+                                noDoList.saveData()
+                                endEditing()
                             }
                             .padding(.all, 12)
                     }

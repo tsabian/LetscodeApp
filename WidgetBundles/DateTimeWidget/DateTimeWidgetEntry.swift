@@ -1,4 +1,4 @@
-//  LetscodeWidgetEntry.swift
+//  DateTimeWidgetEntry.swift
 //  LetscodeWidgetExtension
 //
 //  Created by Tiago Oliveira on 23/03/23.
@@ -7,6 +7,6 @@
 
 import WidgetKit
 
-struct LetscodeWidgetEntry: TimelineEntry {
-    let date = Date()
+struct DateTimeWidgetEntry: TimelineEntry {
+    var date: Date
 }

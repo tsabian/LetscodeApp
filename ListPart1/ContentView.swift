@@ -10,12 +10,12 @@ import SwiftUI
 struct ContentView: View {
     // swiftlint:disable line_length
     let countries = [Country(id: 1, name: "China", population: 1_400_000_000), Country(id: 2, name: "India", population: 1_400_000_000), Country(id: 3, name: "United States", population: 332_000_000), Country(id: 4, name: "Indonesia", population: 276_000_000), Country(id: 5, name: "Pakistan", population: 225_000_000), Country(id: 6, name: "Brazil", population: 213_000_000), Country(id: 7, name: "Nigeria", population: 211_000_000), Country(id: 8, name: "Bangladesh", population: 165_000_000), Country(id: 9, name: "Russia", population: 145_000_000), Country(id: 10, name: "Mexico", population: 130_000_000)]
-    // swiftlint:enabled line_length
+    // swiftlint:enable line_length
 
     var body: some View {
         NavigationView {
             VStack(spacing: 0) {
-                List(self.countries, id: \.id) { currentCountry in
+                List(countries, id: \.id) { currentCountry in
                     NavigationLink(destination: CountryDetails(country: currentCountry)) {
                         CountryCell(country: currentCountry)
                     }.navigationTitle("Top 10 most populous countries")

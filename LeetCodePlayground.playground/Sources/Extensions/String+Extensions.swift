@@ -2,11 +2,11 @@ import Foundation
 
 public extension String {
     /// Matches from regex pattern.
-    /// - Parameter regex: The Regex pattern.
+    /// - Parameter regexPattern: The Regex pattern.
     /// - Returns: return the count of elements match with regex pattern.
-    func matches(for regex: String) -> [String] {
+    func matches(for regexPattern: String) -> [String] {
         do {
-            let regex = try NSRegularExpression(pattern: regex)
+            let regex = try NSRegularExpression(pattern: regexPattern)
             let results = regex.matches(in: self, range: NSRange(startIndex..., in: self))
             return results.map {
                 String(self[Range($0.range, in: self)!])
@@ -17,12 +17,22 @@ public extension String {
         }
     }
 
+    func match(for regexPattern: String) -> Bool {
+        do {
+            let regex = try NSRegularExpression(pattern: regexPattern)
+            return regex.numberOfMatches(in: self, range: NSRange(startIndex..., in: self)) > 0
+        } catch {
+            debugPrint("invalid regex: \(error.localizedDescription)")
+            return false
+        }
+    }
+
     /// Replace a string using a Regex pattern.
     /// - Parameters:
     /// - pattern: Set the Regex Pattern.
     /// - template: Define the template that will replace the pattern.
     /// - Returns: Returns a new string with the template.
-    func stringByReplacingRegexMathes(pattern: String, with template: String) -> String? {
+    func stringByReplacingRegexMatches(pattern: String, with template: String) -> String? {
         do {
             let regex = try NSRegularExpression(pattern: pattern)
             let range = NSRange(location: 0, length: count)

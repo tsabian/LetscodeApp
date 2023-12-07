@@ -34,7 +34,7 @@ public extension HelpCenterModelElement {
     }
 
     init(fromURL url: URL) throws {
-        try self.init(data: try Data(contentsOf: url))
+        try self.init(data: Data(contentsOf: url))
     }
 
     func with(
@@ -52,7 +52,7 @@ public extension HelpCenterModelElement {
     }
 
     func jsonString(encoding: String.Encoding = .utf8) throws -> String? {
-        String(data: try jsonData(), encoding: encoding)
+        try String(data: jsonData(), encoding: encoding)
     }
 }
 
@@ -69,7 +69,7 @@ public extension [HelpCenterModel.Element] {
     }
 
     init(fromURL url: URL) throws {
-        try self.init(data: try Data(contentsOf: url))
+        try self.init(data: Data(contentsOf: url))
     }
 
     func jsonData() throws -> Data {
@@ -77,7 +77,7 @@ public extension [HelpCenterModel.Element] {
     }
 
     func jsonString(encoding: String.Encoding = .utf8) throws -> String? {
-        String(data: try jsonData(), encoding: encoding)
+        try String(data: jsonData(), encoding: encoding)
     }
 }
 

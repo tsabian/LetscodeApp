@@ -1,0 +1,51 @@
+{
+    "location": {
+        "name": "Ubatuba",
+        "region": "Sao Paulo",
+        "country": "Brazil",
+        "lat": -23.46,
+        "lon": -45.05,
+        "tz_id": "America/Sao_Paulo",
+        "localtime_epoch": 1679779048,
+        "localtime": "2023-03-25 18:17"
+    },
+    "current": {
+        "last_updated_epoch": 1679778900,
+        "last_updated": "2023-03-25 18:15",
+        "temp_c": 25.5,
+        "temp_f": 77.9,
+        "is_day": 0,
+        "condition": {
+            "text": "Patchy rain possible",
+            "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+            "code": 1063
+        },
+        "wind_mph": 2.5,
+        "wind_kph": 4.0,
+        "wind_degree": 134,
+        "wind_dir": "SE",
+        "pressure_mb": 1015.0,
+        "pressure_in": 29.96,
+        "precip_mm": 0.1,
+        "precip_in": 0.0,
+        "humidity": 87,
+        "cloud": 61,
+        "feelslike_c": 28.3,
+        "feelslike_f": 82.9,
+        "vis_km": 10.0,
+        "vis_miles": 6.0,
+        "uv": 6.0,
+        "gust_mph": 2.9,
+        "gust_kph": 4.7,
+        "air_quality": {
+            "co": 217.0,
+            "no2": 1.7000000476837158,
+            "o3": 41.5,
+            "so2": 0.4000000059604645,
+            "pm2_5": 7.5,
+            "pm10": 10.5,
+            "us-epa-index": 1,
+            "gb-defra-index": 1
+        }
+    }
+}
