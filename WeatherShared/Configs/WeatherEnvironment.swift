@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WeatherEnvironment {
+enum WeatherEnvironment {
     @EnvironmentSetable(from: "API_URL")
     static var apiURL: String
 

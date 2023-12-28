@@ -33,5 +33,7 @@
         <page name='ExtractJit'/>
         <page name='EncoderDecoderJson'/>
         <page name='Obfuscate'/>
+        <page name='UITableViewTests'/>
+        <page name='MultiThreadGCD'/>
     </pages>
 </playground>
